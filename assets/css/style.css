@@ -1,0 +1,13 @@
+header {
+    background: url(https://images.pexels.com/photos/141978/pexels-photo-141978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo-tekst-or-picture {
+color: green;
+}
+
+h1 {
+    color: white;
+}
