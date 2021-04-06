@@ -1,21 +1,22 @@
 header {
     background: url(https://images.pexels.com/photos/141978/pexels-photo-141978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) 
     center fixed;
+    padding: 0;
+    margin: 0;
     background-size: cover;
     height: 100vh;
 }
+.header-text {
+    margin-top: 13vh;
+    color: gray;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.7) 21.41%, rgba(255, 255, 255, 0.7) 78.6%, rgba(255, 255, 255, 0) 100%);
+}
 
 .bg-nav {
+  color: white;
   background: black;
 }
 
 .logo-tekst-or-picture {
 color: green;
 }
-
-h1 {
-    color: white;
-    margin-top: 23vh;
-    
-}
-
