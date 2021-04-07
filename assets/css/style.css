@@ -1,3 +1,5 @@
+/* General */
+
 header {
     background: url(https://images.pexels.com/photos/141978/pexels-photo-141978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) 
     center fixed;
@@ -19,4 +21,12 @@ header {
 
 .logo-tekst-or-picture {
 color: green;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.nav-link {
+  color: white;
 }
