@@ -1,12 +1,51 @@
 /* General */
 
-header {
+.bg-start {
+    background: black;
+}
+
+
+.header-bg {
     background: url(https://images.pexels.com/photos/141978/pexels-photo-141978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) 
     center fixed;
     padding: 0;
     margin: 0;
     background-size: cover;
     height: 100vh;
+}
+
+/* https://blog.hubspot.com/website/css-fade-in */
+
+.fade-in {
+animation: fadeIn ease 2s;
+-webkit-animation: fadeIn ease 2s;
+-moz-animation: fadeIn ease 2s;
+-o-animation: fadeIn ease 2s;
+-ms-animation: fadeIn ease 2s;
+}
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
 }
 
 .header-box1 {
@@ -48,6 +87,7 @@ header {
 #section2, #section3 {
     margin-top: 10vh;
 }
+
 
 footer {
     color: white;
