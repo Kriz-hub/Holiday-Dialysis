@@ -1,19 +1,23 @@
 /* General */
 
-.bg-start {
-    background: black;
-}
-
+    .crop {
+  overflow: hidden;
+  margin-top: -350px;
+  position: absolute;
+  clip: rect(300px, 1500px, 500px, 0);
+    }
 
 .header-bg {
     background: url(https://images.pexels.com/photos/141978/pexels-photo-141978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) 
     center fixed;
+    width: 1400px;
+    height: 50px;
+    overflow: hidden;
     padding: 0;
     margin: 0;
     background-size: cover;
     height: 100vh;
 }
-
 /* https://blog.hubspot.com/website/css-fade-in */
 
 .fade-in {
@@ -47,6 +51,8 @@ animation: fadeIn ease 2s;
 0% {opacity:0;}
 100% {opacity:1;}
 }
+
+
 
 .header-box1 {
     margin-top: 25vh;
