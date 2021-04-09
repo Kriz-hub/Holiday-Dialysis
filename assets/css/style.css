@@ -92,6 +92,18 @@ animation: fadeIn ease 2s;
     margin-top: 10vh;
 }
 
+.mapouter {
+    position:0;
+    margin: 0;
+    padding: 0;
+}
+
+.form-bg {
+    float: left;
+    margin-top: 10px;
+    Margin-left: 40px;
+}
+
 footer {
     color: white;
     background: black;
