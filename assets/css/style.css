@@ -84,10 +84,13 @@ animation: fadeIn ease 2s;
     font-weight: 100;
 }
 
+.flagsize{
+    width: 30px;
+}
+
 #section2, #section3 {
     margin-top: 10vh;
 }
-
 
 footer {
     color: white;
