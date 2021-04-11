@@ -1,6 +1,11 @@
 /* General */
 
     .crop {
+    max-height:100px;
+    overflow:hidden;
+    }
+
+    .cropOUD {
   overflow: hidden;
   margin-top: -350px;
   position: absolute;
@@ -53,12 +58,21 @@ animation: fadeIn ease 2s;
 100% {opacity:1;}
 }
 
+.carousel-start {
+    margin-top: 10vh;
+    position: relative;
+    z-index: -1;
+
+}
+
 
 
 .header-box1 {
-    margin-top: 25vh;
+        position: absolute;
     text-align: center;
     color: black;
+    top: 10px;
+    left: 400px;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.7) 21.41%, rgba(255, 255, 255, 0.7) 78.6%, rgba(255, 255, 255, 0) 100%);
    }
 
