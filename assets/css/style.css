@@ -1,5 +1,10 @@
 /* General */
 
+.body-bg {
+    background: #E9E7E3;
+}
+
+
     .crop {
     max-height:100px;
     overflow:hidden;
@@ -68,16 +73,15 @@ animation: fadeIn ease 2s;
 
 
 .header-box1 {
-        position: absolute;
+    position: absolute;
     text-align: center;
     color: black;
     top: 10px;
-    left: 400px;
+    left: 350px;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.7) 21.41%, rgba(255, 255, 255, 0.7) 78.6%, rgba(255, 255, 255, 0) 100%);
    }
 
 .header-box2 {
-    margin-top: 24vh;
     color: black;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.7) 21.41%, rgba(255, 255, 255, 0.7) 78.6%, rgba(255, 255, 255, 0) 100%);
 
