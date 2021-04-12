@@ -70,9 +70,7 @@ animation: fadeIn ease 2s;
 
 }
 
-
-
-.header-box1 {
+.header-box {
     position: absolute;
     text-align: center;
     color: black;
@@ -81,13 +79,7 @@ animation: fadeIn ease 2s;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.7) 21.41%, rgba(255, 255, 255, 0.7) 78.6%, rgba(255, 255, 255, 0) 100%);
    }
 
-.header-box2 {
-    color: black;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.7) 21.41%, rgba(255, 255, 255, 0.7) 78.6%, rgba(255, 255, 255, 0) 100%);
-
-}
-
-.header-text1 {
+.header-text {
     font-size: 30px;
     font-weight: 500;
 }
