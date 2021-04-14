@@ -70,6 +70,12 @@ animation: fadeIn ease 2s;
 
 }
 
+.picture-center {
+    position: relative;
+    z-index: -1;
+
+}
+
 .header-box {
     position: absolute;
     

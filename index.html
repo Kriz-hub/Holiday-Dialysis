@@ -130,9 +130,9 @@
         <div class="col-6" id="page1-p2-en">
           <h3>Kidney Dialysis at Harderwijk</h3>
           <p>It is not self-evident for everyone to just go on holiday. Especially people with Kidney Disease 
-              need a dialysis on a regular basis. Dialyse Centrum West Veluwe at Harderwijk can help you to enjoy a carefree holiday time!
-              You can click on the menu for more information. If you have questions, don't hesitate to call us, you
-              can see our whereabouts at the contact page. Have a nice holiday!
+             need a dialysis on a regular basis. Dialyse Centrum West Veluwe at Harderwijk can help you to enjoy a carefree holiday time!
+             You can click on the menu for more information. If you have questions, don't hesitate to call us, you
+             can see our whereabouts at the contact page. Have a nice holiday!
           </p>
         </div>
       </div>
@@ -145,7 +145,7 @@
         <p>
             Zomaar op vakantie gaan, is niet voor iedereen een vanzelfsprekendheid. 
             Dat geldt onder meer voor mensen met een nierziekte. Zij zijn afhankelijk van een regelmatige nierdialyse. 
-            Dialyse Centrum Flevoland Zuid heeft ervoor gezorgd, dat ook nierpatiënten onbezorgd vakantie kunnen 
+            Dialyse Centrum Flevoland Zuid heeft ervoor gezorgd dat ook nierpatiënten onbezorgd vakantie kunnen 
             vieren door een vakantiedialysecentrum in te richten. Dit centrum is uitgerust met 10 dialysestations, 
             waar nierpatiënten onder begeleiding van professionele medische verpleegkundigen een vakantiedialyse 
             kunnen ondergaan. Bovendien komt er ook elke week een nefroloog langs. Om alles zo aangenaam mogelijk te maken, 
@@ -188,16 +188,30 @@
     <div class="container-fluid">
     <div class="row">
       <div class="col-6">
-        <img src="https://i.ibb.co/NyNdQth/Dialyse-Klinik.jpg" alt="Dialyse-Klinik">
+        <img class="picture-center" src="https://i.ibb.co/NyNdQth/Dialyse-Klinik.jpg" alt="Dialyse-Klinik">
+        <div class="w-100 header-box"><h2 class="header-text">Dialyse Centrum West Veluwe</h2></div>
       </div>  
-        <div class="col-4">
-        <h2>Het vakantiedialyse centrum biedt de onderstaande voorzieningen</h2>
+        <div class="col-4" id="page2-ul-du">
+        <h3>Dialyse Centrum West Veluwe biedt de onderstaande voorzieningen</h3>
         <ul>
           <li>10 dialysestations</li>
           <li>Wekelijks bezoek van een nefroloog</li>
           <li>Professionele medische verpleegkundige begeleiding en toezicht</li>
-          <li>TV, mogelijkheid tot gebruik van een laptop met internettoegang</li>
+          <li>TV, aanwezigheid van gratis Wifi</li>
+          <li>Tosties worden geserveerd</li>
           <li>Goede toegankelijkheid voor mindervaliden</li>
+        </ul>
+      </div>
+      <script>document.getElementById("page2-ul-du").style.display = "none";</script> 
+      <div class="col-4" id="page2-ul-en">
+        <h3>Dialyse Centrum West Veluwe offers the following services</h3>
+        <ul>
+          <li>10 dialysis units</li>
+          <li>Weekly visits by a doctor</li>
+          <li>Professional medical support by a certified nurse</li>
+          <li>Television and wifi internet</li>
+          <li>Grilled sandwiches are served</li>
+          <li>Good accessibility for the disabled</li>
         </ul>
       </div>
     </div>
@@ -222,7 +236,19 @@
               
         <div class="col-8">
           <div class="row">
-            <div class="col-6">
+            <div class="col-6" id="page3-adr-du">
+              <img class="d-block w-75" src="https://i.ibb.co/9gxBhr5/pexelsmanjongevrouwrectangle-Low-Res.jpg" alt="Old man and younger woman">
+              <br>
+              <h4>Ons contactadres is: </h4>
+              <br>
+              <h5>Dialyse Centrum West Veluwe</h5>
+              <h5>ZuiderzeeBoulevard 22</h5>
+              <h5>3841 WB Harderwijk</h5>
+              <h5>Nederland</h5>
+              <h5>555 125476 </h5>
+            </div>
+            <script>document.getElementById("page3-adr-du").style.display = "none";</script> 
+            <div class="col-6" id="page3-adr-en">
               <img class="d-block w-75" src="https://i.ibb.co/9gxBhr5/pexelsmanjongevrouwrectangle-Low-Res.jpg" alt="Old man and younger woman">
               <br>
               <h4>You can contact us at: </h4>
@@ -234,24 +260,43 @@
               <h5>555 125476 </h5>
             </div>
 
-            <div class="col-6">
+            <div class="col-6" id="page3-form-du"> <!-- Thanks to bootstrap: https://getbootstrap.com/docs/4.1/components/forms// -->
               <form class="form-bg"  style="margin-left:-75px;padding: 0">
               <div class="form-group">
-                <label for="exampleFormControlTextarea1">Or we can contact you by sending your name and phonenumber</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                <label for="exampleFormControlTextarea1">We kunnen ook contact opnemen met u: </label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="naam"></textarea>
               </div>
               <div class="form-group">
-                <label for="exampleFormControlTextarea2">Your phone number to call you back</label>
-                <textarea class="form-control" id="exampleFormControlTextarea2" rows="1"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea2" rows="1" placeholder="telefoonnummer"></textarea>
               </div>
               <div class="form-group">
-                <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="name@example.com">
+                <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="naam@example.com">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea2">Hier kunt u extra informatie geven</label>
+                <textarea class="form-control" id="exampleFormControlTextarea3" rows="4"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Klik!</button>
+            </form>
+          </div>
+          <script>document.getElementById("page3-form-du").style.display = "none";</script> 
+          <div class="col-6" id="page3-form-en">
+            <form class="form-bg"  style="margin-left:-75px;padding: 0">
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">We can also contact you:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1B" rows="1" placeholder="Name"></textarea>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea2B" rows="1" placeholder="Phone number"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleFormControlInput3B" placeholder="name@example.com">
               </div>
               <div class="form-group">
                 <label for="exampleFormControlTextarea2">Here you can give some extra information</label>
-                <textarea class="form-control" id="exampleFormControlTextarea3" rows="5"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea3B" rows="4"></textarea>
               </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
             </form>
           </div>
         </div>
@@ -276,7 +321,13 @@
       document.getElementById("page1-p1-en").style.display = "none"; 
       document.getElementById("page1-p1-du").style.display = "inline"; 
       document.getElementById("page1-p2-en").style.display = "none"; 
-      document.getElementById("page1-p2-du").style.display = "inline"; }
+      document.getElementById("page1-p2-du").style.display = "inline"; 
+      document.getElementById("page2-ul-en").style.display = "none";
+      document.getElementById("page2-ul-du").style.display = "inline";
+      document.getElementById("page3-adr-en").style.display = "none";
+      document.getElementById("page3-adr-du").style.display = "inline"; 
+      document.getElementById("page3-form-en").style.display = "none";
+      document.getElementById("page3-form-du").style.display = "inline";}
 
     function loadenglish() {
       document.getElementById("dutchflag").style.display   = "none"
@@ -286,7 +337,13 @@
       document.getElementById("page1-p1-du").style.display = "none"; 
       document.getElementById("page1-p1-en").style.display = "inline"; 
       document.getElementById("page1-p2-du").style.display = "none"; 
-      document.getElementById("page1-p2-en").style.display = "inline"; }      
+      document.getElementById("page1-p2-en").style.display = "inline";
+      document.getElementById("page2-ul-du").style.display = "none";
+      document.getElementById("page2-ul-en").style.display = "inline";
+      document.getElementById("page3-adr-du").style.display = "none"
+      document.getElementById("page3-adr-en").style.display = "inline";
+      document.getElementById("page3-form-du").style.display = "none";
+      document.getElementById("page3-form-en").style.display = "inline"; }      
   </script>
 
 
