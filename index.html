@@ -39,26 +39,20 @@
               <a class="nav-link" href="#section3">Contact</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" 
-                 aria-expanded="false"><img src="https://image.flaticon.com/icons/png/128/555/555417.png" class="flagsize" alt="...">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"  
+              aria-expanded="false">
+              <img src="https://image.flaticon.com/icons/png/128/555/555484.png" id="dutchflag" class="flagsize" alt="Dutch flag">
+              <script>document.getElementById("dutchflag").style.display = "none";</script> 
+              <img src="https://image.flaticon.com/icons/png/128/555/555417.png" id="englishflag" class="flagsize" alt="English flag">
               </a>
               <div class="dropdown-menu" id="languageselector">
-                <a class="dropdown-item" href="#">ned</a>
-                <a class="dropdown-item" href="#">eng</a>
-                <a class="dropdown-item" href="#">Duits</a>
+                <a class="dropdown-item" onclick="loaddutch()">Nederlands</a>
+                <a class="dropdown-item" onclick="loadenglish()">English</a>
               </div>
             </li>
           </ul>
         </nav> 
-        <script>
-        $('#languageselector a').on('click', function() {
-    //$('#datebox').val($(this).text());
-    var lng = this;
-    loadlang(lng);
-    test(lng)
-    
-});
-</script>
+
       </div>
     </div>
   </div>
@@ -96,10 +90,10 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="sr-only">Next</span>
             </a>
-          </div> <!--carousel -->
-          <div class="w-100 header-box">
-            <h1 class="header-text">Holiday Dialysis</h1> 
-          </div>
+          </div> <!--end of carousel -->
+          <div class="w-100 header-box" id="dutchtitle"><h1 class="header-text">Vakantiedialyse</h1></div>
+          <script>document.getElementById("dutchtitle").style.display = "none";</script> 
+          <div class="w-100 header-box"  id="engtitle"><h1 class="header-text">Holiday Dialysis</h1> </div>
         </div> 
       </div>
     </div> 
@@ -108,7 +102,7 @@
   <div class="container-fluid">
       <div class="row">
         <div class="col-6" id="page1-p1-du">
-          <h3>Rural area De Veluwe</h3>
+          <h3>Landelijk Veluwe</h3>
           <p>De Veluwe, slechts 90 minuten weg van Amsterdam, is een landelijke regio in het centrum van Nederland, 
              je kan daar prima van de natuur genieten! In de zomer kan je naar het strand aan het Veluwemeer of een wandeling
              maken in de bossen landinwaarts. Kijk ook eens naar de plaatsen Harderwijk en Elburg met hun mooie oude binnenstad.
@@ -125,7 +119,7 @@
           </p>
         </div>
         <div class="col-6" id="page1-p2-du">
-          <h3>Kidney Dialysis at Harderwijk</h3>
+          <h3>Nierdialyse in Harderwijk</h3>
           <p>Het is niet voor iedereen vanzelfsprekend om op vakantie te gaan. Met name nierpatienten hebben dialyse nodig op 
              regelmatige basis. Dialyse Centrum West Veluwe in Harderwijk kan u helpen voor een aantal zorgeloze dagen weg 
              van thuis! Kijk gerust verder op deze pagina, als u vragen hebt schroom dan niet om ons te bellen of te mailen.
@@ -272,32 +266,31 @@
    </footer>
 
    <!-- inspired from: https://stackoverflow.com/questions/46008760/how-to-build-multiple-language-website-using-pure-html-js-jquery-->
+
   <script>
-  function loadlang(l) 
-  {
-  switch (l)
-    {
-       
-    case "eng":
+    function loaddutch() {
+      document.getElementById("englishflag").style.display = "none"
+      document.getElementById("dutchflag").style.display   = "inline"
+      document.getElementById("engtitle").style.display    = "none";
+      document.getElementById("dutchtitle").style.display  = "inline";
+      document.getElementById("page1-p1-en").style.display = "none"; 
+      document.getElementById("page1-p1-du").style.display = "inline"; 
+      document.getElementById("page1-p2-en").style.display = "none"; 
+      document.getElementById("page1-p2-du").style.display = "inline"; }
+
+    function loadenglish() {
+      document.getElementById("dutchflag").style.display   = "none"
+      document.getElementById("englishflag").style.display = "inline"  
+      document.getElementById("dutchtitle").style.display  = "none";
+      document.getElementById("engtitle").style.display    = "inline";    
       document.getElementById("page1-p1-du").style.display = "none"; 
       document.getElementById("page1-p1-en").style.display = "inline"; 
-      alert($(lng).text());
-    break;
-    case "ned":
-      document.getElementById("page1-p2-en").style.display = "none"; 
-      document.getElementById("page1-p2-du").style.display = "inline"; 
-      alert($(lng).text());
-    break;
-    }
-  }
+      document.getElementById("page1-p2-du").style.display = "none"; 
+      document.getElementById("page1-p2-en").style.display = "inline"; }      
+  </script>
 
-    function test() 
-  {
-  alert($(lng).text());
-  }
-</script>
 
-   <h2>Your stay with us</h2>
+    <h2>Your stay with us</h2>
           <p>We want to provide the best care possible during your stay in our centre, therefore we ask you to contact us 
              at least two weeks in advance of your planned stay. As we will need your medical and dialysis information 
              from your doctor, we would like to ask you to discuss your holiday plans with him/her and to ask him/her 
