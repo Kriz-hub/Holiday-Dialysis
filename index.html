@@ -42,14 +42,23 @@
               <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" 
                  aria-expanded="false"><img src="https://image.flaticon.com/icons/png/128/555/555417.png" class="flagsize" alt="...">
               </a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Nederlands</a>
-                <a class="dropdown-item" href="#">Engels</a>
+              <div class="dropdown-menu" id="languageselector">
+                <a class="dropdown-item" href="#">ned</a>
+                <a class="dropdown-item" href="#">eng</a>
                 <a class="dropdown-item" href="#">Duits</a>
               </div>
             </li>
           </ul>
-        </nav>
+        </nav> 
+        <script>
+        $('#languageselector a').on('click', function() {
+    //$('#datebox').val($(this).text());
+    var lng = this;
+    loadlang(lng);
+    test(lng)
+    
+});
+</script>
       </div>
     </div>
   </div>
@@ -98,20 +107,39 @@
   <br>
   <div class="container-fluid">
       <div class="row">
-        <div class="col-6">
+        <div class="col-6" id="page1-p1-du">
           <h3>Rural area De Veluwe</h3>
-          <p>De Veluwe, 90 minutes away from Amsterdam, is a rural region in the center of Holland. It is nice place to enjoy the nature.
-             You can go the beach at the lake -The Veluwemeer- in summertime or take a walk or bike in
-             the forests nearby. you can also visit very nice places such as Harderwijk and Elburg with there old inner cities.
-             If you have plans to come to De Veluwe, you are welcome to get your Dialyse-treatment in our center in Harderwijk!</p>
+          <p>De Veluwe, slechts 90 minuten weg van Amsterdam, is een landelijke regio in het centrum van Nederland, 
+             je kan daar prima van de natuur genieten! In de zomer kan je naar het strand aan het Veluwemeer of een wandeling
+             maken in de bossen landinwaarts. Kijk ook eens naar de plaatsen Harderwijk en Elburg met hun mooie oude binnenstad.
+             Hebt u plannen om naar de Veluwe te komen? U bent welkom in ons Dialysecentrum in Harderwijk! 
+          </p>
         </div>
-        <div class="col-6">
+        <script>document.getElementById("page1-p1-du").style.display = "none";</script> 
+        <div class="col-6" id="page1-p1-en">
+          <h3>Rural area De Veluwe</h3>
+          <p>De Veluwe, only 90 minutes away from Amsterdam, is a rural region in the center of Holland. It is nice place to enjoy the nature.
+             You can go the beach at the lake -The Veluwemeer- in summertime or take a walk or bike in
+             the forests nearby. You can also visit very nice places such as Harderwijk and Elburg with there old inner cities.
+             If you have plans to come to De Veluwe, you are welcome to get your Dialyse-treatment in our center in Harderwijk!
+          </p>
+        </div>
+        <div class="col-6" id="page1-p2-du">
+          <h3>Kidney Dialysis at Harderwijk</h3>
+          <p>Het is niet voor iedereen vanzelfsprekend om op vakantie te gaan. Met name nierpatienten hebben dialyse nodig op 
+             regelmatige basis. Dialyse Centrum West Veluwe in Harderwijk kan u helpen voor een aantal zorgeloze dagen weg 
+             van thuis! Kijk gerust verder op deze pagina, als u vragen hebt schroom dan niet om ons te bellen of te mailen.
+             Informatie daarover ziet u op de contact pagina. Fijne vakantie!
+          </p>
+        </div>
+        <script>document.getElementById("page1-p2-du").style.display = "none";</script> 
+        <div class="col-6" id="page1-p2-en">
           <h3>Kidney Dialysis at Harderwijk</h3>
           <p>It is not self-evident for everyone to just go on holiday. Especially people with Kidney Disease 
               need a dialysis on a regular basis. Dialyse Centrum West Veluwe at Harderwijk can help you to enjoy a carefree holiday time!
               You can click on the menu for more information. If you have questions, don't hesitate to call us, you
-              can see our whereabouts at the contact page.
-            </p>
+              can see our whereabouts at the contact page. Have a nice holiday!
+          </p>
         </div>
       </div>
     </div>
@@ -242,6 +270,32 @@
        <h3>-------------footer info--------------</h3>
      </div>
    </footer>
+
+   <!-- inspired from: https://stackoverflow.com/questions/46008760/how-to-build-multiple-language-website-using-pure-html-js-jquery-->
+  <script>
+  function loadlang(l) 
+  {
+  switch (l)
+    {
+       
+    case "eng":
+      document.getElementById("page1-p1-du").style.display = "none"; 
+      document.getElementById("page1-p1-en").style.display = "inline"; 
+      alert($(lng).text());
+    break;
+    case "ned":
+      document.getElementById("page1-p2-en").style.display = "none"; 
+      document.getElementById("page1-p2-du").style.display = "inline"; 
+      alert($(lng).text());
+    break;
+    }
+  }
+
+    function test() 
+  {
+  alert($(lng).text());
+  }
+</script>
 
    <h2>Your stay with us</h2>
           <p>We want to provide the best care possible during your stay in our centre, therefore we ask you to contact us 
