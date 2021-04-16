@@ -59,10 +59,10 @@
 
   <header id="section1">
     <div class="container-fluid">
-      <div class="row">
+      <div class="row"><!--thanks to https://getbootstrap.com/docs/4.0/components/carousel/ -->
         <div class="col-8 mx-auto carousel-start">
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators"> <!--thanks to https://getbootstrap.com/docs/4.0/components/carousel/ -->
+         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="4000">
+            <ol class="carousel-indicators"> 
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
@@ -82,11 +82,11 @@
                 <img class="d-block w-100" src="https://i.ibb.co/HHsF2w7/Pexels-Paarden-Weiland.jpg" alt="Horses grass area">
               </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <a class="carousel-control-prev" href="#carouselExamplefade" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <a class="carousel-control-next" href="#carouselExamplefade" role="button" data-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="sr-only">Next</span>
             </a>
@@ -140,17 +140,23 @@
 
     <div class="container-fluid">
     <div class="row" id="section2">
-      <div class="col-8">
-        <h2>Dialyse op vakantie</h2>
+      <div class="col-8" id="page2-p-du">
+        <h3>Uw verblijf bij ons</h3>
         <p>
-            Zomaar op vakantie gaan, is niet voor iedereen een vanzelfsprekendheid. 
-            Dat geldt onder meer voor mensen met een nierziekte. Zij zijn afhankelijk van een regelmatige nierdialyse. 
-            Dialyse Centrum Flevoland Zuid heeft ervoor gezorgd dat ook nierpatiënten onbezorgd vakantie kunnen 
-            vieren door een vakantiedialysecentrum in te richten. Dit centrum is uitgerust met 10 dialysestations, 
-            waar nierpatiënten onder begeleiding van professionele medische verpleegkundigen een vakantiedialyse 
-            kunnen ondergaan. Bovendien komt er ook elke week een nefroloog langs. Om alles zo aangenaam mogelijk te maken, 
-            is er in het vakantiedialysecentrum een televisie aanwezig. Daarnaast kan men gebruikmaken van een laptop met 
-            internetverbinding.
+            We willen u de best mogelijke zorg bieden tijdens uw verblijf in ons centrum, daarom is het nodig om toch wel 
+            enkele weken van tevoren contact met ons op te nemen. Het is daarom het beste om eerst contact op te nemen uw
+            dokter, zodat we uw medische- en dialyse informatie kunnen ontvangen. Dan kunnen de verpleegkundigen u de 
+            professionele begeleiding bieden die u nodig heeft.            
+        </p>
+      </div>
+      <script>document.getElementById("page2-p-du").style.display = "none";</script> 
+      <div class="col-8" id="page2-p-en">
+        <h3>Your stay with us</h3>
+        <p>
+           We want to provide the best care possible during your stay in our centre, therefore we ask you to contact us 
+           at least two weeks in advance of your planned stay. As we will need your medical and dialysis information 
+           from your doctor, we would like to ask you to discuss your holiday plans with him/her and to ask him/her 
+           to send the information mentioned above to us. Then de nurses can give de professional guidance you need.
         </p>
       </div>
       <div class="col-4">
@@ -322,6 +328,8 @@
       document.getElementById("page1-p1-du").style.display = "inline"; 
       document.getElementById("page1-p2-en").style.display = "none"; 
       document.getElementById("page1-p2-du").style.display = "inline"; 
+      document.getElementById("page2-p-en").style.display  = "none";
+      document.getElementById("page2-p-du").style.display  = "inline";
       document.getElementById("page2-ul-en").style.display = "none";
       document.getElementById("page2-ul-du").style.display = "inline";
       document.getElementById("page3-adr-en").style.display = "none";
@@ -338,6 +346,8 @@
       document.getElementById("page1-p1-en").style.display = "inline"; 
       document.getElementById("page1-p2-du").style.display = "none"; 
       document.getElementById("page1-p2-en").style.display = "inline";
+      document.getElementById("page2-p-du").style.display  = "none";
+      document.getElementById("page2-p-en").style.display  = "inline";
       document.getElementById("page2-ul-du").style.display = "none";
       document.getElementById("page2-ul-en").style.display = "inline";
       document.getElementById("page3-adr-du").style.display = "none"
