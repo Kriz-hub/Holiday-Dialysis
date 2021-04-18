@@ -61,7 +61,7 @@
       <div class="row"><!--thanks to https://getbootstrap.com/docs/4.0/components/carousel/ -->
         <div class="col-sm-8 mx-auto carousel-start">
          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="4000">
-            <ol class="carousel-indicators d-none  d-sm-block"> 
+            <ol class="carousel-indicators"> 
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
@@ -81,11 +81,11 @@
                 <img class="d-block w-100" src="https://i.ibb.co/HHsF2w7/Pexels-Paarden-Weiland.jpg" alt="Horses grass area">
               </div>
             </div>
-            <a class="carousel-control-prev d-none  d-sm-block" href="#carouselExamplefade" role="button" data-slide="prev">
+            <a class="carousel-control-prev" href="#carouselExamplefade" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next d-none  d-sm-block" href="#carouselExamplefade" role="button" data-slide="next">
+            <a class="carousel-control-next" href="#carouselExamplefade" role="button" data-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="sr-only">Next</span>
             </a>
@@ -95,7 +95,7 @@
           <div class="w-100 header-box"  id="engtitle"><h1 class="header-text">Holiday Dialysis</h1> </div>
         </div> 
       </div>
-    </div>  <!--End of carousel and title in img's -->
+    </div>  <!--End of carousel and title in carousel -->
   </header> 
   <br>
   <div class="container-fluid"> <!--1st Page: creating two paragraph's down page, dual language--> 
@@ -137,28 +137,9 @@
       </div>
     </div>
 
-    <div class="container-fluid"> <!--2th page: creating 1st half op page -->
-      <div class="row" id="section2"> <!--2th page: paragraph upperleft, dual language -->
-        <div class="col-sm-8" id="page2-p-du">
-          <h3>Uw verblijf bij ons</h3>
-          <p>
-            We willen u de best mogelijke zorg bieden tijdens uw verblijf in ons centrum, daarom is het nodig om toch wel 
-            enkele weken van tevoren contact met ons op te nemen. Het is daarom het beste om eerst contact op te nemen uw
-            dokter, zodat we uw medische- en dialyse informatie kunnen ontvangen. Dan kunnen de verpleegkundigen u de 
-            professionele begeleiding bieden die u nodig heeft.            
-          </p>
-        </div>
-        <script>document.getElementById("page2-p-du").style.display = "none";</script> 
-        <div class="col-sm-8" id="page2-p-en">
-          <h3>Your stay with us</h3>
-          <p>
-           We want to provide the best care possible during your stay in our centre, therefore we ask you to contact us 
-           at least two weeks in advance of your planned stay. As we will need your medical and dialysis information 
-           from your doctor, we would like to ask you to discuss your holiday plans with him/her and to ask him/her 
-           to send the information mentioned above to us. Then de nurses can give de professional guidance you need.
-          </p>
-        </div> <!--2th page: end of paragraph upperleft, dual language -->
-        <div class="col-sm-4"> <!--2th page: carousel upperright -->
+    <div class="container-fluid"> <!--2th page: creating 1st half of page -->
+      <div class="row" id="section2"> 
+        <div class="col-sm-4"> <!--2th page: carousel upperleft -->
           <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
              <ol class="carousel-indicators">
                <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
@@ -185,7 +166,26 @@
                 <span class="sr-only">Next</span>
              </a>
           </div>
-        </div> <!--2th page: end of carousel upperright -->
+        </div> <!--2th page: end of carousel upperleft -->
+        <div class="col-sm-8" id="page2-p-du"> <!--2th page: paragraph upperright, dual language -->
+          <h3>Uw verblijf bij ons</h3>
+          <p>
+            We willen u de best mogelijke zorg bieden tijdens uw verblijf in ons centrum, daarom is het nodig om toch wel 
+            enkele weken van tevoren contact met ons op te nemen. Het is daarom het beste om eerst contact op te nemen uw
+            dokter, zodat we uw medische- en dialyse informatie kunnen ontvangen. Dan kunnen de verpleegkundigen u de 
+            professionele begeleiding bieden die u nodig heeft.            
+          </p>
+        </div>
+        <script>document.getElementById("page2-p-du").style.display = "none";</script> 
+        <div class="col-sm-8" id="page2-p-en">
+          <h3>Your stay with us</h3>
+          <p>
+           We want to provide the best care possible during your stay in our centre, therefore we ask you to contact us 
+           at least two weeks in advance of your planned stay. As we will need your medical and dialysis information 
+           from your doctor, we would like to ask you to discuss your holiday plans with him/her and to ask him/her 
+           to send the information mentioned above to us. Then de nurses can give de professional guidance you need.
+          </p>
+        </div> <!--2th page: end of paragraph upperright, dual language -->
       </div>
     </div> <!--2th page: end of 1st half op page -->
     <br>
@@ -193,8 +193,10 @@
     <div class="container-fluid"> 
     <div class="row">
       <div class="col-sm-6">
-        <img class="picture-center" src="https://i.ibb.co/NyNdQth/Dialyse-Klinik.jpg" alt="Dialyse-Klinik">
-        <div class="w-100 header-box"><h2 class="header-text">Dialyse Centrum West Veluwe</h2></div>
+        <span class="picture-klinik">
+          <img class="img-fluid" src="https://i.ibb.co/NyNdQth/Dialyse-Klinik.jpg" alt="Dialyse-Klinik">
+          <div class="w-100 header-box"><h2 class="header-text">Dialyse Centrum West Veluwe</h2></div>
+        </span>
       </div>  
         <div class="col-sm-4" id="page2-ul-du">
         <h3>Dialyse Centrum West Veluwe biedt de onderstaande voorzieningen</h3>
@@ -286,7 +288,7 @@
           </div>
           <script>document.getElementById("page3-form-du").style.display = "none";</script> 
           <div class="col-sm-6" id="page3-form-en">
-            <form class="form-bg"  style="margin-left:-75px;padding: 0">
+            <form class="form-bg">
               <div class="form-group">
                 <label for="exampleFormControlTextarea1">We can also contact you:</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1B" rows="1" placeholder="Name"></textarea>
