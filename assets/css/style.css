@@ -1,9 +1,45 @@
-/* General */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kristi|Montserrat:300,500|Raleway:300,400,700&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
 
 .body-bg {
     background: #E9E7E3;
+    /*font-family: 'Dosis', sans-serif;*/
+    /*font-family: 'Open Sans', sans-serif;*/
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
 }
 
+.bg-nav {
+  color: #E9E7E3;
+  background: #2C3332;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.nav-link {
+  color: #E9E7E3;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.flagsize{
+    width: 30px;
+}
 .carousel-fade .carousel-item { 
 /*All the carousel fading thanks to: https://silvawebdesigns.com/how-to-change-the-bootstrap-4-carousel-to-a-fade-transition-instead-of-slide/*/
 	opacity: 0;
@@ -69,28 +105,6 @@
     text-align: center;
 }
 
-.bg-nav {
-  color: white;
-  background: black;
-}
-
-.navbar {
-  padding: 0;
-}
-
-.nav-link {
-  color: white;
-}
-
-.logo {
-    font-size: 25px;
-    font-weight: 100;
-}
-
-.flagsize{
-    width: 30px;
-}
-
 #section2, #section3 {
     margin-top: 10vh;
 }
@@ -109,5 +123,5 @@
 
 footer {
     color: white;
-    background: black;
+    background: #2C3332;
 }
