@@ -127,7 +127,11 @@ footer {
 
 @media screen and (max-width: 768px) {
 	.carousel-start {
-    margin-top: 20vh;
-}
+      margin-top: 50vh;
+}    
+    .header-box {
+      all: unset;
+      top: 2vh;
+}   
 
 }
