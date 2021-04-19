@@ -48,6 +48,11 @@
     width: 30px;
 }
 
+#marginmobile {
+      margin-left: 15px;
+    }
+
+
 #carouselfade {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -92,10 +97,6 @@
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.7) 21.41%, rgba(255, 255, 255, 0.7) 78.6%, rgba(255, 255, 255, 0) 100%); 
 }
 
-span div.w-100.header-box {
-    top: -19vh;
-}
-
 .header-text {
     font-size: 30px;
     font-weight: 500;
@@ -106,10 +107,9 @@ span div.w-100.header-box {
     margin-top: 10vh;
 }
 
-.picture-klinik {
-    position: relative;
-    z-index: -1;
-}    
+#page2-ul-du, #page2-ul-en {
+    margin-top: 3vh;
+}
 
 .mapouter {
     position:0;
@@ -133,24 +133,19 @@ footer {
     a.nav-link.dropdown-toggle {
         padding-left: 8px;
     }
+
+    #marginmobile {
+      margin-left: 15px;
+    }
+
 	.carousel-start {
       margin-top: 20vh;
 } 
-/*
-    #engtitle.w-100.header-box, #dutchtitle.w-100.header-box {
-      all: unset;
-      top: 20vh
-} */
-
     .header-box {
       all: unset;
     }
 
-    span div.w-100.header-box {
-      color: #E9E7E3;
-    }
-
-     .header-text {
+    .header-text {
       font-size: 15px;   
      }
 
