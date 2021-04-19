@@ -113,7 +113,7 @@
 /* thanks to https://blog.duda.co/responsive-google-maps-for-your-website */
 .map-responsive {  
     overflow:hidden;
-    padding-bottom:56.25%;
+    padding-bottom:86.25%;
     position:relative;
     height:0;
 }
@@ -125,14 +125,13 @@
     width:100%;
     position:absolute;
 }
-
+/*
 .form-bg {
-    /*float: left;*/
     margin-top: 10px;
     padding: 0;
     margin-left:-75px;
 }
-
+*/
 footer {
     color: white;
     background: #3C4A44;
