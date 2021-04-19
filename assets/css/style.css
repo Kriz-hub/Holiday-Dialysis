@@ -3,19 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Kristi|Montserrat:300,500|Raleway:300,400,700&display=swap');
 
-
-*{
-    margin:0;
-    padding:0;
-    border:0;
-}
-
 .body-bg {
     background: #E9E7E3;
     /*font-family: 'Dosis', sans-serif;*/
     /*font-family: 'Open Sans', sans-serif;*/
     /*font-family: 'Roboto', sans-serif;*/
     font-family: "Montserrat", sans-serif;
+    font-size: 18px;
     font-weight: 300;
 }
 
@@ -53,6 +47,17 @@
 .flagsize{
     width: 30px;
 }
+
+#carouselfade {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.carousel-start {
+    margin-top: 10vh;
+    border: 1px solid grey;
+    position: relative;
+    z-index: -1;
+}
 .carousel-fade .carousel-item { 
 /*All the carousel fading thanks to: https://silvawebdesigns.com/how-to-change-the-bootstrap-4-carousel-to-a-fade-transition-instead-of-slide/*/
 	opacity: 0;
@@ -78,12 +83,6 @@
 .carousel-fade .active.carousel-item-prev {
 /*	transform: translateX(0); */
 	transform: translate3d(0, 0, 0);
-}
-
-.carousel-start {
-    margin-top: 10vh;
-    position: relative;
-    z-index: -1;
 }
 
 .header-box {
@@ -137,12 +136,24 @@ footer {
 	.carousel-start {
       margin-top: 20vh;
 } 
+/*
     #engtitle.w-100.header-box, #dutchtitle.w-100.header-box {
       all: unset;
-} 
+      top: 20vh
+} */
+
+    .header-box {
+      all: unset;
+    }
+
     span div.w-100.header-box {
-       top: -10vh;
-}
+      color: #E9E7E3;
+    }
+
+     .header-text {
+      font-size: 15px;   
+     }
+
     .form-bg {
     margin-left: 0;
 }
