@@ -49,7 +49,7 @@
 }
 
 #marginmobile {
-      margin-left: 15px;
+      margin-left: 0;
     }
 
 
@@ -110,11 +110,20 @@
 #page2-ul-du, #page2-ul-en {
     margin-top: 3vh;
 }
+/* thanks to https://blog.duda.co/responsive-google-maps-for-your-website */
+.map-responsive {  
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
 
-.mapouter {
-    position:0;
-    margin: 0;
-    padding: 0;
+.map-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 .form-bg {
@@ -135,7 +144,7 @@ footer {
     }
 
     #marginmobile {
-      margin-left: 15px;
+      margin-left: 0;
     }
 
 	.carousel-start {
