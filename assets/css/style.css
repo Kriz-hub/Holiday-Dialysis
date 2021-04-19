@@ -52,7 +52,6 @@
       margin-left: 0;
     }
 
-
 #carouselfade {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -110,6 +109,15 @@
 #page2-ul-du, #page2-ul-en {
     margin-top: 3vh;
 }
+
+.picture-klinik {
+    margin-top: -3vh;
+}
+
+#section3 {
+    padding-bottom: 200px;
+}
+
 /* thanks to https://blog.duda.co/responsive-google-maps-for-your-website */
 .map-responsive {  
     overflow:hidden;
@@ -125,13 +133,12 @@
     width:100%;
     position:absolute;
 }
-/*
+
 .form-bg {
-    margin-top: 10px;
-    padding: 0;
-    margin-left:-75px;
+    width: 75%;
+    margin-left: 10vh;
 }
-*/
+
 footer {
     color: white;
     background: #3C4A44;
@@ -148,17 +155,23 @@ footer {
 
 	.carousel-start {
       margin-top: 20vh;
-} 
+    } 
     .header-box {
       all: unset;
     }
 
     .header-text {
       font-size: 15px;   
-     }
+    }
+
+    .picture-klinik {
+        margin-top: 5vh;
+    }
 
     .form-bg {
-    margin-left: 0;
-}
+       margin-left: 5vh;
+       margin-top: 5vh;
+       margin-bottom: 5vh;
+    }
 
 }
