@@ -25,9 +25,10 @@
 <body class="body-bg" data-spy="scroll" data-target="#navmenu" data-offset="20">  
   <div class="container-fluid fixed-top bg-nav"> <!--Top Menu -->
     <div class="row">
-      <div class="col-sm-8"><h2 class="logo">Dialyse Centrum West Veluwe</h2></div>
-      <div class="col-sm-4">
+      <div class="col-md-6"><h2 class="logo">Dialyse Centrum West Veluwe</h2></div>
+      <div class="col-md-6">
         <nav id="navmenu" class="navbar">
+        <span class="mx-auto">
           <ul class="nav">
               <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"  
@@ -48,9 +49,10 @@
               <a class="nav-link nav-text" href="#section2">Info</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-text" href="#section3">Contact</a>
+              <a class="nav-link nav-text" id="removepaddingright" href="#section3">Contact</a>
             </li>
           </ul>
+          </span>
         </nav> 
       </div>
     </div>
@@ -59,7 +61,7 @@
   <header id="section1"> <!--1st Page: creating fading Carousel with apprearance of title in img's -->
     <div class="container-fluid" id="marginmobile">
       <div class="row"><!--thanks to https://getbootstrap.com/docs/4.0/components/carousel/ -->
-        <div class="col-sm-8 mx-auto carousel-start">
+        <div class="col-md-8 mx-auto carousel-start">
          <div id="carouselfade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="4000">
             <ol class="carousel-indicators"> 
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
