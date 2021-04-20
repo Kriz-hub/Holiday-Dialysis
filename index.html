@@ -25,8 +25,8 @@
 <body class="body-bg" data-spy="scroll" data-target="#navmenu" data-offset="20">  
   <div class="container-fluid fixed-top bg-nav"> <!--Top Menu -->
     <div class="row">
-      <div class="col-md-6"><h2 class="logo">Dialyse Centrum West Veluwe</h2></div>
-      <div class="col-md-6">
+      <div class="col-md-6" id="forcepadzero1"><h2 class="logo">Dialyse Centrum West Veluwe</h2></div>
+      <div class="col-md-6" id="forcepadzero2">
         <nav id="navmenu" class="navbar">
         <span class="mx-auto">
           <ul class="nav">
@@ -49,7 +49,7 @@
               <a class="nav-link nav-text" href="#section2">Info</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-text" id="removepaddingright" href="#section3">Contact</a>
+              <a class="nav-link nav-text" id="forceremovepaddingright" href="#section3">Contact</a>
             </li>
           </ul>
           </span>
@@ -141,7 +141,7 @@
 
     <div class="container-fluid"> <!--2th page: creating 1st half of page -->
       <div class="row" id="section2"> 
-        <div class="col-sm-4"> <!--2th page: carousel upperleft -->
+        <div class="col-xl-4 col-lg-6"> <!--2th page: carousel upperleft -->
           <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
              <ol class="carousel-indicators">
                <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
@@ -169,7 +169,7 @@
              </a>
           </div>
         </div> <!--2th page: end of carousel upperleft -->
-        <div class="col-sm-8" id="page2-p-du"> <!--2th page: paragraph upperright, dual language -->
+        <div class="col-xl-8 col-lg-6" id="page2-p-du"> <!--2th page: paragraph upperright, dual language -->
           <br>
           <h3>Uw verblijf bij ons</h3>
           <p>
@@ -180,7 +180,7 @@
           </p>
         </div>
         <script>document.getElementById("page2-p-du").style.display = "none";</script> 
-        <div class="col-sm-8" id="page2-p-en">
+        <div class="col-xl-8 col-lg-6" id="page2-p-en">
           <br>
           <h3>Your stay with us</h3>
           <p>
@@ -193,9 +193,9 @@
       </div>
     </div> <!--2th page: end of 1st half op page -->
 
-    <div class="container"> 
+    <div class="container" id="zero-pad-sm-dev"> 
       <div class="row">
-        <div class="col-sm-6" id="page2-ul-du">
+        <div class="col-md-6" id="page2-ul-du">
           <h3>Dialyse Centrum West Veluwe biedt de onderstaande voorzieningen</h3>
           <ul>
             <li>10 dialysestations</li>
@@ -207,7 +207,7 @@
           </ul>
         </div>
         <script>document.getElementById("page2-ul-du").style.display = "none";</script> 
-        <div class="col-sm-6" id="page2-ul-en">
+        <div class="col-md-6" id="page2-ul-en">
           <h3>Dialyse Centrum West Veluwe offers the following services</h3>
           <ul>
             <li>10 dialysis units</li>
@@ -218,7 +218,7 @@
             <li>Good accessibility for the disabled</li>
           </ul>
         </div>
-        <div class="col-sm-6 picture-klinik">
+        <div class="col-md-6 picture-klinik">
           <img class="img-fluid" src="https://i.ibb.co/NyNdQth/Dialyse-Klinik.jpg" alt="Dialyse-Klinik">
         </div>  
       </div>
@@ -226,13 +226,16 @@
 
     <div class="container-fluid" id="section3"> <!--3th page: Google Maps, Image and adress, form -->
       <div class="row" >
-        <div class="col-sm-4"> 
+        <div class="col-lg-4"> 
           <div class="map-responsive">
             <iframe src="https://maps.google.com/maps?q=Zuiderzeeboulevard%2022,%203841%20WB%20Harderwijk&t=&z=11&ie=UTF8&iwloc=&output=embed"  
             width="400" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
-        </div>            
-        <div class="col-sm-4" id="page3-form-du"> <!-- Thanks to bootstrap: https://getbootstrap.com/docs/4.1/components/forms// -->
+        </div>     
+        <div class="col-lg-8"> 
+        <div class="container-fluid">
+        <div class="row" >
+        <div class="col-md-6" id="page3-form-du"> <!-- Thanks to bootstrap: https://getbootstrap.com/docs/4.1/components/forms// -->
           <form class="form-bg">
             <div class="form-group">
               <label for="exampleFormControlTextarea1">We kunnen contact opnemen met u door dit formulier in te vullen: </label>
@@ -252,7 +255,7 @@
           </form>
         </div>
         <script>document.getElementById("page3-form-du").style.display = "none";</script> 
-        <div class="col-sm-4" id="page3-form-en">
+        <div class="col-md-6" id="page3-form-en">
           <form class="form-bg">
             <div class="form-group">
               <label for="exampleFormControlTextarea1"><h4>You can contact us here by filling this form:</h4></label>
@@ -271,7 +274,7 @@
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
         </div>
-        <div class="col-sm-4" id="page3-adr-du">
+        <div class="col-md-6" id="page3-adr-du">
           <img class="d-block w-100" src="https://i.ibb.co/9gxBhr5/pexelsmanjongevrouwrectangle-Low-Res.jpg" alt="Old man and younger woman">
           <br>
           <h4>U kunt ons ook bellen: </h4>
@@ -282,7 +285,7 @@
           <h6>555 125476 </h6>
         </div>
         <script>document.getElementById("page3-adr-du").style.display = "none";</script> 
-        <div class="col-sm-4" id="page3-adr-en">
+        <div class="col-md-6" id="page3-adr-en">
           <img class="d-block w-100" src="https://i.ibb.co/9gxBhr5/pexelsmanjongevrouwrectangle-Low-Res.jpg" alt="Old man and younger woman">
           <br>
           <h4>You can also call us: </h4>
@@ -292,6 +295,9 @@
           <h6>The Netherlands</h6>
           <h6>555 125476 </h6>
         </div>
+      </div>
+      </div>
+    </div>
       </div>
    </div>
 

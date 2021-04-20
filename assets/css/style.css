@@ -16,7 +16,7 @@
 .logo {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 700;
     Padding: 8px;
 }
 
@@ -35,7 +35,7 @@
   margin: 0;
 }
 
-#removepaddingright {
+#forceremovepaddingright {  /*for small devices to prevent most right top-item for jumping to next line*/
     padding-right: 0;
 }
 
@@ -58,10 +58,6 @@ span.mx-auto {
 .flagsize{
     width: 30px;
 }
-
-#marginmobile {
-      margin-left: 0;
-    }
 
 #carouselfade {
     margin-top: 15px;
@@ -159,6 +155,19 @@ footer {
     span.mx-auto {
        transform: translate(0%);
     }
+
+    #zero-pad-sm-dev {
+        padding: 0;
+        margin: 10px;
+    }
+
+    .header-text {
+        font-size: 20px;
+    }
+
+    .picture-klinik {
+       margin-top: 5vh;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -170,19 +179,16 @@ footer {
         padding-left: 8px;
     }
 
-    #marginmobile {
-      margin-left: 0;
-    }
-
 	.carousel-start {
       margin-top: 20vh;
     } 
+
     .header-box {
       all: unset;
     }
 
     .header-text {
-      font-size: 15px;   
+      font-size: 17px;   
     }
 
     .picture-klinik {
@@ -198,9 +204,18 @@ footer {
 }
 
 @media screen and (max-width: 400px) {
+     #forcepadzero1 {
+        padding-right: 4px;
+        padding-left: 0;
+    }
+    #forcepadzero2 {
+        padding-right: 4px;
+        padding-left: 0;
+    } /*force padding to 0 for small devices, must be id, class don't do it */
+
     .logo {
        font-size: 20px;
-       font-weight: 400;
+       font-weight: 600;
        Padding: 8px;
     }
 
@@ -208,4 +223,26 @@ footer {
        font-size: 15px;
        font-weight: 400; 
     }
+}
+
+@media screen and (max-width: 340px) {
+      #forcepadzero1 {
+        padding-right: 2px;
+        padding-left: 2px;
+    }
+    #forcepadzero2 {
+        padding-right: 2px;
+        padding-left: 2px;
+    } /*force padding to 0 for small devices, must be id, class don't do it */
+
+    .logo {
+       font-size: 20px;
+       font-weight: 500;
+    }
+
+    .nav-text {
+       font-size: 13px;
+       font-weight: 400; 
+    }
+
 }
