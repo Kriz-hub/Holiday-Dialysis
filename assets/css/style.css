@@ -104,6 +104,7 @@ span.mx-auto {
 }
 
 .header-text {
+    font-family: arial;
     font-size: 30px;
     font-weight: 500;
     text-align: center;
@@ -139,11 +140,15 @@ span.mx-auto {
     height:100%;
     width:100%;
     position:absolute;
-}
+    }
+
+    #page3-map-du, #page3-map-en, #page3-form-du, #page3-form-en, #page3-adr-du, #page3-adr-en {
+       margin-top: 20px;
+    }
 
 .form-bg {
-    width: 75%;
-    margin-left: 10vh;
+    width: 85%;
+  /*  margin-left: 10vh; */
 }
 
 footer {
@@ -195,11 +200,7 @@ footer {
         margin-top: 5vh;
     }
 
-    .form-bg {
-       margin-left: 5vh;
-       margin-top: 5vh;
-       margin-bottom: 5vh;
-    }
+
 
 }
 
@@ -226,7 +227,7 @@ footer {
 }
 
 @media screen and (max-width: 340px) {
-      #forcepadzero1 {
+    #forcepadzero1 {
         padding-right: 2px;
         padding-left: 2px;
     }

@@ -122,7 +122,7 @@
         <div class="col-sm-6" id="page1-p2-du">
           <h3>Nierdialyse in Harderwijk</h3>
           <p>Het is niet voor iedereen vanzelfsprekend om op vakantie te gaan. Met name nierpatienten hebben dialyse nodig op 
-             regelmatige basis. <em>Dialyse Centrum West Veluwe</em> in Harderwijk kan u helpen voor een aantal zorgeloze dagen weg 
+             regelmatige basis. <em>Dialyse Centrum West Veluwe</em> in Harderwijk kan u helpen met een aantal zorgeloze dagen weg 
              van thuis! Kijk gerust verder op deze pagina, als u vragen hebt schroom dan niet om ons te bellen of te mailen.
              Informatie daarover ziet u op de contact pagina. Fijne vakantie!
           </p>
@@ -227,6 +227,9 @@
     <div class="container-fluid" id="section3"> <!--3th page: Google Maps, Image and adress, form -->
       <div class="row" >
         <div class="col-lg-4"> 
+          <h4 id="page3-map-du">U vindt ons centrum hier:</h4>
+          <script>document.getElementById("page3-map-du").style.display = "none";</script> 
+          <h4 id="page3-map-en">You can find our center here:</h4>
           <div class="map-responsive">
             <iframe src="https://maps.google.com/maps?q=Zuiderzeeboulevard%2022,%203841%20WB%20Harderwijk&t=&z=11&ie=UTF8&iwloc=&output=embed"  
             width="400" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -234,72 +237,72 @@
         </div>     
         <div class="col-lg-8"> 
         <div class="container-fluid">
-        <div class="row" >
-        <div class="col-md-6" id="page3-form-du"> <!-- Thanks to bootstrap: https://getbootstrap.com/docs/4.1/components/forms// -->
-          <form class="form-bg">
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">We kunnen contact opnemen met u door dit formulier in te vullen: </label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="naam"></textarea>
+          <div class="row" >
+            <div class="col-md-6" id="page3-form-du"> <!-- Thanks to bootstrap: https://getbootstrap.com/docs/4.1/components/forms// -->
+              <form class="form-bg mx-auto">
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1"><h4>We nemen contact met u op als u dit formulier invult:</h4></label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="naam"></textarea>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" id="exampleFormControlTextarea2" rows="1" placeholder="telefoonnummer"></textarea>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="naam@example.com">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea2">Hier kunt u extra informatie geven</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea3" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Klik!</button>
+              </form>
             </div>
-            <div class="form-group">
-              <textarea class="form-control" id="exampleFormControlTextarea2" rows="1" placeholder="telefoonnummer"></textarea>
+            <script>document.getElementById("page3-form-du").style.display = "none";</script> 
+            <div class="col-md-6" id="page3-form-en">
+              <form class="form-bg mx-auto">
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1"><h4>We will contact you when you fill in this form:</h4></label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1B" rows="1" placeholder="Name"></textarea>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" id="exampleFormControlTextarea2B" rows="1" placeholder="Phone number"></textarea>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="exampleFormControlInput3B" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea2">Here you can give some extra information</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea3B" rows="4"></textarea>
+                </div>
+               <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
             </div>
-            <div class="form-group">
-              <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="naam@example.com">
+            <div class="col-md-6" id="page3-adr-du">
+              <img class="d-block w-100" src="https://i.ibb.co/9gxBhr5/pexelsmanjongevrouwrectangle-Low-Res.jpg" alt="Old man and younger woman">
+              <br>
+              <h4>U kunt ons ook bellen of schrijven: </h4>
+              <h6>Dialyse Centrum West Veluwe</h6>
+              <h6>ZuiderzeeBoulevard 22</h6>
+              <h6>3841 WB Harderwijk</h6>
+              <h6>Nederland</h6>
+              <h6>555 125476 </h6>
             </div>
-            <div class="form-group">
-              <label for="exampleFormControlTextarea2">Hier kunt u extra informatie geven</label>
-              <textarea class="form-control" id="exampleFormControlTextarea3" rows="4"></textarea>
+            <script>document.getElementById("page3-adr-du").style.display = "none";</script> 
+            <div class="col-md-6" id="page3-adr-en">
+              <img class="d-block w-100" src="https://i.ibb.co/9gxBhr5/pexelsmanjongevrouwrectangle-Low-Res.jpg" alt="Old man and younger woman">
+              <br>
+              <h4>You can also call or write us: </h4>
+              <h6>Dialyse Centrum West Veluwe</h6>
+              <h6>ZuiderzeeBoulevard 22</h6>
+              <h6>3841 WB Harderwijk</h6>
+              <h6>The Netherlands</h6>
+              <h6>(0031)555 125476 </h6>
             </div>
-            <button type="submit" class="btn btn-primary">Klik!</button>
-          </form>
-        </div>
-        <script>document.getElementById("page3-form-du").style.display = "none";</script> 
-        <div class="col-md-6" id="page3-form-en">
-          <form class="form-bg">
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1"><h4>You can contact us here by filling this form:</h4></label>
-              <textarea class="form-control" id="exampleFormControlTextarea1B" rows="1" placeholder="Name"></textarea>
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" id="exampleFormControlTextarea2B" rows="1" placeholder="Phone number"></textarea>
-            </div>
-            <div class="form-group">
-              <input type="email" class="form-control" id="exampleFormControlInput3B" placeholder="name@example.com">
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlTextarea2">Here you can give some extra information</label>
-              <textarea class="form-control" id="exampleFormControlTextarea3B" rows="4"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
-        </div>
-        <div class="col-md-6" id="page3-adr-du">
-          <img class="d-block w-100" src="https://i.ibb.co/9gxBhr5/pexelsmanjongevrouwrectangle-Low-Res.jpg" alt="Old man and younger woman">
-          <br>
-          <h4>U kunt ons ook bellen: </h4>
-          <h6>Dialyse Centrum West Veluwe</h6>
-          <h6>ZuiderzeeBoulevard 22</h6>
-          <h6>3841 WB Harderwijk</h6>
-          <h6>Nederland</h6>
-          <h6>555 125476 </h6>
-        </div>
-        <script>document.getElementById("page3-adr-du").style.display = "none";</script> 
-        <div class="col-md-6" id="page3-adr-en">
-          <img class="d-block w-100" src="https://i.ibb.co/9gxBhr5/pexelsmanjongevrouwrectangle-Low-Res.jpg" alt="Old man and younger woman">
-          <br>
-          <h4>You can also call us: </h4>
-          <h6>Dialyse Centrum West Veluwe</h6>
-          <h6>ZuiderzeeBoulevard 22</h6>
-          <h6>3841 WB Harderwijk</h6>
-          <h6>The Netherlands</h6>
-          <h6>555 125476 </h6>
+          </div>
         </div>
       </div>
-      </div>
+     </div>
     </div>
-      </div>
-   </div>
 
    <footer> 
      <div>
@@ -323,6 +326,8 @@
       document.getElementById("page2-p-du").style.display  = "inline";
       document.getElementById("page2-ul-en").style.display = "none";
       document.getElementById("page2-ul-du").style.display = "inline";
+      document.getElementById("page3-map-en").style.display = "none";
+      document.getElementById("page3-map-du").style.display = "inline";
       document.getElementById("page3-adr-en").style.display = "none";
       document.getElementById("page3-adr-du").style.display = "inline"; 
       document.getElementById("page3-form-en").style.display = "none";
@@ -341,6 +346,8 @@
       document.getElementById("page2-p-en").style.display  = "inline";
       document.getElementById("page2-ul-du").style.display = "none";
       document.getElementById("page2-ul-en").style.display = "inline";
+      document.getElementById("page3-map-du").style.display = "none";
+      document.getElementById("page3-map-en").style.display = "inline";
       document.getElementById("page3-adr-du").style.display = "none"
       document.getElementById("page3-adr-en").style.display = "inline";
       document.getElementById("page3-form-du").style.display = "none";
