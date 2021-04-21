@@ -13,25 +13,21 @@
     font-weight: 300;
 }
 
-.logo {
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    font-weight: 700;
-    Padding: 8px;
-}
-
-nav ul {
-    display: flex;
-    justify-content: flex-end;
-}
-
 .fixed-top-bar-bg {
   color: #E9E7E3;
   background: #3C4A44;
 }
 
+.logo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    /*Padding: 8px;*/
+}
+
 nav ul {
   margin: 0;
+  padding: 0;
   display: flex;
   justify-content: flex-end;
 }
@@ -40,6 +36,13 @@ nav li {
   list-style: none;
   padding: 10px;
   margin: 0 10px;
+}
+
+li.dropdown {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
 }
  
 nav li:hover {
@@ -65,7 +68,7 @@ nav a {
     margin-bottom: 15px;
 }
 .carousel-start {
-    margin-top: 10vh;
+    margin-top: 5vh;
     border: 1px solid grey;
     position: relative;
     z-index: -1;
@@ -141,27 +144,23 @@ nav a {
     height:100%;
     width:100%;
     position:absolute;
-    }
+}
 
-    #page3-map-du, #page3-map-en, #page3-form-du, #page3-form-en, #page3-adr-du, #page3-adr-en {
-       margin-top: 30px;
-    }
+#page3-map-du, #page3-map-en, #page3-form-du, #page3-form-en, #page3-adr-du, #page3-adr-en {
+    margin-top: 30px;
+}
 
-   .form-bg {
-      width: 85%;
+.form-bg {
+    width: 85%;
      /*  margin-left: 10vh; */
-    }
+}
 
-    footer {
-       color: white;
-        background: #3C4A44;
-    }
+footer {
+    color: white;
+    background: #3C4A44;
+}
 
 @media screen and (max-width: 1100px) {
-   /* span.mx-auto {
-       transform: translate(0%);
-    }
-*/
     #zero-pad-sm-dev {
         padding: 0;
         margin: 10px;
@@ -179,11 +178,13 @@ nav a {
 @media screen and (max-width: 768px) {
     .logo {
         text-align: center;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     nav ul {
       justify-content: center;
-}
+    }
 
 	.carousel-start {
       margin-top: 20vh;
@@ -207,9 +208,11 @@ nav a {
 
 @media screen and (max-width: 400px) {
     .logo {
+       margin: 0;
+       padding: 0;
+       text-align: center;
        font-size: 20px;
        font-weight: 600;
-       Padding: 8px;
     }
 
     .nav-text {
@@ -220,6 +223,7 @@ nav a {
 
 @media screen and (max-width: 340px) {
     .logo {
+       text-align: center;
        font-size: 20px;
        font-weight: 500;
     }
