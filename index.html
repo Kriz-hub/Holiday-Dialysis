@@ -23,15 +23,14 @@
 </head>
 
 <body class="body-bg" data-spy="scroll" data-target="#navmenu" data-offset="20">  
-  <div class="container-fluid fixed-top bg-nav"> <!--Top Menu -->
+  <div class="container-fluid fixed-top fixed-top-bar-bg"> <!--Top Menu -->
     <div class="row">
       <div class="col-md-6" id="forcepadzero1"><h2 class="logo">Dialyse Centrum West Veluwe</h2></div>
       <div class="col-md-6" id="forcepadzero2">
-        <nav id="navmenu" class="navbar">
-        <span class="mx-auto">
-          <ul class="nav">
-              <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"  
+        <nav>
+          <ul>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"  
               aria-expanded="false">
               <img src="https://image.flaticon.com/icons/png/128/555/555484.png" id="dutchflag" class="flagsize" alt="Dutch flag">
               <script>document.getElementById("dutchflag").style.display = "none";</script> 
@@ -42,18 +41,11 @@
                 <a class="dropdown-item" onclick="loadenglish()">English</a>
               </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link nav-text" href="#section1">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav-text" href="#section2">Info</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav-text" id="forceremovepaddingright" href="#section3">Contact</a>
-            </li>
+             <li><a class="nav-text" href="#section1">Home</a></li>
+             <li><a class="nav-text" href="#section2">Info</a></li>
+             <li><a class="nav-text" href="#section3">Contact</a></li>
           </ul>
-          </span>
-        </nav> 
+        </nav>
       </div>
     </div>
   </div> <!--End Top Menu -->

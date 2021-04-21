@@ -20,39 +20,40 @@
     Padding: 8px;
 }
 
-.bg-nav {
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fixed-top-bar-bg {
   color: #E9E7E3;
   background: #3C4A44;
 }
 
-#navmenu {
-  padding:0;
-
-}
-
-.navbar {
-  padding: 0;
+nav ul {
   margin: 0;
+  display: flex;
+  justify-content: flex-end;
 }
 
-#forceremovepaddingright {  /*for small devices to prevent most right top-item for jumping to next line*/
-    padding-right: 0;
+nav li {
+  list-style: none;
+  padding: 10px;
+  margin: 0 10px;
+}
+ 
+nav li:hover {
+  background-color: #FFFFFF44;
 }
 
-.nav-post {
-    transform: translate(75%); /* Inspired by https://www.codexworld.com/bootstrap-navbar-center-align-menu-text/ */
-}
-span.mx-auto {
-    transform: translate(25%);
+nav a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .nav-text {
   font-size: 20px;
   font-weight: 500; 
-}
-
-.nav-link {
-  color: #E9E7E3;
 }
 
 .flagsize{
@@ -143,24 +144,24 @@ span.mx-auto {
     }
 
     #page3-map-du, #page3-map-en, #page3-form-du, #page3-form-en, #page3-adr-du, #page3-adr-en {
-       margin-top: 20px;
+       margin-top: 30px;
     }
 
-.form-bg {
-    width: 85%;
-  /*  margin-left: 10vh; */
-}
+   .form-bg {
+      width: 85%;
+     /*  margin-left: 10vh; */
+    }
 
-footer {
-    color: white;
-    background: #3C4A44;
-}
+    footer {
+       color: white;
+        background: #3C4A44;
+    }
 
 @media screen and (max-width: 1100px) {
-    span.mx-auto {
+   /* span.mx-auto {
        transform: translate(0%);
     }
-
+*/
     #zero-pad-sm-dev {
         padding: 0;
         margin: 10px;
@@ -180,9 +181,9 @@ footer {
         text-align: center;
     }
 
-    a.nav-link.dropdown-toggle {
-        padding-left: 8px;
-    }
+    nav ul {
+      justify-content: center;
+}
 
 	.carousel-start {
       margin-top: 20vh;
@@ -205,15 +206,6 @@ footer {
 }
 
 @media screen and (max-width: 400px) {
-     #forcepadzero1 {
-        padding-right: 4px;
-        padding-left: 0;
-    }
-    #forcepadzero2 {
-        padding-right: 4px;
-        padding-left: 0;
-    } /*force padding to 0 for small devices, must be id, class don't do it */
-
     .logo {
        font-size: 20px;
        font-weight: 600;
@@ -227,15 +219,6 @@ footer {
 }
 
 @media screen and (max-width: 340px) {
-    #forcepadzero1 {
-        padding-right: 2px;
-        padding-left: 2px;
-    }
-    #forcepadzero2 {
-        padding-right: 2px;
-        padding-left: 2px;
-    } /*force padding to 0 for small devices, must be id, class don't do it */
-
     .logo {
        font-size: 20px;
        font-weight: 500;
