@@ -22,7 +22,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     font-weight: 700;
-    /*Padding: 8px;*/
+    Padding: 8px;
 }
 
 nav ul {
@@ -38,12 +38,7 @@ nav li {
   margin: 0 10px;
 }
 
-li.dropdown {
-    padding-right: 0;
-    padding-left: 0;
-    margin-right: 0;
-    margin-left: 0;
-}
+
  
 nav li:hover {
   background-color: #FFFFFF44;
@@ -68,7 +63,7 @@ nav a {
     margin-bottom: 15px;
 }
 .carousel-start {
-    margin-top: 5vh;
+    margin-top: 4rem;
     border: 1px solid grey;
     position: relative;
     z-index: -1;
@@ -161,6 +156,12 @@ footer {
 }
 
 @media screen and (max-width: 1100px) {
+    li.dropdown {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
     #zero-pad-sm-dev {
         padding: 0;
         margin: 10px;
@@ -187,7 +188,7 @@ footer {
     }
 
 	.carousel-start {
-      margin-top: 20vh;
+      margin-top: 7rem;
     } 
 
     .header-box {
@@ -208,7 +209,7 @@ footer {
 
 @media screen and (max-width: 400px) {
     .logo {
-       margin: 0;
+       margin: 5px 0 0 0;
        padding: 0;
        text-align: center;
        font-size: 20px;
@@ -219,6 +220,7 @@ footer {
        font-size: 15px;
        font-weight: 400; 
     }
+
 }
 
 @media screen and (max-width: 340px) {
