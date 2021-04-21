@@ -22,12 +22,12 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
-<body class="body-bg" data-spy="scroll" data-target="#navmenu" data-offset="20">  
+<body class="body-bg" data-spy="scroll" data-target="#scroll-spy-nav" data-offset="200px">  
   <div class="container-fluid fixed-top fixed-top-bar-bg"> <!--Top Menu -->
     <div class="row">
       <div class="col-md-6" style="padding: 0;"><h2 class="logo">Dialyse Centrum West Veluwe</h2></div>
       <div class="col-md-6" style="padding: 0;">
-        <nav>
+        <nav id="scroll-spy-nav">
           <ul>
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"  
@@ -116,10 +116,12 @@
         </div>
       </div>
     </div>
-
+    <div class="container-fluid" id="section2"><div class="row"><div class="col"><br></div> </div></div>
+    
     <div class="container-fluid"> <!--2th page: creating 1st half of page -->
-      <div class="row" id="section2"> 
-        <div class="col-xl-4 col-lg-6"> <!--2th page: carousel upperleft -->
+      <div class="row"> 
+        <div class="col-md-6"> <!--2th page: carousel upperleft -->
+              <div class="col">
           <div id="carousel-second" class="carousel slide mx-auto" data-ride="carousel">
              <ol class="carousel-indicators"> <!--thanks to https://getbootstrap.com/docs/4.0/components/carousel/ -->
                <li data-target="#carousel-second" data-slide-to="0" class="active"></li>
@@ -145,10 +147,10 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
              </a>
-          </div>
-        </div> <!--2th page: end of carousel upperleft -->
-        <div class="col-xl-8 col-lg-6" id="page2-p-du"> <!--2th page: paragraph upperright, dual language -->
-          <br>
+          </div> <!--2th page: end of carousel upperleft -->
+
+        </div>
+          <div id="page2-p-du"> <!--2th page: paragraph upperright, dual language -->
           <h3>Uw verblijf bij ons</h3>
           <p>
             We willen u de best mogelijke zorg bieden tijdens uw verblijf in ons centrum, daarom is het nodig om toch wel 
@@ -156,10 +158,9 @@
             dokter, zodat we uw medische- en dialyse informatie kunnen ontvangen. Dan kunnen de verpleegkundigen u de 
             professionele begeleiding bieden die u nodig heeft.            
           </p>
-        </div>
-        <script>document.getElementById("page2-p-du").style.display = "none";</script> 
-        <div class="col-xl-8 col-lg-6" id="page2-p-en">
-          <br>
+          </div>
+          <script>document.getElementById("page2-p-du").style.display = "none";</script> 
+          <div id="page2-p-en">
           <h3>Your stay with us</h3>
           <p>
            We want to provide the best care possible during your stay in our centre, therefore we ask you to contact us 
@@ -167,13 +168,15 @@
            from your doctor, we would like to ask you to discuss your holiday plans with him/her and to ask him/her 
            to send the information mentioned above to us. Then de nurses can give de professional guidance you need.
           </p>
-        </div> <!--2th page: end of paragraph upperright, dual language -->
-      </div>
-    </div> <!--2th page: end of 1st half op page -->
+          </div> <!--2th page: end of paragraph upperright, dual language -->
+        </div>
 
-    <div class="container" id="zero-pad-sm-dev"> 
-      <div class="row">
-        <div class="col-md-6" id="page2-ul-du">
+        <div class="col-md-6">
+            <div class="row">
+            <div class="col" style="width: 85%; height: 85%;">
+          <img class="img-fluid" src="https://i.ibb.co/NyNdQth/Dialyse-Klinik.jpg" alt="Dialyse-Klinik">
+            </div></div>
+          <div id="page2-ul-du">
           <h3>Dialyse Centrum West Veluwe biedt de onderstaande voorzieningen</h3>
           <ul>
             <li>10 dialysestations</li>
@@ -183,9 +186,9 @@
             <li>Tosties worden geserveerd</li>
            <li>Goede toegankelijkheid voor mindervaliden</li>
           </ul>
-        </div>
-        <script>document.getElementById("page2-ul-du").style.display = "none";</script> 
-        <div class="col-md-6" id="page2-ul-en">
+          </div>
+          <script>document.getElementById("page2-ul-du").style.display = "none";</script> 
+          <div id="page2-ul-en">
           <h3>Dialyse Centrum West Veluwe offers the following services</h3>
           <ul>
             <li>10 dialysis units</li>
@@ -195,14 +198,13 @@
             <li>Grilled sandwiches are served</li>
             <li>Good accessibility for the disabled</li>
           </ul>
+          </div>
         </div>
-        <div class="col-md-6 picture-klinik">
-          <img class="img-fluid" src="https://i.ibb.co/NyNdQth/Dialyse-Klinik.jpg" alt="Dialyse-Klinik">
-        </div>  
       </div>
     </div>
 
-    <div class="container-fluid" id="section3"> <!--3th page: Google Maps, Image and adress, form -->
+    <span id="section3"></span>
+    <div class="container-fluid"> <!--3th page: Google Maps, Image and adress, form -->
       <div class="row" >
         <div class="col-lg-4"> 
           <h4 id="page3-map-du">U vindt ons centrum hier:</h4>

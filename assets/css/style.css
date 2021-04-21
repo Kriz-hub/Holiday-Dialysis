@@ -114,12 +114,13 @@ nav a {
     margin-top: 3vh;
 }
 
-.picture-klinik {
-    margin-top: -3vh;
-}
+ #carousel-second {
+      width: 85%;
+      height: 85%;
+    } 
 
 #section3 {
-    padding-bottom: 200px;
+    padding-bottom: 20px;
 }
 
 /* thanks to https://blog.duda.co/responsive-google-maps-for-your-website */
@@ -159,11 +160,7 @@ footer {
     margin-right: 0;
     margin-left: 0;
     }
-
-    .picture-klinik {
-       margin-top: 5vh;
-    }
-       
+    
     .map-responsive iframe {
       left: 10%;
       top: 0;
@@ -171,10 +168,7 @@ footer {
       width: 80%;
     }   
 
-    #carousel-second {
-      width: 85%;
-      height: 85%;
-    } 
+   
 }
 
 @media screen and (max-width: 768px) {
@@ -206,14 +200,11 @@ footer {
     }
 
    .header-text {
-    font-size: 25px;
-    font-weight: 400;
-    transform: translate3D(0, -4px, 0); 
-}
-
-    .picture-klinik {
-      margin-top: 5vh;
+       font-size: 25px;
+       font-weight: 400;
+       transform: translate3D(0, -4px, 0); 
     }
+  
 }
 
 @media screen and (max-width: 400px) {
