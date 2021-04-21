@@ -36,8 +36,6 @@ nav li {
   margin: 0 10px;
 }
 
-
- 
 nav li:hover {
   background-color: #FFFFFF44;
 }
@@ -69,7 +67,7 @@ nav a {
 .carousel-fade .carousel-item { 
 /*All the carousel fading thanks to: https://silvawebdesigns.com/how-to-change-the-bootstrap-4-carousel-to-a-fade-transition-instead-of-slide/*/
 	opacity: 0;
-	transition-duration: 0.9s;
+	transition-duration: 0.9;
 	transition-property: opacity;
 }
 
@@ -89,22 +87,23 @@ nav a {
 .carousel-fade .carousel-item.active,
 .carousel-fade .active.carousel-item-left,
 .carousel-fade .active.carousel-item-prev {
-/*	transform: translateX(0); */
+	transform: translateX(0); 
 	transform: translate3d(0, 0, 0);
 }
 
 .header-box {
     position: absolute;
     color: black;
-    top: 4vh;
+    top: 2rem;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.7) 21.41%, rgba(255, 255, 255, 0.7) 78.6%, rgba(255, 255, 255, 0) 100%); 
 }
 
 .header-text {
-    font-family: arial;
-    font-size: 30px;
-    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
     text-align: center;
+    transform: translate3D(0, 4px, 0); /*bug in system?, text is slightly too high*/
 }
 
 #section2, #section3 {
@@ -161,15 +160,6 @@ footer {
     margin-left: 0;
     }
 
-    #zero-pad-sm-dev {
-        padding: 0;
-        margin: 10px;
-    }
-
-    .header-text {
-        font-size: 20px;
-    }
-
     .picture-klinik {
        margin-top: 5vh;
     }
@@ -192,23 +182,34 @@ footer {
         text-align: center;
         padding-left: 0;
         padding-right: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
     }
 
     nav ul {
       justify-content: center;
     }
 
+    nav li {
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
 	.carousel-start {
-      margin-top: 7rem;
+      margin-top: 5rem;
     } 
 
     .header-box {
       all: unset;
     }
 
-    .header-text {
-      font-size: 17px;   
-    }
+   .header-text {
+    font-size: 25px;
+    font-weight: 400;
+    transform: translate3D(0, -4px, 0); 
+}
 
     .picture-klinik {
       margin-top: 5vh;

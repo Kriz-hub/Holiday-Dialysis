@@ -52,16 +52,9 @@
   
   <header id="section1"> <!--1st Page: creating fading Carousel with apprearance of title in img's -->
     <div class="container-fluid">
-      <div class="row"><!--thanks to https://getbootstrap.com/docs/4.0/components/carousel/ -->
+      <div class="row"><!--All the carousel fading thanks to: https://silvawebdesigns.com/how-to-change-the-bootstrap-4-carousel-to-a-fade-transition-instead-of-slide/ -->
         <div class="col-lg-8 mx-auto carousel-start">
-        
-         <div id="carouselfade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="4000">
-            <ol class="carousel-indicators"> 
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            </ol>
+          <div id="carouselfade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3500">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img class="d-block w-100" src="https://i.ibb.co/BsP3B05/panorama-vischmarkt.jpg" alt="Old houses Harderwijk">
@@ -76,15 +69,7 @@
                 <img class="d-block w-100" src="https://i.ibb.co/HHsF2w7/Pexels-Paarden-Weiland.jpg" alt="Horses grass area">
               </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselfade" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselfade" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div> <!--end of carousel, now put title in pictures of carousel -->
+           </div> <!--end of carousel, now put title in pictures of carousel -->
           <div class="w-100 header-box" id="dutchtitle"><h1 class="header-text">Vakantiedialyse</h1></div>
           <script>document.getElementById("dutchtitle").style.display = "none";</script> 
           <div class="w-100 header-box"  id="engtitle"><h1 class="header-text">Holiday Dialysis</h1> </div>
@@ -136,10 +121,10 @@
       <div class="row" id="section2"> 
         <div class="col-xl-4 col-lg-6"> <!--2th page: carousel upperleft -->
           <div id="carousel-second" class="carousel slide mx-auto" data-ride="carousel">
-             <ol class="carousel-indicators">
-               <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
-               <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
-               <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+             <ol class="carousel-indicators"> <!--thanks to https://getbootstrap.com/docs/4.0/components/carousel/ -->
+               <li data-target="#carousel-second" data-slide-to="0" class="active"></li>
+               <li data-target="#carousel-second" data-slide-to="1"></li>
+               <li data-target="#carousel-second" data-slide-to="2"></li>
              </ol>
              <div class="carousel-inner">
                <div class="carousel-item active">
