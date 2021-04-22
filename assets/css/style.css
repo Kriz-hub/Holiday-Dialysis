@@ -21,6 +21,7 @@ html {
     font-size: 25px;
     font-weight: 500;
     Padding: 8px;
+    margin-top: 2px;
 }
 
 nav ul {
@@ -106,10 +107,6 @@ nav a {
     transform: translate3D(0, 4px, 0); /*bug in system?, text is slightly too high*/
 }
 
-#section2, #section3 {
-    margin-top: 10vh;
-}
-
 #page2-ul-du, #page2-ul-en {
     margin-top: 3vh;
 }
@@ -118,10 +115,6 @@ nav a {
       width: 85%;
       height: 85%;
     } 
-
-#section3 {
-    padding-bottom: 20px;
-}
 
 /* thanks to https://blog.duda.co/responsive-google-maps-for-your-website */
 .map-responsive {  
@@ -174,9 +167,7 @@ footer {
 @media screen and (max-width: 768px) {
     .logo {
         text-align: center;
-        padding-left: 0;
-        padding-right: 0;
-        padding-bottom: 0;
+        padding: 0;
         margin-bottom: 0;
     }
 
