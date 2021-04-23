@@ -107,20 +107,20 @@ nav a {
     transform: translate3D(0, 4px, 0); /*bug in system?, text is slightly too high*/
 }
 
-#page2-ul-du, #page2-ul-en {
-    margin-top: 3vh;
-}
-
  #carousel-second {
       width: 85%;
       height: 85%;
     } 
 
+.page3-col-margins {
+    margin-top: 2vh;
+}
+
 /* thanks to https://blog.duda.co/responsive-google-maps-for-your-website */
 .map-responsive {  
-    overflow:hidden;
+    overflow: hidden;
     padding-bottom:86.25%;
-    position:relative;
+    position: relative;
     height: 0;
  }
 
@@ -132,17 +132,13 @@ nav a {
     position:absolute;
 }
 
-#page3-map-du, #page3-map-en, #page3-form-du, #page3-form-en, #page3-adr-du, #page3-adr-en {
-    margin-top: 30px;
-}
-
 .form-bg {
     width: 85%;
-     /*  margin-left: 10vh; */
 }
 
 footer {
-    color: white;
+    margin-top: 4vh;
+    color: #E9E7E3;
     background: #3C4A44;
 }
 
@@ -164,7 +160,7 @@ ul.social-media-links li:hover {
 }
 
 .social-media {
-  color: white;
+  color: #E9E7E3;
 }
 
 @media screen and (max-width: 990px) {
@@ -181,8 +177,7 @@ ul.social-media-links li:hover {
       height: 80%;
       width: 80%;
     }   
-
-   
+  
 }
 
 @media screen and (max-width: 768px) {
