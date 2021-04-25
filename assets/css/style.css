@@ -135,10 +135,18 @@ nav a {
     margin-top: 3vh
 }
 
+.page2-carousel-second-margin {
+     margin-top: 10vh;
+}
+
 #carousel-second {
     width: 85%;
     height: 85%;
 } 
+
+.page3-google-map-margin {
+    margin-top: 10vh;
+}
 
 /* thanks to https://blog.duda.co/responsive-google-maps-for-your-website */
 .map-responsive {  
@@ -155,6 +163,11 @@ nav a {
     width:100%;
     position:absolute;
 }
+
+ .page3-margin-form-adress {
+       margin-top: 10vh;
+    }
+
 
 .form-bg {
     width: 85%;
@@ -234,7 +247,7 @@ ul.social-media-links li:hover {
        margin-top: 10vh;
     }
 
-    .smdevice-sect3-margin-form-adres {
+    .page3-margin-form-adres {
        margin-top: 12vh;
     }
 

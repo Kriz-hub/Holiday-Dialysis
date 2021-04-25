@@ -132,7 +132,7 @@
   <script>document.getElementById("section1").style.display = "none";</script> 
 
   <span id="section2"> 
-  <div class="container-fluid"> <!--2th page: creating the about page with carousel, picture center and dual language text -->
+  <div class="container-fluid page2-carousel-second-margin"> <!--2th page: creating the about page with carousel, picture center and dual language text -->
     <div class="row"> 
       <div class="col-md-6"> <!--2th page: left part -->
         <div class="col"> <!--carousel in nested col to controll size -->
@@ -240,7 +240,7 @@
       <div class="col-lg-8"> 
         <div class="container-fluid">
           <div class="row" >
-            <div class="col-md-6 smdevice-sect3-margin-form-adres">
+            <div class="col-md-6 page3-margin-form-adress">
               <span id="page3-form-du"> <!-- Thanks to bootstrap: https://getbootstrap.com/docs/4.1/components/forms// -->
                 <form class="form-bg mx-auto">
                   <div class="form-group">
@@ -283,7 +283,7 @@
               </span>
             </div>
 
-            <div class="col-md-6 smdevice-sect3-margin-form-adres">
+            <div class="col-md-6 page3-margin-form-adress">
               <img class="d-block w-100" src="https://i.ibb.co/9gxBhr5/pexelsmanjongevrouwrectangle-Low-Res.jpg" alt="Old man and younger woman">
               <span id="page3-adr-du">
                 <br>
@@ -397,17 +397,17 @@
     function choosesection1() {
     document.getElementById("section2").style.display = "none";
     document.getElementById("section3").style.display = "none";
-    document.getElementById("section1").style.display = "display"; }
+    document.getElementById("section1").style.display = "inline"; }
     
     function choosesection2() {
     document.getElementById("section1").style.display = "none";
     document.getElementById("section3").style.display = "none";
-    document.getElementById("section2").style.display = "display"; }
+    document.getElementById("section2").style.display = "inline"; }
 
     function choosesection3() {
     document.getElementById("section1").style.display = "none";
     document.getElementById("section2").style.display = "none";
-    document.getElementById("section3").style.display = "display"; }     
+    document.getElementById("section3").style.display = "inline"; }     
   </script>
  </body>
  </html>
