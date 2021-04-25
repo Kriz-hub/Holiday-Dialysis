@@ -23,7 +23,7 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
-<body class="body-bg" data-spy="scroll" data-target="#scroll-spy-nav" data-offset="200px">  
+<body class="body-bg" data-spy="scroll" data-target="#scroll-spy-nav" data-offset="20">  
   <div class="container-fluid fixed-top fixed-top-bar-bg"> <!--Top Menu -->
     <div class="row">
       <div class="col-md-6" style="padding: 0;"><h2 class="logo">Dialyse Centrum West Veluwe</h2></div>
@@ -32,10 +32,14 @@
           <ul>
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"  
-              aria-expanded="false">
-              <img src="https://image.flaticon.com/icons/png/128/555/555484.png" id="dutchflag" class="flagsize" alt="Dutch flag">
+              aria-expanded="false"> <!--flag-responve to:https://stackoverflow.com/questions/12632500/making-div-content-responsive/12632560 -->
+              <div class="flag-container">
+                <img src="https://image.flaticon.com/icons/png/128/555/555484.png" id="dutchflag" class="flagje" alt="Dutch flag">
+              </div>
               <script>document.getElementById("dutchflag").style.display = "none";</script> 
-              <img src="https://image.flaticon.com/icons/png/128/555/555417.png" id="englishflag" class="flagsize" alt="English flag">
+              <div class="flag-container">
+                <img src="https://image.flaticon.com/icons/png/128/555/555417.png" id="englishflag" class="flagje" alt="English flag">
+              </div>
               </a>
               <div class="dropdown-menu" id="languageselector">
                 <a class="dropdown-item" onclick="loaddutch()">Nederlands</a>
@@ -116,12 +120,12 @@
              need a dialysis on a regular basis. <em>Dialyse Centrum West Veluwe</em> can help you to enjoy a carefree holiday time!
              You can click on the menu for more information. If you have questions, don't hesitate to call us, you
              can see our whereabouts at the contact page. Have a nice holiday!
+             <span id="section2"></span>
           </p>
         </span>
       </div>
     </div>
   </div> 
-  <div class="container-fluid" id="section2"><div class="row"><div class="col"><br></div> </div></div>
     
   <div class="container-fluid"> <!--2th page: creating the about page with carousel, picture center and dual language text -->
     <div class="row"> 

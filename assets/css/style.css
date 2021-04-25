@@ -51,8 +51,15 @@ nav a {
   font-weight: 500; 
 }
 
-.flagsize{
+.flag-container{
     width: 30px;
+    height:30px;
+
+}
+
+.flagje {
+max-width:100%;
+max-height:100%;
 }
 
 #carouselfade {
@@ -173,7 +180,9 @@ ul.social-media-links li:hover {
 }
 
 @media screen and (max-width: 990px) {
-    li.dropdown {
+    /*li.dropdown*/ flagsize {
+        width: 50%;
+        height: 50%;
     padding-right: 0;
     padding-left: 0;
     margin-right: 0;
@@ -240,6 +249,11 @@ ul.social-media-links li:hover {
        text-align: center;
        font-size: 20px;
        font-weight: 300;
+    }
+
+        /*li.dropdown*/ flagsize {
+width: 10px;
+margin-left: 5px;
     }
 
     .nav-text {
