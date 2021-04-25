@@ -31,16 +31,11 @@
         <nav id="scroll-spy-nav">
           <ul>
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"  
-              aria-expanded="false"> <!--flag-responve to:https://stackoverflow.com/questions/12632500/making-div-content-responsive/12632560 -->
-              <div class="flag-container">
+              <button type="button" class="btn btn-primary custom-btn dropdown-toggle flag-container" data-toggle="dropdown">
                 <img src="https://image.flaticon.com/icons/png/128/555/555484.png" id="dutchflag" class="flagje" alt="Dutch flag">
-              </div>
-              <script>document.getElementById("dutchflag").style.display = "none";</script> 
-              <div class="flag-container">
+                <script>document.getElementById("dutchflag").style.display = "none";</script> 
                 <img src="https://image.flaticon.com/icons/png/128/555/555417.png" id="englishflag" class="flagje" alt="English flag">
-              </div>
-              </a>
+              </button>
               <div class="dropdown-menu" id="languageselector">
                 <a class="dropdown-item" onclick="loaddutch()">Nederlands</a>
                 <a class="dropdown-item" onclick="loadenglish()">English</a>
