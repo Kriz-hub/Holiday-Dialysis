@@ -131,6 +131,10 @@ nav a {
     transform: translate3D(0, 4px, 0); /*bug in system?, text is slightly too high*/
 }
 
+.margin-below-first-carousel {
+    margin-top: 3vh
+}
+
 #carousel-second {
     width: 85%;
     height: 85%;
@@ -198,6 +202,7 @@ ul.social-media-links li:hover {
 
     nav ul {
       justify-content: center;
+      margin-right: 5px;
     }
 
     nav li {

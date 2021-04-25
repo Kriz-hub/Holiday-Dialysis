@@ -24,10 +24,11 @@
 </head>
 
 <body class="body-bg" data-spy="scroll" data-target="#scroll-spy-nav" data-offset="20">  
-  <div class="container-fluid fixed-top fixed-top-bar-bg"> <!--Top Menu -->
+  <!--Top Menu, logo left and navmenu right. When device is below 768px: split in 2 parts, both centered -->
+  <div class="container-fluid fixed-top fixed-top-bar-bg"> 
     <div class="row">
-      <div class="col-md-6" style="padding: 0;"><h2 class="logo">Dialyse Centrum West Veluwe</h2></div>
-      <div class="col-md-6" style="padding: 0;">
+      <div class="col-md-6"><h2 class="logo">Dialyse Centrum West Veluwe</h2></div>
+      <div class="col-md-6">
         <nav id="scroll-spy-nav">
           <ul>
             <li class="dropdown">
@@ -54,7 +55,7 @@
     </div>
   </div> <!--End Top Menu -->
   
-  <header id="section1"> <!--1st Page: creating fading Carousel with apprearance of title in img's -->
+  <header id="section1"> <!--1st Page: creating fading Carousel with apprearance of title in pictures -->
     <div class="container-fluid">
       <div class="row"><!--All the carousel fading thanks to: https://silvawebdesigns.com/how-to-change-the-bootstrap-4-carousel-to-a-fade-transition-instead-of-slide/ -->
         <div class="col-lg-8 mx-auto carousel-start">
@@ -73,7 +74,7 @@
                 <img class="d-block w-100" src="https://i.ibb.co/HHsF2w7/Pexels-Paarden-Weiland.jpg" alt="Horses grass area">
               </div>
             </div>
-           </div> <!--end of carousel, now put title in pictures of carousel -->
+           </div> <!--end of carousel, next put title in pictures of carousel -->
           <div class="w-100 header-box" id="dutchtitle"><h1 class="header-text">Vakantiedialyse</h1></div>
           <script>document.getElementById("dutchtitle").style.display = "none";</script> 
           <div class="w-100 header-box"  id="engtitle"><h1 class="header-text">Holiday Dialysis</h1> </div>
@@ -82,7 +83,7 @@
     </div>  <!--End of carousel and title in carousel -->
   </header> 
   
-  <div class="container-fluid" style="margin-top: 3vh;"> <!--1st Page: creating two paragraph's down page, dual language--> 
+  <div class="container-fluid margin-below-first-carousel"> <!--1st Page: creating two paragraph's down page, dual language--> 
     <div class="row">
       <div class="col-sm-6">
         <span id="page1-p1-du">
@@ -94,6 +95,7 @@
           </p>
         </span>
         <script>document.getElementById("page1-p1-du").style.display = "none";</script> 
+        <!--make dutch text invissible, next put English text in line -->
         <span id="page1-p1-en">
           <h3>Rural area De Veluwe</h3>
           <p>De Veluwe, only 90 minutes away from Amsterdam, is a rural region in the center of Holland. It is nice place to enjoy the nature.
@@ -113,6 +115,7 @@
           </p>
         </span>
         <script>document.getElementById("page1-p2-du").style.display = "none";</script> 
+        <!--make dutch text invissible, next put English text in line -->
         <span id="page1-p2-en">
           <h3>Dialysis at Harderwijk, The Netherlands</h3>
           <p>It is not self-evident for everyone to just go on holiday. Especially people with Kidney Disease 
@@ -162,7 +165,7 @@
           </div> 
         </div> <!--2th page: end of carousel upperleft as a nested col-->
           
-        <span id="page2-p-du"> <!--2th page: left paragraph underneath carousel, dutch version -->
+        <span id="page2-p-du"> <!--2th page: left paragraph underneath second carousel, dutch version -->
           <br>
           <h3>Uw verblijf bij ons</h3>
           <p>
@@ -173,7 +176,7 @@
           </p>
         </span>
         <script>document.getElementById("page2-p-du").style.display = "none";</script> 
-        <span id="page2-p-en"> <!--2th page: left paragraph underneath carousel, english version -->
+        <span id="page2-p-en"> <!--2th page: left paragraph underneath second carousel, english version -->
           <br>
           <h3>Your stay with us</h3>
           <p>
@@ -262,6 +265,7 @@
                 </form>
               </span>
               <script>document.getElementById("page3-form-du").style.display = "none";</script> 
+              <!--make dutch form invissible, next put English form in line -->
               <span id="page3-form-en">
                 <form class="form-bg mx-auto">
                   <div class="form-group">
@@ -295,6 +299,7 @@
                 <h6>555 125476 </h6>
               </span>
               <script>document.getElementById("page3-adr-du").style.display = "none";</script> 
+              <!--make dutch text invissible, next put English text in line -->
               <span id="page3-adr-en">
                 <br>
                 <h4>You can also call or write us: </h4>
@@ -337,12 +342,15 @@
         </div> 
       </div>
     </div>
-  </footer>
+  </footer><!--hide english text, load dutch text -->
 
-   <!-- inspired from: https://stackoverflow.com/questions/46008760/how-to-build-multiple-language-website-using-pure-html-js-jquery-->
+   <!-- inspired from: https://stackoverflow.com/questions/46008760/how-to-build-multiple-language-website-using-pure-html-js-jquery
+   I did'nt realy use this website, I read about "display none". I used that idea already in the 5 day challenge, were I used
+   some Javascript to hide foto's. Now I use it to hide dual language textby next functions -->
 
   <script>
-    function loaddutch() {
+     /*--hide english text, load dutch text -->*/
+    function loaddutch() { 
       document.getElementById("englishflag").style.display = "none";
       document.getElementById("dutchflag").style.display   = "inline";
       document.getElementById("nav2-en").style.display     = "none";
@@ -364,6 +372,7 @@
       document.getElementById("page3-form-en").style.display = "none";
       document.getElementById("page3-form-du").style.display = "inline";}
 
+    /*--hide dutch text, load english text -->*/
     function loadenglish() {
       document.getElementById("dutchflag").style.display   = "none";
       document.getElementById("englishflag").style.display = "inline"; 
