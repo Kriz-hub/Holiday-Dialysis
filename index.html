@@ -41,9 +41,13 @@
                 <a class="dropdown-item" onclick="loadenglish()">English</a>
               </div>
             </li>
-             <li><a class="nav-text" href="#section1">Home</a></li>
-             <li><a class="nav-text" href="#section2">Info</a></li>
-             <li><a class="nav-text" href="#section3">Contact</a></li>
+            <li><a class="nav-text" href="#section1">Home</a></li>
+            <li><a class="nav-text" href="#section2">
+                <span id="nav2-du">Info</span>
+                <script>document.getElementById("nav2-du").style.display = "none";</script> 
+                <span id="nav2-en">About</span></a>
+            </li>
+            <li><a class="nav-text" href="#section3">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -115,12 +119,12 @@
              need a dialysis on a regular basis. <em>Dialyse Centrum West Veluwe</em> can help you to enjoy a carefree holiday time!
              You can click on the menu for more information. If you have questions, don't hesitate to call us, you
              can see our whereabouts at the contact page. Have a nice holiday!
-             <span id="section2"></span>
           </p>
         </span>
       </div>
     </div>
   </div> 
+  <span id="section2"><p style="color: #E9E7E3">.</p></span>
     
   <div class="container-fluid"> <!--2th page: creating the about page with carousel, picture center and dual language text -->
     <div class="row"> 
@@ -212,7 +216,7 @@
     </div>
   </div> <!--2th page: end or left en right part of about page -->
 
-  <span id="section3"></span>
+  <span id="section3"><p style="color: #E9E7E3">.</p></span>
   <div class="container-fluid"> <!--3th page: Google Maps, Image and adress, form -->
     <div class="row" >
       <div class="col-lg-4 page3-google-map-margin"> 
@@ -329,8 +333,10 @@
 
   <script>
     function loaddutch() {
-      document.getElementById("englishflag").style.display = "none"
-      document.getElementById("dutchflag").style.display   = "inline"
+      document.getElementById("englishflag").style.display = "none";
+      document.getElementById("dutchflag").style.display   = "inline";
+      document.getElementById("nav2-en").style.display     = "none";
+      document.getElementById("nav2-du").style.display     = "inline";
       document.getElementById("engtitle").style.display    = "none";
       document.getElementById("dutchtitle").style.display  = "inline";
       document.getElementById("page1-p1-en").style.display = "none"; 
@@ -349,8 +355,10 @@
       document.getElementById("page3-form-du").style.display = "inline";}
 
     function loadenglish() {
-      document.getElementById("dutchflag").style.display   = "none"
-      document.getElementById("englishflag").style.display = "inline"  
+      document.getElementById("dutchflag").style.display   = "none";
+      document.getElementById("englishflag").style.display = "inline"; 
+      document.getElementById("nav2-du").style.display     = "none"; 
+      document.getElementById("nav2-en").style.display     = "inline";
       document.getElementById("dutchtitle").style.display  = "none";
       document.getElementById("engtitle").style.display    = "inline";    
       document.getElementById("page1-p1-du").style.display = "none"; 

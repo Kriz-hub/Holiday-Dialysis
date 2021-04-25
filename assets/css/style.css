@@ -7,7 +7,7 @@ html {
 .body-bg {
     background: #E9E7E3;
     font-family: "Montserrat", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
 }
 
@@ -37,9 +37,10 @@ nav li {
   margin: 0 10px;
 }
 
-nav li:hover {
+nav li a:hover {
   background-color: #FFFFFF44;
-  text-decoration: none;
+  text-decoration: overline underline;
+  color: #E9E7E3
 }
 
 nav a {
@@ -193,6 +194,12 @@ ul.social-media-links li:hover {
   color: #E9E7E3;
 }
 
+@media screen and (min-width: 1400px) {
+    .body-bg {
+       font-size: 23px;
+   }
+}
+
 @media screen and (max-width: 768px) {
     .logo {
         text-align: center;
@@ -234,6 +241,18 @@ ul.social-media-links li:hover {
        font-size: 20px;
        font-weight: 400;
     }
+
+    .flag-container{
+       width: 50px;
+       height: auto;
+    } 
+
+    .btn-primary.custom-btn:hover {
+    padding-top: 0;
+    padding-bottom: 0;
+ 	background-color:#FFFFFF44;
+	border-color: #FFFFFF44;   
+}
 
     .nav-text {
        font-size: 15px;
