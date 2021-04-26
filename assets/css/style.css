@@ -140,7 +140,7 @@ nav a {
     height: 75%;
 } 
 
-.smaller-picture-dialysecenter {
+.smaller-picture-dialysecentere {
     width: 75%; 
     height: auto;
 }
@@ -231,6 +231,11 @@ ul.social-media-links li:hover {
        transform: translate3D(0, -4px, 0); 
     }
 
+     #carousel-second {
+      width: 95%;
+      height: 95%;
+    } 
+
       .smdevice-sect3-margin-form-adres {
        margin-top: 12vh;
     }
@@ -272,10 +277,6 @@ ul.social-media-links li:hover {
        margin-top: 10vh;
     }
 
-    #carousel-second {
-      width: 99%;
-      height: 99%;
-    } 
 }
 
 @media screen and (max-width: 340px) {
