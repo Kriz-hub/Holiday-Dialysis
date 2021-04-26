@@ -23,7 +23,7 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="body-bg" data-spy="scroll" data-target="#scroll-spy-nav" data-offset="20">  
   <!--Top Menu, logo left and navmenu right. When device is below 768px: split in 2 parts, both centered -->
   <div class="container-fluid fixed-top fixed-top-bar-bg"> 
     <div class="row">
@@ -42,21 +42,20 @@
                 <a class="dropdown-item" onclick="loadenglish()">English</a>
               </div>
             </li>
-            <li><a class="nav-text" onclick="choosesection1()">Home</a></li>
-            <li><a class="nav-text" onclick="choosesection2()">
-              <span id="nav2-du">Info</span>
-              <script>document.getElementById("nav2-du").style.display = "none";</script> 
-              <span id="nav2-en">About</span></a>
+            <li><a class="nav-text" href="#section1">Home</a></li>
+            <li><a class="nav-text" href="#section2">
+                <span id="nav2-du">Info</span>
+                <script>document.getElementById("nav2-du").style.display = "none";</script> 
+                <span id="nav2-en">About</span></a>
             </li>
-            <li><a class="nav-text" onclick="choosesection3()">Contact</a></li>
+            <li><a class="nav-text" href="#section3">Contact</a></li>
           </ul>
         </nav>
       </div>
     </div>
   </div> <!--End Top Menu -->
   
-  <span id="section1">
-  <header> <!--1st Page: creating fading Carousel with apprearance of title in pictures -->
+  <header id="section1"> <!--1st Page: creating fading Carousel with apprearance of title in pictures -->
     <div class="container-fluid">
       <div class="row"><!--All the carousel fading thanks to: https://silvawebdesigns.com/how-to-change-the-bootstrap-4-carousel-to-a-fade-transition-instead-of-slide/ -->
         <div class="col-lg-8 mx-auto carousel-start">
@@ -128,11 +127,13 @@
       </div>
     </div> 
   </div> 
-  </span>
-  <script>document.getElementById("section1").style.display = "none";</script> 
 
-  <span id="section2"> 
-  <div class="container-fluid page2-carousel-second-margin"> <!--2th page: creating the about page with carousel, picture center and dual language text -->
+  <span id="section2"> <!-- to get scroll-spy right on section 2 carousel-->
+    <h6 style="color:#E9E7E3">invisble text</h6>
+    <h6 style="color:#E9E7E3">invisble text</h6>
+    <h6 style="color:#E9E7E3">invisble text</h6></span>
+    
+  <div class="container-fluid"> <!--2th page: creating the about page with carousel, picture center and dual language text -->
     <div class="row"> 
       <div class="col-md-6"> <!--2th page: left part -->
         <div class="col"> <!--carousel in nested col to controll size -->
@@ -221,11 +222,14 @@
       </div> <!--2th page: end of right part about page -->
     </div>
   </div> <!--2th page: end or left en right part of about page -->
-  </span>
-  <script>document.getElementById("section2").style.display = "none";</script> 
 
   <!-- to get scroll-spy right on section 3 google maps-->
   <span id="section3">
+    <h6 style="color:#E9E7E3">invisble text</h6>
+    <h6 style="color:#E9E7E3">invisble text</h6>
+    <h6 style="color:#E9E7E3">invisble text</h6>
+  </span>
+
   <div class="container-fluid"> <!--3th page: Google Maps, Image and adress, form -->
     <div class="row" >
       <div class="col-lg-4 page3-google-map-margin"> 
@@ -240,7 +244,7 @@
       <div class="col-lg-8"> 
         <div class="container-fluid">
           <div class="row" >
-            <div class="col-md-6 page3-margin-form-adress">
+            <div class="col-md-6 smdevice-sect3-margin-form-adres">
               <span id="page3-form-du"> <!-- Thanks to bootstrap: https://getbootstrap.com/docs/4.1/components/forms// -->
                 <form class="form-bg mx-auto">
                   <div class="form-group">
@@ -283,7 +287,7 @@
               </span>
             </div>
 
-            <div class="col-md-6 page3-margin-form-adress">
+            <div class="col-md-6 smdevice-sect3-margin-form-adres">
               <img class="d-block w-100" src="https://i.ibb.co/9gxBhr5/pexelsmanjongevrouwrectangle-Low-Res.jpg" alt="Old man and younger woman">
               <span id="page3-adr-du">
                 <br>
@@ -338,11 +342,8 @@
         </div> 
       </div>
     </div>
-  </footer>
-  </span>
-  <script>document.getElementById("section3").style.display = "none";</script> 
-  <script>document.getElementById("section1").style.display = "inline";</script> 
-  
+  </footer><!--hide english text, load dutch text -->
+
    <!-- inspired from: https://stackoverflow.com/questions/46008760/how-to-build-multiple-language-website-using-pure-html-js-jquery
    I did'nt realy use this website, I read about "display none". I used that idea already in the 5 day challenge, were I used
    some Javascript to hide foto's. Now I use it to hide dual language textby next functions -->
@@ -392,22 +393,7 @@
       document.getElementById("page3-adr-du").style.display = "none"
       document.getElementById("page3-adr-en").style.display = "inline";
       document.getElementById("page3-form-du").style.display = "none";
-      document.getElementById("page3-form-en").style.display = "inline"; }
-    
-    function choosesection1() {
-    document.getElementById("section2").style.display = "none";
-    document.getElementById("section3").style.display = "none";
-    document.getElementById("section1").style.display = "inline"; }
-    
-    function choosesection2() {
-    document.getElementById("section1").style.display = "none";
-    document.getElementById("section3").style.display = "none";
-    document.getElementById("section2").style.display = "inline"; }
-
-    function choosesection3() {
-    document.getElementById("section1").style.display = "none";
-    document.getElementById("section2").style.display = "none";
-    document.getElementById("section3").style.display = "inline"; }     
+      document.getElementById("page3-form-en").style.display = "inline"; }      
   </script>
  </body>
  </html>
