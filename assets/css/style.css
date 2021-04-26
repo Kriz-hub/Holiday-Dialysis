@@ -136,9 +136,14 @@ nav a {
 }
 
 #carousel-second {
-    width: 85%;
-    height: 85%;
+    width: 75%;
+    height: 75%;
 } 
+
+.smaller-picture-dialysecenter {
+    width: 75%; 
+    height: auto;
+}
 
 /* thanks to https://blog.duda.co/responsive-google-maps-for-your-website */
 .map-responsive {  
@@ -259,7 +264,7 @@ ul.social-media-links li:hover {
        font-weight: 400; 
     }
 
-      .smdevice-sect1-margin-p2 {
+    .smdevice-sect1-margin-p2 {
        margin-top: 8vh;
     }
 
