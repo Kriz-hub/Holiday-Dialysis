@@ -206,7 +206,7 @@ ul.social-media-links li:hover {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
     .logo {
         text-align: center;
         padding: 0;
@@ -274,7 +274,6 @@ ul.social-media-links li:hover {
  	    background-color:#FFFFFF44;
      	border-color: #FFFFFF44;   
     }
-
 
     .nav-text {
        font-size: 15px;
