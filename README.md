@@ -19,20 +19,21 @@ The kidney patient needs 3 times a week dialysis in his own center, but also wan
 He needs to be informed which center he can choose and what they can offer him. So the website must be informing but not too corporate. He is in the mood for holiday and that mood should reflect the website. 
 
 **Research**
-I googled for dutch sites of dialysis centers to get the right feel, but also, what should they do better from a designer prospective. 
+
+I googled for dutch sites of dialysis centers to get the right feel and if I can learn from it. The webistes appears to be not always that great:
 * https://www.meandermc.nl/patientenportaal/patienten/afdelingen-specialismen/Dialyse-Centrum/Dialyse/Vakantiedialyse/
 * https://www.dianet.nl/holiday-dialysis
 * https://www.dcg.nl/behandeling-en-ondersteuning/vakantiedialyse?utm_campaign=Adwords+Vakantie
 * http://www.dialysecentrumbeverwijk.nl/op-vakantie
 * https://www.dialysecentrumravenstein.nl/
 
-The first one is the hospital where I actually work. I certainly won't get a holiday feeling when I watch this as a potential guest for dialysis! (sorry)
-The second one is too corparate, there isnt much happening.
+The first one is the center where I actually work. I certainly won't get a holiday feeling when I watch this as a potential guest for dialysis! (sorry)
+The second one is too corparate, there isn't much happening.
 The third is better but the red menu kills the view of the picture. It should have more pictures and movement.
 The fourth isn't bad, but the sea view looks dead with an image wich almost lost his color, They could do better with a carousel view in my opnion.
 The last one is very good, in my view an example how a dialysis site should look like.
 
-But the real inspiration came when I saw this bike site:(https://biketourharderwijk.nl/)
+But the real inspiration came when I saw this bike site:(https://biketourharderwijk.nl/) (not even a dialysis site)
 The pictures of the carousel blowed me away, I decided from that moment my front page of the project must be a carousel in a rectangle format.
 
 ## The start
@@ -44,25 +45,37 @@ In that first stage the mentor advised to use smaller pictures and add more text
 Then after research I knew that I wanted a rectangular carousel with a fading effect in it, with a text column on the left with a little bit tourist information of the area "The Veluwe" and with a welcome text that you are welcome to come. The right column is is the intro for the center.
 The following about section 
 
-**Structure Section1**
+## Structure
+###Section1
 * the homepage features a responsive navigationbar on the right and a logo on the left top, this bar is fixed. On mobile screens left en right side will split en become centered   in top of each order.
-  The navigationbar has also a language button. With javascript and display.none and display.inline the right language appear in front without loading the whole page.
+  The navigationbar has also a language button. With javascript and display=none and display=inline the right language appear in front without loading the whole page.
 * Below that is a fading carousel. I didn't want to add controll buttons to swap the images by hand, just images with a fading effect to each. 
   In that fading carousel a title "Holiday Dialysis" appears with a linear-gradient background directly under that text.
   In smaller devices the title becomes too big according to the pictures of the carousel, therefore the title emerges down the pictures in mobiles.
 * Below are 2 columns of text. They appear down each other in a mobile device.
 
-**Structure Section2**
+###Section2
 * In section 2 a second, normal carousel appears with some dialyse pictures. It is attached to the text column underneath. On the right there is a picture of the fantasy dialyse   center, also attached to the unordered list underneath. 
 * In mobile devices it wil appear under each other.
 
-**Structure Section3**
+###Section3
 * In desktop-devices section 3 appears as 3 column area. Left google map Iframe, the middle a form, and to the right a picture with adress.
 * On tablets it breaks in a googlemap area with underneath a form and picture with adress on the left and right side. It is made possible by using a nested bootstrap Col element
 * On a mobile device verything appears below each other.
 
-**Structure footer**
-On the left 2 icons appear wth Facebook and Twitter, on the right a copyright mark appears.
+###footer
+* On the left 2 icons appear wth Facebook and Twitter, on the right a copyright mark appears.
+
+##Technologies
+1. HTML
+2. CSS
+3. Bootstrap
+4. Javascript
+
+##Features
+There is some Javascript added for using GetelementbyID to use display=none and display=inline to hide language when is is not chosen.
+
+
 
 
 
