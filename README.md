@@ -18,25 +18,31 @@ Customer goals:
 The kidney patient needs 3 times a week dialysis in his own center, but also wants to have an opportunity to get on holiday.
 He needs to be informed which center he can choose and what they can offer him. So the website must be informing but not too corporate. He is in the mood for holiday and that mood should reflect the website. 
 
-## my research
-I googled for dutch sites of dialysis centers to get the right feel, but maybe, what should they do better from a designer prospective. 
-[a link] (https://www.meandermc.nl/patientenportaal/patienten/afdelingen-specialismen/Dialyse-Centrum/Dialyse/Vakantiedialyse/)
-[a link] (https://www.dianet.nl/holiday-dialysis)
-[a link] (https://www.dcg.nl/behandeling-en-ondersteuning/vakantiedialyse?utm_campaign=Adwords+Vakantie)
-[a link] (http://www.dialysecentrumbeverwijk.nl/op-vakantie)
-[a link] (https://www.dialysecentrumravenstein.nl/)
+## My Research
+I googled for dutch sites of dialysis centers to get the right feel, but also, what should they do better from a designer prospective. 
+* (https://www.meandermc.nl/patientenportaal/patienten/afdelingen-specialismen/Dialyse-Centrum/Dialyse/Vakantiedialyse/)
+*(https://www.dianet.nl/holiday-dialysis)
+*(https://www.dcg.nl/behandeling-en-ondersteuning/vakantiedialyse?utm_campaign=Adwords+Vakantie)
+*(http://www.dialysecentrumbeverwijk.nl/op-vakantie)
+*(https://www.dialysecentrumravenstein.nl/)
 
-The first one is the hospital where I actually work. I certainly won't get a holiday feeling when I watch this! (sorry)
+The first one is the hospital where I actually work. I certainly won't get a holiday feeling when I watch this as a potential guest for dialysis! (sorry)
 The second one is too corparate, there isnt much happening.
 The third is better but the red menu kills the view of the picture. It should have more pictures and movement.
 The fourth isn't bad, but the sea view looks dead with an image wich almost lost his color, They could do better with a carousel view in my opnion.
 The last one is very good, in my view an example how a dialysis site should look like.
 
-But the real inspiration came when I saw this bike site:
-[a link] (https://biketourharderwijk.nl/)
-The pictures of the carousel blowed me away, I decided from that moment my front page of the project must be a carousel in rectangle format.
+But the real inspiration came when I saw this bike site:(https://biketourharderwijk.nl/)
+The pictures of the carousel blowed me away, I decided from that moment my front page of the project must be a carousel in a rectangle format.
 
+## The designing
+On start I thought to make a website based on one big background picture of the rural area with a big title and subtitle, all to create that holiday dialyse feeling.
+With scrolling the information moves over te background picture. The technique was inspired from this idea: (https://valentina-b.github.io/par-excellance-restaurant/). 
+Than other pictures of specific dialyse treatment should appear in a carousel after some scrolling.
+In that first stage the mentor advised to use smaller pictures and add more text, because the purpose of the website (atract guests who wants to book dialyse treatments) wasn't clear enough. Also he advised to use a Google Map image for a better understanding where the center is situated.
 
+Then after research I knew that I wanted a rectangular carousel with a fading effect in it, with a text column on the left with a little bit tourist information of the area "The Veluwe" and with a welcome text that you are welcome to come. The right column is is the intro for the center.
+The following about section 
 
 
 
