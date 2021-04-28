@@ -124,7 +124,7 @@ nav a {
 }
 
 .header-text {
-    font-family: "Montserrat", sans-serif;
+    font-family: "roboto", sans-serif;
     font-size: 25px;
     font-weight: 400;
     text-align: center;
@@ -132,7 +132,7 @@ nav a {
 }
 
 .margin-below-first-carousel {
-    margin-top: 3vh
+    margin-top: 5vh
 }
 
 #carousel-second {
@@ -140,9 +140,8 @@ nav a {
     height: 75%;
 } 
 
-.smaller-picture-dialysecentere {
-    width: 75%; 
-    height: auto;
+.picture-klinik {
+    max-width: 75%;
 }
 
 /* thanks to https://blog.duda.co/responsive-google-maps-for-your-website */
@@ -194,11 +193,20 @@ ul.social-media-links li:hover {
 
 @media screen and (min-width: 1400px) {
     .body-bg {
-       font-size: 23px;
+       font-size: 21px;
    }
+
+    #carousel-second {
+       width: 95%;
+       height: 95%;
+    } 
+
+    .picture-klinik {
+       max-width: 95%;
+    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .logo {
         text-align: center;
         padding: 0;
@@ -231,18 +239,22 @@ ul.social-media-links li:hover {
        transform: translate3D(0, -4px, 0); 
     }
 
-     #carousel-second {
-      width: 95%;
-      height: 95%;
+    #carousel-second {
+       width: 95%;
+       height: 95%;
     } 
 
-      .smdevice-sect3-margin-form-adres {
+    .picture-klinik {
+       max-width: 95%;
+    }
+
+    .smdevice-sect3-margin-form-adres {
        margin-top: 12vh;
     }
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     .logo {
        margin: 5px 0 0 0;
        padding: 0;
