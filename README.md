@@ -18,7 +18,7 @@ Customer goals:
 The kidney patient needs 3 times a week dialysis in his own center, but also wants to have an opportunity to get on holiday.
 He needs to be informed which center he can choose and what they can offer him. So the website must be informing but not too corporate. He is in the mood for holiday and that mood should reflect the website. 
 
-**## My Research**
+**Research**
 I googled for dutch sites of dialysis centers to get the right feel, but also, what should they do better from a designer prospective. 
 * https://www.meandermc.nl/patientenportaal/patienten/afdelingen-specialismen/Dialyse-Centrum/Dialyse/Vakantiedialyse/
 * https://www.dianet.nl/holiday-dialysis
@@ -35,7 +35,7 @@ The last one is very good, in my view an example how a dialysis site should look
 But the real inspiration came when I saw this bike site:(https://biketourharderwijk.nl/)
 The pictures of the carousel blowed me away, I decided from that moment my front page of the project must be a carousel in a rectangle format.
 
-## The designing
+## The start
 On start I thought to make a website based on one big background picture of the rural area with a big title and subtitle, all to create that holiday dialyse feeling.
 With scrolling the information moves over te background picture. The technique was inspired from this idea: (https://valentina-b.github.io/par-excellance-restaurant/). 
 Than other pictures of specific dialyse treatment should appear in a carousel after some scrolling.
@@ -43,6 +43,30 @@ In that first stage the mentor advised to use smaller pictures and add more text
 
 Then after research I knew that I wanted a rectangular carousel with a fading effect in it, with a text column on the left with a little bit tourist information of the area "The Veluwe" and with a welcome text that you are welcome to come. The right column is is the intro for the center.
 The following about section 
+
+**Structure Section1**
+* the homepage features a responsive navigationbar on the right and a logo on the left top, this bar is fixed. On mobile screens left en right side will split en become centered   in top of each order.
+  The navigationbar has also a language button. With javascript and display.none and display.inline the right language appear in front without loading the whole page.
+* Below that is a fading carousel. I didn't want to add controll buttons to swap the images by hand, just images with a fading effect to each. 
+  In that fading carousel a title "Holiday Dialysis" appears with a linear-gradient background directly under that text.
+  In smaller devices the title becomes too big according to the pictures of the carousel, therefore the title emerges down the pictures in mobiles.
+* Below are 2 columns of text. They appear down each other in a mobile device.
+
+**Structure Section2**
+* In section 2 a second, normal carousel appears with some dialyse pictures. It is attached to the text column underneath. On the right there is a picture of the fantasy dialyse   center, also attached to the unordered list underneath. 
+* In mobile devices it wil appear under each other.
+
+**Structure Section3**
+* In desktop-devices section 3 appears as 3 column area. Left google map Iframe, the middle a form, and to the right a picture with adress.
+* On tablets it breaks in a googlemap area with underneath a form and picture with adress on the left and right side. It is made possible by using a nested bootstrap Col element
+* On a mobile device verything appears below each other.
+
+**Structure footer**
+On the left 2 icons appear wth Facebook and Twitter, on the right a copyright mark appears.
+
+
+
+
 
 
 
