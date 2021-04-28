@@ -18,13 +18,13 @@ Customer goals:
 The kidney patient needs 3 times a week dialysis in his own center, but also wants to have an opportunity to get on holiday.
 He needs to be informed which center he can choose and what they can offer him. So the website must be informing but not too corporate. He is in the mood for holiday and that mood should reflect the website. 
 
-## My Research
+**## My Research**
 I googled for dutch sites of dialysis centers to get the right feel, but also, what should they do better from a designer prospective. 
-* (https://www.meandermc.nl/patientenportaal/patienten/afdelingen-specialismen/Dialyse-Centrum/Dialyse/Vakantiedialyse/)
-*(https://www.dianet.nl/holiday-dialysis)
-*(https://www.dcg.nl/behandeling-en-ondersteuning/vakantiedialyse?utm_campaign=Adwords+Vakantie)
-*(http://www.dialysecentrumbeverwijk.nl/op-vakantie)
-*(https://www.dialysecentrumravenstein.nl/)
+* https://www.meandermc.nl/patientenportaal/patienten/afdelingen-specialismen/Dialyse-Centrum/Dialyse/Vakantiedialyse/
+* https://www.dianet.nl/holiday-dialysis
+* https://www.dcg.nl/behandeling-en-ondersteuning/vakantiedialyse?utm_campaign=Adwords+Vakantie
+* http://www.dialysecentrumbeverwijk.nl/op-vakantie
+* https://www.dialysecentrumravenstein.nl/
 
 The first one is the hospital where I actually work. I certainly won't get a holiday feeling when I watch this as a potential guest for dialysis! (sorry)
 The second one is too corparate, there isnt much happening.
