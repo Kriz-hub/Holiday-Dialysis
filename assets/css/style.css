@@ -197,12 +197,12 @@ ul.social-media-links li:hover {
    }
 
     #carousel-second {
-       width: 95%;
-       height: 95%;
+       width: 85%;
+       height: 85%;
     } 
 
     .picture-klinik {
-       max-width: 95%;
+       max-width: 85%;
     }
 }
 
@@ -261,7 +261,7 @@ ul.social-media-links li:hover {
 }
 
 @media screen and (max-width: 767px) {
-    .smdevice-sect2-margin-dialcenter-pict {
+    .smdevice-margin-pict-klinik{
        margin-top: 10vh;
     }
 }
