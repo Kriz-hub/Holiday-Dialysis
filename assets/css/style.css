@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,500|Roboto:400,300,500wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,500|Roboto:300,400,500wght@100&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -19,7 +19,7 @@ html {
 .logo {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 300;
     Padding: 8px;
     margin-top: 2px;
 }
@@ -126,7 +126,7 @@ nav a {
 .header-text {
     font-family: "roboto", sans-serif;
     font-size: 25px;
-    font-weight: 400;
+    font-weight: 450;
     text-align: center;
     transform: translate3D(0, 4px, 0); /*bug in system?, text is slightly too high*/
 }
@@ -193,7 +193,7 @@ ul.social-media-links li:hover {
 
 @media screen and (min-width: 1400px) {
     .body-bg {
-       font-size: 21px;
+       font-size: 19px;
    }
 
     #carousel-second {
@@ -206,12 +206,18 @@ ul.social-media-links li:hover {
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 991px) {
     .logo {
         text-align: center;
         padding: 0;
+        margin-top: 3px;
         margin-bottom: 0;
     }
+
+    .flag-container{
+       width: 55px;
+       height: auto;
+    } 
 
     nav ul {
       justify-content: center;
@@ -254,7 +260,13 @@ ul.social-media-links li:hover {
 
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 767px) {
+    .smdevice-sect2-margin-dialcenter-pict {
+       margin-top: 10vh;
+    }
+}
+
+@media screen and (max-width: 575px) {
     .logo {
        margin: 5px 0 0 0;
        padding: 0;
@@ -263,17 +275,17 @@ ul.social-media-links li:hover {
        font-weight: 400;
     }
 
-    .flag-container{
-       width: 50px;
-       height: auto;
-    } 
-
     .btn-primary.custom-btn:hover {
         padding-top: 0;
         padding-bottom: 0;
  	    background-color:#FFFFFF44;
      	border-color: #FFFFFF44;   
     }
+
+   .flag-container{
+       width: 50px;
+       height: auto;
+    } 
 
     .nav-text {
        font-size: 15px;
@@ -283,11 +295,6 @@ ul.social-media-links li:hover {
     .smdevice-sect1-margin-p2 {
        margin-top: 8vh;
     }
-
-    .smdevice-sect2-margin-dialcenter-pict {
-       margin-top: 10vh;
-    }
-
 }
 
 @media screen and (max-width: 340px) {
