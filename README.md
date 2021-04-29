@@ -31,7 +31,7 @@ The first one is the center where I actually work. I certainly won't get a holid
 The second one is too corparate, there isn't much happening.
 The third is better but the red menu kills the view of the picture. It should have more pictures and movement.
 The fourth isn't bad, but the sea view looks dead with an image wich almost lost his color, They could do better with a carousel view in my opnion.
-The last one is very good, in my view an example how a dialysis site should look like.
+The last one is very good.
 
 But the real inspiration came when I saw this bike site:(https://biketourharderwijk.nl/) (not even a dialysis site)
 The pictures of the carousel blowed me away, I decided from that moment my front page of the project must be a carousel in a rectangle format.
@@ -60,11 +60,11 @@ The following about section
 
 ###Section3
 * In desktop-devices section 3 appears as 3 column area. Left google map Iframe, the middle a form, and to the right a picture with adress.
-* On tablets it breaks in a googlemap area with underneath a form and picture with adress on the left and right side. It is made possible by using a nested bootstrap Col element
+* On tablet devices it breaks in a googlemap area with underneath a form and picture with adress on the left and right side. It is made possible by using a nested bootstrap Col element
 * On a mobile device verything appears below each other.
 
 ###footer
-* On the left 2 icons appear wth Facebook and Twitter, on the right a copyright mark appears.
+* On the left 2 icons appear with Facebook and Twitter, on the right a copyright mark appears.
 
 ##Technologies
 1. HTML
