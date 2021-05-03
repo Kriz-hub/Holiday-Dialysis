@@ -3,6 +3,8 @@ Code Institute - Milestone Project 1
 
 This project is a one page website about a Dialysis Center in the middle of The Netherlands. They offer a dialysis treatment for people who suffer from kidney failure and are open for guests who are on holiday. This is a made up center in the small city of Harderwijk, but actually I work in a real dialysis center in that place.It is also a satelite center of the big one in Amersfoort, 30km from Harderwijk. Important: this project is meant for the post-corona era, off course the situation will become better the comming months and certainly in 2022.
 
+https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/Animatie.gif
+
 ## UX
 From a financial point of view it is very interesting for a hospital to add guests to their patient population. A descent website helps to get a good representation.
 I know there is a real demand for a good website for the real dialysis center I work in, first one for holiday guests, later for the dialysys center as a whole.
