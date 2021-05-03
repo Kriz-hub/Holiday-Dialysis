@@ -75,6 +75,12 @@ The following about section
 ##Features
 There is some Javascript added for using GetelementbyID to use display=none and display=inline to hide language when is is not chosen.
 
+##Features left to implement
+The behaviour of the scroll-spy is somewhat pour, I was forced to add some empty text to get it right on the pages. With a little bit more knowlegde of Javascript I could make a custom scroll-spy myself. I think I would use "100vh", because that's alway the screensize vertically. Then use a way to get the current screenposition relatively to "100vh", then give a command to make some lines of scrolling.
+
+##Testing
+
+
 
 
 
