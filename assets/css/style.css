@@ -177,7 +177,7 @@ nav a {
 }
 
 footer {
-    margin-top: 5vh;
+    /*margin-top: 5vh;*/
     color: #E9E7E3;
     background: #3C4A44;
 }
@@ -339,6 +339,14 @@ ul.social-media-links li:hover {
    #carousel-second {
        width: 80%;
        height: 80%;
+    } 
+
+    .map-responsive {  
+       overflow: hidden;
+       padding-bottom:70vh;
+       position: relative;
+       width: 95%;
+       height: 0;
     } 
 
     .height-googlemaps {
