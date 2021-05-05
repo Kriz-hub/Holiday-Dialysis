@@ -27,7 +27,7 @@
   <!--Top Menu, logo left and navmenu right. When device is below 768px: split in 2 parts, both centered -->
   <div class="container-fluid fixed-top fixed-top-bar-bg"> 
     <div class="row">
-      <div class="col-md-6"><h2 class="logo">Dialyse Centrum West Veluwe</h2></div>
+      <div class="col-md-6"><h2 class="logo title-hover">Dialyse Centrum West Veluwe</h2></div>
       <div class="col-md-6">
         <nav>
           <ul>
@@ -58,8 +58,8 @@
   <header id="section1"> <!--1st Page: creating fading Carousel with apprearance of title in pictures -->
     <div class="container-fluid">
       <div class="row"><!--All the carousel fading thanks to: https://silvawebdesigns.com/how-to-change-the-bootstrap-4-carousel-to-a-fade-transition-instead-of-slide/ -->
-        <div class="col-lg-8 mx-auto carousel-start bring-shadow">
-          <div id="carouselfade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3500">
+        <div class="col-lg-8 mx-auto carousel-start">
+          <div id="carouselfade" class="carousel slide carousel-fade bring-shadow" data-ride="carousel" data-interval="3500">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img class="d-block w-100" src="https://i.ibb.co/ZMY7hbY/Dialyse-Klinik-Panorama.jpg" alt="Dialyse-Klinik">
@@ -191,37 +191,41 @@
         </span> <!--2th page: end of paragraphs underneath carousel, dual language -->
       </div> <!-- 2th: end of carousel and dual language text -->
 
-      <div class="col-md-6 smdevice-margin-pict-klinik bring-shadow"> <!--2th page: right part of about page -->
+      <div class="col-md-6 smdevice-margin-pict-klinik "> <!--2th page: right part of about page -->
         <div class="row">
-          <div class="col" > <!--2th page: nested col to control picture -->
-            <img class="picture-klinik" src="https://i.ibb.co/DKxPFJs/Dialyse-Klinik-Better.jpg" alt="Dialyse-Klinik">
+          <div class="col-md-9 mx-auto"> <!--2th page: nested col to control picture -->
+            <img class="picture-klinik w-100 bring-shadow" src="https://i.ibb.co/DKxPFJs/Dialyse-Klinik-Better.jpg" alt="Dialyse-Klinik">
           </div>
         </div>
-        <span id="page2-ul-du"> <!--2th page: right paragraph underneath carousel, dutch version -->
-          <br>
-          <h3 class="title-hover">Dialyse Centrum West Veluwe biedt de onderstaande voorzieningen</h3>
-          <ul>
-            <li>10 dialysestations</li>
-            <li>Wekelijks bezoek van een nefroloog</li>
-            <li>Professionele medische verpleegkundige begeleiding</li>
-            <li>TV, aanwezigheid van gratis Wifi</li>
-            <li>Tosties worden geserveerd</li>
-           <li>Goede toegankelijkheid voor mindervaliden</li>
-          </ul>
-        </span>
-        <script>document.getElementById("page2-ul-du").style.display = "none";</script> 
-        <span id="page2-ul-en"> <!--2th page: right paragraph underneath carousel, english version -->
-          <br>
-          <h3 class="title-hover">Dialyse Centrum West Veluwe offers the following services</h3>
-          <ul>
-            <li>10 dialysis units</li>
-            <li>Weekly visits by a doctor</li>
-            <li>Professional medical support by certified nurses</li>
-            <li>Television and wifi internet</li>
-            <li>Grilled sandwiches are served</li>
-            <li>Good accessibility for the disabled</li>
-          </ul>
-        </span>
+        <div class="row">
+          <div class="col-md-9 mx-auto">
+            <span id="page2-ul-du"> <!--2th page: right paragraph underneath carousel, dutch version -->
+              <br>
+              <h3 class="title-hover">Dialyse Centrum West Veluwe biedt de onderstaande voorzieningen</h3>
+              <ul>
+                <li>10 dialysestations</li>
+                <li>Wekelijks bezoek van een nefroloog</li>
+                <li>Professionele medische verpleegkundige begeleiding</li>
+                <li>TV, aanwezigheid van gratis Wifi</li>
+                <li>Tosties worden geserveerd</li>
+               <li>Goede toegankelijkheid voor mindervaliden</li>
+              </ul>
+            </span>
+            <script>document.getElementById("page2-ul-du").style.display = "none";</script> 
+            <span id="page2-ul-en"> <!--2th page: right paragraph underneath carousel, english version -->
+              <br>
+              <h3 class="title-hover">Dialyse Centrum West Veluwe offers the following services</h3>
+              <ul>
+                <li>10 dialysis units</li>
+                <li>Weekly visits by a doctor</li>
+                <li>Professional medical support by certified nurses</li>
+                <li>Television and wifi internet</li>
+                <li>Grilled sandwiches are served</li>
+                <li>Good accessibility for the disabled</li>
+              </ul>
+            </span>
+          </div>
+        </div>
       </div> <!--2th page: end of right part about page -->
     </div>
   </div> <!--2th page: end or left en right part of about page -->
