@@ -77,6 +77,21 @@ nav a {
     max-height:100%;
 }
 
+/*thanks to https://www.w3schools.com/css/css3_shadows_box.asp*/
+.bring-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    transition: transform 1s ease;
+}
+
+.bring-shadow-google {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    transition: transform 1s ease;
+}
+
+.title-hover {
+  transition: transform 1s ease;
+}
+
 #carouselfade {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -189,6 +204,38 @@ ul.social-media-links li:hover {
 
 .social-media {
   color: #E9E7E3;
+}
+
+@media screen and (min-width: 1100px) {
+   .body-bg {
+       font-size: 2.5vh;
+   }
+
+   .h1-desktop {
+       font-size: 30px;
+       font-weight: 400;
+    }
+
+    .bring-shadow:hover {
+        transform: translateY(-10px) scale(1.1);
+    }
+
+    .bring-shadow-google:hover {
+        transform: translateY(-10px) scale(1.05);
+    }
+
+    .title-hover:hover {
+        transform: translateY(-5px) scale(1.01);
+    }
+
+    .height-googlemaps {
+        height: 85vh;
+        overflow: hidden;
+    }
+
+    .Page-height-laptop-desktop-corr-footer {
+       height: 80vh;
+    }
 }
 
 @media screen and (min-width: 1400px) {

@@ -58,7 +58,7 @@
   <header id="section1"> <!--1st Page: creating fading Carousel with apprearance of title in pictures -->
     <div class="container-fluid">
       <div class="row"><!--All the carousel fading thanks to: https://silvawebdesigns.com/how-to-change-the-bootstrap-4-carousel-to-a-fade-transition-instead-of-slide/ -->
-        <div class="col-lg-8 mx-auto carousel-start">
+        <div class="col-lg-8 mx-auto carousel-start bring-shadow">
           <div id="carouselfade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3500">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -90,7 +90,7 @@
     <div class="row">
       <div class="col-sm-6">
         <span id="page1-p1-du">
-          <h3>Landelijk Veluwe</h3>
+          <h3 class="title-hover">Landelijk Veluwe</h3>
           <p>De Veluwe, slechts 90 minuten weg van Amsterdam, is een landelijke regio in het centrum van Nederland, 
              je kan daar prima van de natuur genieten! In de zomer kan je naar het strand aan het Veluwemeer of een wandeling
              maken in de bossen landinwaarts. Kijk ook eens naar de plaatsen Harderwijk en Elburg met hun mooie oude binnenstad.
@@ -100,7 +100,7 @@
         <script>document.getElementById("page1-p1-du").style.display = "none";</script> 
         <!--make dutch text invissible, next put English text in line -->
         <span id="page1-p1-en">
-          <h3>Rural area De Veluwe</h3>
+          <h3 class="title-hover">Rural area De Veluwe</h3>
           <p>De Veluwe, only 90 minutes away from Amsterdam, is a rural region in the center of Holland. It is nice place to enjoy the nature.
              You can go the beach at the lake -The Veluwemeer- in summertime or take a walk or bike in
              the forests nearby. You can also visit very nice places such as Harderwijk and Elburg with there old inner cities.
@@ -110,7 +110,7 @@
       </div>
       <div class="col-sm-6 smdevice-sect1-margin-p2">
         <span id="page1-p2-du">
-          <h3>Dialyse in Harderwijk</h3>
+          <h3 class="title-hover">Dialyse in Harderwijk</h3>
           <p>Het is niet voor iedereen vanzelfsprekend om op vakantie te gaan. Met name nierpatienten hebben dialyse nodig op 
              regelmatige basis. <b>Dialyse Centrum West Veluwe</b> in Harderwijk kan u helpen met een aantal zorgeloze dagen weg 
              van thuis! Kijk gerust verder op deze pagina, als u vragen hebt schroom dan niet om ons te bellen of te mailen.
@@ -120,7 +120,7 @@
         <script>document.getElementById("page1-p2-du").style.display = "none";</script> 
         <!--make dutch text invissible, next put English text in line -->
         <span id="page1-p2-en">
-          <h3>Dialysis at Harderwijk, The Netherlands</h3>
+          <h3 class="title-hover">Dialysis at Harderwijk, The Netherlands</h3>
           <p>It is not self-evident for everyone to just go on holiday. Especially people with Kidney Disease 
              need a dialysis on a regular basis. <b>Dialyse Centrum West Veluwe</b> can help you to enjoy a carefree holiday time!
              You can click on the menu for more information. If you have questions, don't hesitate to call us, you
@@ -140,7 +140,7 @@
     <div class="row"> 
       <div class="col-md-6"> <!--2th page: left part -->
         <div class="col"> <!--carousel in nested col to control size -->
-          <div id="carousel-second" class="carousel slide mx-auto" data-ride="carousel">
+          <div id="carousel-second" class="carousel slide mx-auto bring-shadow" data-ride="carousel">
             <ol class="carousel-indicators"> <!--thanks to https://getbootstrap.com/docs/4.0/components/carousel/ -->
               <li data-target="#carousel-second" data-slide-to="0" class="active"></li>
               <li data-target="#carousel-second" data-slide-to="1"></li>
@@ -170,7 +170,7 @@
           
         <span id="page2-p-du"> <!--2th page: left paragraph underneath second carousel, dutch version -->
           <br>
-          <h3>Uw verblijf bij ons</h3>
+          <h3 class="title-hover">Uw verblijf bij ons</h3>
           <p>
             We willen u de best mogelijke zorg bieden tijdens uw verblijf in ons centrum, daarom is het nodig om toch wel 
             enkele weken van tevoren contact met ons op te nemen. Het is daarom het beste om eerst contact op te nemen met uw
@@ -181,7 +181,7 @@
         <script>document.getElementById("page2-p-du").style.display = "none";</script> 
         <span id="page2-p-en"> <!--2th page: left paragraph underneath second carousel, english version -->
           <br>
-          <h3>Your stay with us</h3>
+          <h3 class="title-hover">Your stay with us</h3>
           <p>
            We want to provide the best care possible during your stay in our centre, therefore we ask you to contact us 
            at least two weeks in advance of your planned stay. As we will need your medical and dialysis information 
@@ -191,7 +191,7 @@
         </span> <!--2th page: end of paragraphs underneath carousel, dual language -->
       </div> <!-- 2th: end of carousel and dual language text -->
 
-      <div class="col-md-6 smdevice-margin-pict-klinik"> <!--2th page: right part of about page -->
+      <div class="col-md-6 smdevice-margin-pict-klinik bring-shadow"> <!--2th page: right part of about page -->
         <div class="row">
           <div class="col" > <!--2th page: nested col to control picture -->
             <img class="picture-klinik" src="https://i.ibb.co/DKxPFJs/Dialyse-Klinik-Better.jpg" alt="Dialyse-Klinik">
@@ -199,7 +199,7 @@
         </div>
         <span id="page2-ul-du"> <!--2th page: right paragraph underneath carousel, dutch version -->
           <br>
-          <h3>Dialyse Centrum West Veluwe biedt de onderstaande voorzieningen</h3>
+          <h3 class="title-hover">Dialyse Centrum West Veluwe biedt de onderstaande voorzieningen</h3>
           <ul>
             <li>10 dialysestations</li>
             <li>Wekelijks bezoek van een nefroloog</li>
@@ -212,7 +212,7 @@
         <script>document.getElementById("page2-ul-du").style.display = "none";</script> 
         <span id="page2-ul-en"> <!--2th page: right paragraph underneath carousel, english version -->
           <br>
-          <h3>Dialyse Centrum West Veluwe offers the following services</h3>
+          <h3 class="title-hover">Dialyse Centrum West Veluwe offers the following services</h3>
           <ul>
             <li>10 dialysis units</li>
             <li>Weekly visits by a doctor</li>
@@ -236,10 +236,10 @@
   <div class="container-fluid"> <!--3th page: Google Maps, Image and adress, form -->
     <div class="row" >
       <div class="col-lg-4 page3-google-map-margin"> 
-        <h4 id="page3-map-du">U vindt ons centrum hier:</h4>
+        <h4 id="page3-map-du" class="title-hover">U vindt ons centrum hier:</h4>
         <script>document.getElementById("page3-map-du").style.display = "none";</script> 
-        <h4 id="page3-map-en">You can find our center here:</h4>
-        <div class="map-responsive">
+        <h4 id="page3-map-en" class="title-hover">You can find our center here:</h4>
+        <div class="map-responsive bring-shadow-google">
           <iframe src="https://maps.google.com/maps?q=Zuiderzeeboulevard%2022,%203841%20WB%20Harderwijk&t=&z=11&ie=UTF8&iwloc=&output=embed"  
           width="400" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
@@ -291,10 +291,10 @@
             </div>
 
             <div class="col-md-6 smdevice-sect3-margin-form-adres">
-              <img class="d-block w-100" src="https://i.ibb.co/9gxBhr5/pexelsmanjongevrouwrectangle-Low-Res.jpg" alt="Old man and younger woman">
+              <img class="d-block w-100 bring-shadow" src="https://i.ibb.co/9gxBhr5/pexelsmanjongevrouwrectangle-Low-Res.jpg" alt="Old man and younger woman">
               <span id="page3-adr-du">
                 <br>
-                <h4>U kunt ons ook bellen of schrijven: </h4>
+                <h4 class="title-hover">U kunt ons ook bellen of schrijven: </h4>
                 <h6>Dialyse Centrum West Veluwe</h6>
                 <h6>ZuiderzeeBoulevard 22</h6>
                 <h6>3841 WB Harderwijk</h6>
@@ -305,7 +305,7 @@
               <!--make dutch text invissible, next put English text in line -->
               <span id="page3-adr-en">
                 <br>
-                <h4>You can also call or write us: </h4>
+                <h4 class="title-hover">You can also call or write us: </h4>
                 <h6>Dialyse Centrum West Veluwe</h6>
                 <h6>ZuiderzeeBoulevard 22</h6>
                 <h6>3841 WB Harderwijk</h6>
@@ -320,7 +320,7 @@
   </div>
 
   <footer> 
-  <div class="container-fluid">
+  <div class="container-fluid Page-height-laptop-desktop-corr-footer">
      <div class="row" >
        <div class="col-6">
          <ul class="social-media-links">
