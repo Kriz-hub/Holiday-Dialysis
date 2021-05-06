@@ -336,6 +336,36 @@ ul.social-media-links li:hover {
    .Page-height-laptop-desktop-corr-footer {
        height: 80vh;
    }
+
+       .bring-shadow:hover {
+        transform: translateY(-10px) scale(1.07);
+    }
+
+    /* shadow hover to an idea if Kevin Powel: https://www.youtube.com/watch?v=u6Rur7G8HNY&t=408s
+    on this way significantly less processor power is being used. Animate shadow opacity instead of animating shadow size.*/
+    .shadow-hover::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity:0;
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 25px 0 rgba(0, 0, 0, 0.7);
+        transition: opacity 1s ease;
+    }
+
+    .shadow-hover:hover::after {
+       opacity: 1;
+    }
+
+    .bring-shadow-google:hover {
+       transform: translateY(-10px) scale(1.02);
+    }
+
+    .title-hover:hover {
+       transform: translateY(-5px) scale(1.01);
+    }
  
    div.col-lg-4 {
        padding-left: 30px; padding-right: 30px;
@@ -370,38 +400,6 @@ ul.social-media-links li:hover {
 
     .Page-height-laptop-desktop-corr-footer {
         height: 80vh;
-    }
-}
-
-@media screen and (min-width: 1100px) {
- .bring-shadow:hover {
-        transform: translateY(-10px) scale(1.07);
-    }
-
-    /* shadow hover to an idea if Kevin Powel: https://www.youtube.com/watch?v=u6Rur7G8HNY&t=408s
-    on this way significantly less processor power is being used. Animate shadow opacity instead of animating shadow size.*/
-    .shadow-hover::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        opacity:0;
-        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 25px 0 rgba(0, 0, 0, 0.7);
-        transition: opacity 1s ease;
-    }
-
-    .shadow-hover:hover::after {
-       opacity: 1;
-    }
-
-    .bring-shadow-google:hover {
-       transform: translateY(-10px) scale(1.02);
-    }
-
-    .title-hover:hover {
-       transform: translateY(-5px) scale(1.01);
     }
 }
 
