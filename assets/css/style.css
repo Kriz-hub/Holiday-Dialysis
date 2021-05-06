@@ -83,6 +83,11 @@ nav a {
     transition: transform 1s ease;
 }
 
+.shadow-hover {
+    position: relative;
+}
+
+
 .bring-shadow-google {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
     transition: transform 1s ease;
@@ -318,8 +323,16 @@ ul.social-media-links li:hover {
    .Page-height-laptop-desktop-corr-footer {
        height: 80vh;
    }
+ 
+   div.col, div.col-md-9 { /* to get a col without padding for shadow groath on pictures */
+       padding:0; margin:0;
+   }
 
-   .h1-desktop {
+   div.col-lg-4 {
+       padding-left: 30px; padding-right: 30px;
+   }
+
+    .h1-desktop {
        font-size: 30px;
        font-weight: 400;
     }
@@ -328,8 +341,24 @@ ul.social-media-links li:hover {
         transform: translateY(-10px) scale(1.1);
     }
 
+    .shadow-hover::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity:0;
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 25px 0 rgba(0, 0, 0, 0.7);
+        transition: opacity 1s ease;
+    }
+
+    .shadow-hover:hover::after {
+        opacity: 1;
+    }
+
     .bring-shadow-google:hover {
-        transform: translateY(-10px) scale(1.05);
+        transform: translateY(-10px) scale(1.02);
     }
 
     .title-hover:hover {
@@ -345,13 +374,17 @@ ul.social-media-links li:hover {
        overflow: hidden;
        padding-bottom:70vh;
        position: relative;
-       width: 95%;
+       width: 100%;
        height: 0;
     } 
 
     .height-googlemaps {
         height: 85vh;
         overflow: hidden;
+    }
+
+      .picture-klinik {
+         max-width: 100%;
     }
 
     .Page-height-laptop-desktop-corr-footer {
