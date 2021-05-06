@@ -165,10 +165,6 @@ div.col, div.col-md-9 { /* to get a col without padding for shadow groath on pic
     height: 75%;
 } 
 
-.picture-klinik {
-    max-width: 100%;
-}
-
 /* thanks to https://blog.duda.co/responsive-google-maps-for-your-website */
 .map-responsive {  
     overflow: hidden;
@@ -269,6 +265,18 @@ ul.social-media-links li:hover {
 @media screen and (max-width: 767px) {
     .smdevice-margin-pict-klinik{
        margin-top: 10vh;
+       margin-right: 15px;
+       margin-left: 15px;
+    }
+
+    .header-box { /*under 767px title text Holiday Dialysis will be displayed under fading carousel, not in carousel*/
+        all: unset;
+    }
+
+   .header-text {
+       font-size: 25px;
+       font-weight: 400;
+       transform: translate3D(0, -4px, 0); 
     }
 }
 
@@ -301,16 +309,6 @@ ul.social-media-links li:hover {
         margin-top: 5rem;
     } 
 
-    .header-box {
-        all: unset;
-    }
-
-   .header-text {
-       font-size: 25px;
-       font-weight: 400;
-       transform: translate3D(0, -4px, 0); 
-    }
-
     #carousel-second {
        width: 90%;
        height: 90%;
@@ -319,7 +317,6 @@ ul.social-media-links li:hover {
     .picture-klinik {
        max-width: 100%;
     }
-
 
     .smdevice-sect3-margin-form-adres {
        margin-top: 12vh;
@@ -349,7 +346,35 @@ ul.social-media-links li:hover {
        font-weight: 400;
     }
 
-    .bring-shadow:hover {
+   #carousel-second {
+       width: 80%;
+       height: 80%;
+    } 
+
+    .picture-klinik {
+        max-width: 100%;
+    }
+
+    .map-responsive {  
+       overflow: hidden;
+       padding-bottom:70vh;
+       position: relative;
+       width: 100%;
+       height: 0;
+    } 
+
+    .height-googlemaps {
+       height: 85vh;
+       overflow: hidden;
+    }
+
+    .Page-height-laptop-desktop-corr-footer {
+        height: 80vh;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+ .bring-shadow:hover {
         transform: translateY(-10px) scale(1.07);
     }
 
@@ -377,32 +402,6 @@ ul.social-media-links li:hover {
 
     .title-hover:hover {
        transform: translateY(-5px) scale(1.01);
-    }
-
-   #carousel-second {
-       width: 80%;
-       height: 80%;
-    } 
-
-    .picture-klinik {
-        max-width: 100%;
-    }
-
-    .map-responsive {  
-       overflow: hidden;
-       padding-bottom:70vh;
-       position: relative;
-       width: 100%;
-       height: 0;
-    } 
-
-    .height-googlemaps {
-       height: 85vh;
-       overflow: hidden;
-    }
-
-    .Page-height-laptop-desktop-corr-footer {
-        height: 80vh;
     }
 }
 

@@ -194,7 +194,7 @@
       <div class="col-md-6 smdevice-margin-pict-klinik "> <!--2th page: right part of about page -->
         <div class="row">
           <div class="col-md-9 mx-auto bring-shadow shadow-hover"> <!--2th page: nested col to control picture -->
-            <img class="picture-klinik w-100" src="https://i.ibb.co/DKxPFJs/Dialyse-Klinik-Better.jpg" alt="Dialyse-Klinik">
+            <img class="w-100" src="https://i.ibb.co/DKxPFJs/Dialyse-Klinik-Better.jpg" alt="Dialyse-Klinik">
           </div>
         </div>
         <div class="row">
@@ -352,14 +352,13 @@
         </div> 
       </div>
     </div>
-  </footer><!--hide english text, load dutch text -->
-
-   <!-- inspired from: https://stackoverflow.com/questions/46008760/how-to-build-multiple-language-website-using-pure-html-js-jquery
+  </footer>
+  
+   <!-- functions: --hide english text, load dutch text 
+   inspired from: https://stackoverflow.com/questions/46008760/how-to-build-multiple-language-website-using-pure-html-js-jquery
    I did'nt realy use this website, I read about "display none". I used that idea already in the 5 day challenge, were I used
-   some Javascript to hide foto's. Now I use it to hide dual language textby next functions -->
-
+   some Javascript to hide foto's. Now I use it to hide dual language text by next functions -->
   <script>
-     /*--hide english text, load dutch text -->*/
     function loaddutch() { 
       document.getElementById("englishflag").style.display = "none";
       document.getElementById("dutchflag").style.display   = "inline";
