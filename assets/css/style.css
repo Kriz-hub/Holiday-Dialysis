@@ -94,7 +94,7 @@ nav a {
 }
 
 .title-hover {
-  transition: transform 1s ease;
+    transition: transform 1s ease;
 }
 
 #carouselfade {
@@ -148,6 +148,10 @@ nav a {
     transform: translate3D(0, 4px, 0); /*bug in system?, text is slightly too high*/
 }
 
+.extra-line { /*Realy high desktop resolutions need an extra line to get page 2 right and scrollspy*/
+     display: none;
+}
+
 .margin-below-first-carousel {
     margin-top: 5vh
 }
@@ -188,24 +192,24 @@ footer {
 }
 
 .social-media-links {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 ul.social-media-links li {
-  list-style: none;
-  padding: 10px;
-  margin: 0 10px;
+    list-style: none;
+    padding: 10px;
+    margin: 0 10px;
 }
 
 ul.social-media-links li:hover {
-  background-color: #FFFFFF44;
+    background-color: #FFFFFF44;
 }
 
 .social-media {
-  color: #E9E7E3;
+    color: #E9E7E3;
 }
 
 @media screen and (max-width: 340px) {
@@ -231,10 +235,10 @@ ul.social-media-links li:hover {
     }
 
     .btn-primary.custom-btn:hover {
-        padding-top: 0;
-        padding-bottom: 0;
- 	    background-color:#FFFFFF44;
-     	border-color: #FFFFFF44;   
+       padding-top: 0;
+       padding-bottom: 0;
+ 	   background-color:#FFFFFF44;
+     border-color: #FFFFFF44;   
     }
 
    .flag-container{
@@ -272,23 +276,23 @@ ul.social-media-links li:hover {
     } 
 
     nav ul {
-      justify-content: center;
-      margin-right: 15px;
+       justify-content: center;
+       margin-right: 15px;
     }
 
     nav li {
-      padding-top: 0;
-      padding-bottom: 0;
-      margin-top: 5px;
-      margin-bottom: 5px;
+       padding-top: 0;
+       padding-bottom: 0;
+       margin-top: 5px;
+       margin-bottom: 5px;
     }
 
 	.carousel-start {
-      margin-top: 5rem;
+        margin-top: 5rem;
     } 
 
     .header-box {
-      all: unset;
+        all: unset;
     }
 
    .header-text {
@@ -354,15 +358,15 @@ ul.social-media-links li:hover {
     }
 
     .shadow-hover:hover::after {
-        opacity: 1;
+       opacity: 1;
     }
 
     .bring-shadow-google:hover {
-        transform: translateY(-10px) scale(1.02);
+       transform: translateY(-10px) scale(1.02);
     }
 
     .title-hover:hover {
-        transform: translateY(-5px) scale(1.01);
+       transform: translateY(-5px) scale(1.01);
     }
 
    #carousel-second {
@@ -379,28 +383,34 @@ ul.social-media-links li:hover {
     } 
 
     .height-googlemaps {
-        height: 85vh;
-        overflow: hidden;
+       height: 85vh;
+       overflow: hidden;
     }
 
-      .picture-klinik {
-         max-width: 100%;
+    .picture-klinik {
+        max-width: 100%;
     }
 
     .Page-height-laptop-desktop-corr-footer {
-       height: 80vh;
+        height: 80vh;
     }
 }
 
 @media screen and (min-width: 1400px) {
-    .body-bg {
-       font-size: 19px;
-   }
-
-    #carousel-second {
-       width: 85%;
-       height: 85%;
-    } 
+    .h3-bigscreen {font-size: 30px;}
+    .h4-bigscreen {font-size: 28px;}
 }
 
+@media screen and (min-width: 1800px) {
+   .logo {
+      font-family: 'Roboto', sans-serif;
+      font-size: 30px;
+      font-weight: 300;
+      Padding: 10px;
+      margin-top: 2px;
+   }
 
+   .extra-line {
+      display: inline;
+    }
+}
