@@ -39,12 +39,9 @@ The pictures of the carousel blowed me away, I decided from that moment my front
 
 ## The start
 On start I thought to make a website based on one big background picture of the rural area with a big title and subtitle, all to create that holiday dialyse feeling.
-With scrolling the information moves over te background picture. The technique was inspired from this idea: https://valentina-b.github.io/par-excellance-restaurant/. 
-Than other pictures of specific dialyse treatment should appear in a carousel after some scrolling.
+With scrolling the information moves over te background picture. Than other pictures of specific dialyse treatment should appear in a carousel after some scrolling. The technique was inspired from this idea: https://valentina-b.github.io/par-excellance-restaurant/. 
 
-In that first stage the mentor advised to use smaller pictures and add more text, because the purpose of the website (atract guests who wants to book dialyse treatments) wasn't clear enough. Also he advised to use a Google Map image for a better understanding where the center is situated.
-
-The remain of this original idea is only the opacity effect of the line under "Holiday Dialysis".
+In that first stage the mentor advised me to use smaller pictures and add more text, because the purpose of the website (atract guests who wants to book dialyse treatments) wasn't clear enough. Also he advised to use a Google Map image for a better understanding where the center is situated. So my idea at the beginning changed a lot, see also the "Skeleton Section" for that change.
 
 ## Structure
 #### Section1
