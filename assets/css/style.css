@@ -6,7 +6,6 @@ html {
 
 .body-bg {
     background: #E9E7E3;
-    background: #3C4A44;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 300;
@@ -14,7 +13,7 @@ html {
 
 .fixed-top-bar-bg {
     color: #E9E7E3;
-    background: #3C4A44;
+    background: rgb(44, 56, 51);
 }
 
 .logo {
@@ -189,7 +188,7 @@ div.col, div.col-md-9 { /* to get a col without padding for shadow groath on pic
 footer {
     /*margin-top: 5vh;*/
     color: #E9E7E3;
-    background: #3C4A44;
+    background: rgb(44, 56, 51);
 }
 
 .social-media-links {
