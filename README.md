@@ -3,7 +3,7 @@
 
 This project is a one page website about a Dialysis Center in the middle of The Netherlands. They offer a dialysis treatment for people who suffer from kidney failure and are open for guests who are on holiday. This is a made up center in the small city of Harderwijk, but actually I work in a real dialysis center in that place. It is also a satelite center of the big one in Amersfoort, 30km from Harderwijk. Important: this project is meant for the post-corona era, off course the situation will become better the comming months and certainly in 2022.
 
-For a demo of my Holiday Dialysis website click [HERE](https://kriz-hub.github.io/Holiday-Dialysis/).
+For a demo of my Holiday Dialysis Website click [HERE](https://kriz-hub.github.io/Holiday-Dialysis/).
 
 ![Desktop Demo](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/Animatie.gif)
 
@@ -64,7 +64,7 @@ In that first stage the mentor advised me to use smaller pictures and add more t
 #### Footer
 On the left 2 icons appear with Facebook and Twitter, on the right a copyright mark appears. Facebook and Twitter is enough for this site. Hospitals aren't that much into social media.
 
-#### Shadow, Hover animation and shadow animation effect during hover
+#### Shadow, Hover Animation and Shadow Animation Effect during hover
 To give this webpage a finishing feel, I have put a shadow effect on the images, carousels and google map. Then I added a transition effect after hovering as well, but only for laptop en desktop devices because it appears not really to be that cool for a small device. I discovered that the animation effect on the fading carousel didn't work. The reason must have been it's relative position, because of the title "Holiday Dialysis" absolute position in it. I saw it wasn't really necessary for the title's position, so I removed the "relative position line". The title kept on the same place because the body itself is also relative, so that change worked succesfully also with a good hovering now.
 
 To get this project really finished I added shadow animation on the hovering animation. (Increase of shadow during transition animation of carousel or picture) I saw an interesting youtube to do it in a way to keep the rendering significant lower, which is good for older devices, see Acknowledgements. The trick is to animate opacity instead of animating shadow size.
