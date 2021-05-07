@@ -76,7 +76,7 @@ The wireframe was made in Balsamiq. At first i Hadn't an idea of responsive desi
 * [Section2: About](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/OldWireframes/Wireframe%202.png )
 * [Section3: Contact](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/OldWireframes/Wireframe%203.png)
 
-Later it evolved to a greater and responsive idea :
+Later it evolved to a responsive idea :
 * laptop/desktop:
   * [Section1: Home](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/section%201%2C%20home.jpg)
   * [Section2: About](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/section%202%2C%20about.jpg)
@@ -110,7 +110,7 @@ The behaviour of the scroll-spy is somewhat pour, I was forced to add some empty
 
 ##bugs
 * I found out that the landscape view of a tablet also have shadow hovering. I wanted that only to be for laptop an desktop. It's not that important, I leave it that way.
-* I didn't get that shadow hovering working for google map, but it's initial shadow effect remains as well. Therefore I leave it that way, it's not that notable.
+* I didn't get that shadow hovering working well for google map, but it's initial shadow effect remains as well. Therefore I leave it that way, It don't seems to be that noticable.
 
 ## Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html`.
