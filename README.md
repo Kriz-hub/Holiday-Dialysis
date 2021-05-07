@@ -72,7 +72,7 @@ To get this project really finished I added shadow animation on the hovering ani
 All titles also have some hover transition on it. For the smaller devices only icons and navigation have a hovering effect. 
 
 ## Skeleton
-The wireframe was made in [Balsamiq](https://balsamiq.com/). My only thoughts first was to get it right on my laptop. I hadn't much of an idea how to get it on smaller devices. This were the early wireframes: 
+The wireframe was made in [Balsamiq](https://balsamiq.com/). My only thought first was to get it right on my laptop. I hadn't much of an idea how to get it on smaller devices. This were the early wireframes: 
 * [Section1: Home](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/OldWireframes/Wireframe%201.png)
 * [Section2: About](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/OldWireframes/Wireframe%202.png )
 * [Section3: Contact](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/OldWireframes/Wireframe%203.png)
