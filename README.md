@@ -49,7 +49,7 @@ The remain of this original idea is only the opacity effect of the line under "H
 * The homepage features a responsive navigationbar on the right and a logo on the left top, this bar is fixed. On mobile screens left en right side will split en become centered   in top of each order.
   The navigationbar has also a language button. With javascript and display=none and display=inline, the right language appear in front without loading the whole page.
 * Below that is a fading carousel as the hero image. I didn't want to add control buttons to swap the images by hand, just images with a fading effect to each, for designing purposes as the reason.
-  In that fading carousel a title "Holiday Dialysis" appears with a linear-gradient background directly beneath that text.
+  In that fading carousel a title "Holiday Dialysis" appears with a linear-gradient background directly underneath the text.
   In smaller devices the title becomes too big according to the pictures of the carousel, therefore the title emerges down the pictures in mobiles.
 * Below are 2 columns of text. They appear down each other on a mobile device.
 
@@ -63,7 +63,8 @@ The remain of this original idea is only the opacity effect of the line under "H
 * On a mobile device everything appears below each other.
 
 #### Shadow, hover and transition effect after hover
-To give this webpage a finishing feel, I have put a shadow effect on the images, carousels and google map. Then I added a transition effect after hovering as well, but only for laptop en desktop devices because it appears not really to be that cool for a small device. I discovered that the hovering of the fading carousel didn't work. The reason must have been it's relative position, because of the title "Holiday Dialysis" absolute position in it. I saw it wasn't really necessary for the title's position, so I removed the "relative position line". The title kept on the same place because the body itself is also relative. Also all titles have also some transition on it. For alle devices icons and navigation have a hovering effect. 
+To give this webpage a finishing feel, I have put a shadow effect on the images, carousels and google map. Then I added a transition effect after hovering as well, but only for laptop en desktop devices because it appears not really to be that cool for a small device. I discovered that the hovering of the fading carousel didn't work. The reason must have been it's relative position, because of the title "Holiday Dialysis" absolute position in it. I saw it wasn't really necessary for the title's position, so I removed the "relative position line". The title kept on the same place because the body itself is also relative. 
+Also all titles have also some transition on it. For alle devices icons and navigation have a hovering effect. 
 To get it really finished I brought an increase of shadow in after hovering. I saw an interesting youtube to do it on a way to keep the rendering significant lower, good for older devices, see Acknowledgements. The trick is animate opacity instead of animating shadow size.
 
 #### Footer
@@ -148,7 +149,7 @@ Twitter and Facobook icons, thanks to www.fontawesome.com
 Pictures of city Harderwijk and biking in forest area: https://biketourharderwijk.nl/
 Pictures of dears and horses: www.pexels.com
 Picture for dialysys center: https://www.dialysecentrumravenstein.nl/
-Pictures of nurse and patient:
+Pictures of nurse and patient: https://thumbs.dreamstime.com
 Picture of 2 working dialyse machines:
 
 
