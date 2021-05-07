@@ -70,7 +70,7 @@ To get it really finished I brought an increase of shadow in after hovering. I s
 * On the left 2 icons appear with Facebook and Twitter, on the right a copyright mark appears. Facebook and Twitter is enough for this site. Hospitals aren't that much into social media.
 
 ## Skeleton
-The wireframe was made in Balsamiq. At first i Hadn't an idea of responsive design, I only thought how to get it right on my lap top. Therefore I couldn't make wireframes for tablet or smartphone. This were the early wireframes: 
+The wireframe was made in Balsamiq. At first I hadn't an idea how to make a responsive design, my only thoughts in the beginning was to get it right on my lap top. Therefore I couldn't make wireframes for tablet or smartphone. This were the early wireframes: 
 * [Section1: Home](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/OldWireframes/Wireframe%201.png)
 * [Section2: About](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/OldWireframes/Wireframe%202.png )
 * [Section3: Contact](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/OldWireframes/Wireframe%203.png)
@@ -94,9 +94,9 @@ Later it evolved to a responsive idea :
 4. Javascript
 
 ## Features
-The user can click on Home, About and Contact to go to Section1, Section2, of Section3.
+The user can click on Home, About and Contact for going to Section 1,  Section 2 or Section 3.
 By clicking on the flag image he can choose the language he prefers. Also he can navigate to the sections by just scrolling.
-At Section3 the user can fill in a form to send his phone numer, emailadress or comments, than he can be contacted back.
+At Section 3 the user can fill in a form to send his phone number, email adress or comments, than he can be contacted back.
 In the footer section he can click on the icon links.
 
 ## Features left to implement
@@ -115,7 +115,6 @@ The behaviour of the scroll-spy is somewhat pour, I was forced to add some empty
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html`.
 
 To run locally, you can clone this repository directly into the editor of your choice by pasting `git clone https://github.com/` into your terminal. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
-
 
 ## Credits
 
