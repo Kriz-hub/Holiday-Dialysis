@@ -59,18 +59,18 @@ In that first stage the mentor advised me to use smaller pictures and add more t
 * On tablet devices it breaks into a googlemap area with underneath a form and picture with adress on the left and right side. It is made possible by using a nested bootstrap Col element.
 * On a mobile device everything appears below each other.
 
+#### Footer
+On the left 2 icons appear with Facebook and Twitter, on the right a copyright mark appears. Facebook and Twitter is enough for this site. Hospitals aren't that much into social media.
+
 #### Shadow, hover and transition effect after hover
 To give this webpage a finishing feel, I have put a shadow effect on the images, carousels and google map. Then I added a transition effect after hovering as well, but only for laptop en desktop devices because it appears not really to be that cool for a small device. I discovered that the hovering of the fading carousel didn't work. The reason must have been it's relative position, because of the title "Holiday Dialysis" absolute position in it. I saw it wasn't really necessary for the title's position, so I removed the "relative position line". The title kept on the same place because the body itself is also relative, so that change worked succesfully also with a good hovering now.
 
 All titles have also some hover transition on it. For the smaller devices only icons and navigation have a hovering effect. 
 
-To get this project really finished I added shadow hovering. I saw an interesting youtube to do it on a way to keep the rendering significant lower which is good for older devices, see Acknowledgements. The trick is to animate opacity instead of animating shadow size.
-
-#### Footer
-On the left 2 icons appear with Facebook and Twitter, on the right a copyright mark appears. Facebook and Twitter is enough for this site. Hospitals aren't that much into social media.
+To get this project really finished I added shadow hovering. I saw an interesting youtube to do it in a way to keep the rendering significant lower which is good for older devices, see Acknowledgements. The trick is to animate opacity instead of animating shadow size.
 
 ## Skeleton
-The wireframe was made in Balsamiq. At first I hadn't an idea how to make a responsive design, my only thoughts in the beginning was to get it right on my lap top. Therefore I couldn't make wireframes for tablet or smartphone. This were the early wireframes: 
+The wireframe was made in [Balsamiq]https://balsamiq.com/. At first I hadn't an idea how to make a responsive design, my only thoughts in the beginning was to get it right on my lap top. Therefore I couldn't make wireframes for tablet or smartphone. This were the early wireframes: 
 * [Section1: Home](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/OldWireframes/Wireframe%201.png)
 * [Section2: About](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/OldWireframes/Wireframe%202.png )
 * [Section3: Contact](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/OldWireframes/Wireframe%203.png)
