@@ -51,25 +51,26 @@ The About section gives more information about he center. De contact page gives 
 ###Section1
 * The homepage features a responsive navigationbar on the right and a logo on the left top, this bar is fixed. On mobile screens left en right side will split en become centered   in top of each order.
   The navigationbar has also a language button. With javascript and display=none and display=inline, the right language appear in front without loading the whole page.
-* Below that is a fading carousel as the hero image. I didn't want to add control buttons to swap the images by hand, just images with a fading effect to each, for designing purposes.
-  In that fading carousel a title "Holiday Dialysis" appears with a linear-gradient background directly under that text.
+* Below that is a fading carousel as the hero image. I didn't want to add control buttons to swap the images by hand, just images with a fading effect to each, for designing purposes as the reason.
+  In that fading carousel a title "Holiday Dialysis" appears with a linear-gradient background directly beneath that text.
   In smaller devices the title becomes too big according to the pictures of the carousel, therefore the title emerges down the pictures in mobiles.
 * Below are 2 columns of text. They appear down each other on a mobile device.
 
 ###Section2
-* In section 2 a second, normal carousel appears with some dialyse pictures. It is attached to the text column underneath. On the right there is a picture of the fantasy dialyse   center, also attached to the unordered list underneath. 
+* In section 2 a second, normal, carousel appears with some dialyse pictures. It is attached to the text column underneath. On the right there is a picture of the fantasy dialyse center, also attached to the unordered list underneath. 
 * On mobile devices it wil appear below each other.
 
 ###Section3
 * In desktop-devices section 3 appears as 3 column area. On the left side there's Google Map Iframe, the middle a form, and to the right a picture with adress.
-* On tablet devices it breaks into a googlemap area with underneath a form and picture with adress on the left and right side. It is made possible by using a nested bootstrap Col element
+* On tablet devices it breaks into a googlemap area with underneath a form and picture with adress on the left and right side. It is made possible by using a nested bootstrap Col element.
 * On a mobile device everything appears below each other.
 
 ### Shadow, hover and transition effect after hover
-To give this webpage a finishing feel, I have put a shadoweffect on the images, carousels and google map. Then I added a transition effect after hovering as wel, but only for laptop en desktop devices because it appears not realy to be cool for a small device. I discovered that the fading carousel didn't want to hover. The reason must have been it's relative position, because of the title "Holiday Dialysis" absolute position in it. I saw it wasn't really necaserry for the title's position, so I removed the "relative position line", that works because the body itself is also relative. All titles have also some transition on it. For alle devices icons and navigation have a hovering effect. 
+To give this webpage a finishing feel, I have put a shadow effect on the images, carousels and google map. Then I added a transition effect after hovering as well, but only for laptop en desktop devices because it appears not really to be that cool for a small device. I discovered that the hovering of the fading carousel didn't work. The reason must have been it's relative position, because of the title "Holiday Dialysis" absolute position in it. I saw it wasn't really necessary for the title's position, so I removed the "relative position line". The title kept on the same place because the body itself is also relative. Also all titles have also some transition on it. For alle devices icons and navigation have a hovering effect. 
+To get it really finished I brought an increase of shadow in after hovering. I saw an interesting youtube to do it to keep the rendering significant lower so
 
 ###footer
-* On the left 2 icons appear with Facebook and Twitter, on the right a copyright mark appears. 2 Social media links are enough for this site. A hospital isn't that much into social media.
+* On the left 2 icons appear with Facebook and Twitter, on the right a copyright mark appears. 2 Social media links are enough for this site. Hospitals aren't that much into social media.
 
 ##Technologies
 1. HTML
