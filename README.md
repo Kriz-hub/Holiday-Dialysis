@@ -35,12 +35,12 @@ The third is better but the red menu kills the view of the picture. It should ha
 The fourth isn't bad, but the sea view looks dead with an image wich almost lost his color, They could do better with a carousel view in my opnion.
 The last one is very good.
 
-But the real inspiration came when I saw this bike site:(https://biketourharderwijk.nl/) (not even a dialysis site)
+But the real inspiration came when I saw this bike site: https://biketourharderwijk.nl/ (not even a dialysis site)
 The pictures of the carousel blowed me away, I decided from that moment my front page of the project must be a carousel in a rectangle format.
 
 ## The start
 On start I thought to make a website based on one big background picture of the rural area with a big title and subtitle, all to create that holiday dialyse feeling.
-With scrolling the information moves over te background picture. The technique was inspired from this idea: (https://valentina-b.github.io/par-excellance-restaurant/). 
+With scrolling the information moves over te background picture. The technique was inspired from this idea: https://valentina-b.github.io/par-excellance-restaurant/. 
 Than other pictures of specific dialyse treatment should appear in a carousel after some scrolling.
 In that first stage the mentor advised to use smaller pictures and add more text, because the purpose of the website (atract guests who wants to book dialyse treatments) wasn't clear enough. Also he advised to use a Google Map image for a better understanding where the center is situated.
 
@@ -67,15 +67,15 @@ The About section gives more information about he center. De contact page gives 
 
 ### Shadow, hover and transition effect after hover
 To give this webpage a finishing feel, I have put a shadow effect on the images, carousels and google map. Then I added a transition effect after hovering as well, but only for laptop en desktop devices because it appears not really to be that cool for a small device. I discovered that the hovering of the fading carousel didn't work. The reason must have been it's relative position, because of the title "Holiday Dialysis" absolute position in it. I saw it wasn't really necessary for the title's position, so I removed the "relative position line". The title kept on the same place because the body itself is also relative. Also all titles have also some transition on it. For alle devices icons and navigation have a hovering effect. 
-To get it really finished I brought an increase of shadow in after hovering. I saw an interesting youtube to do it to keep the rendering significant lower so
+To get it really finished I brought an increase of shadow in after hovering. I saw an interesting youtube to do it on a way to keep the rendering significant lower, good for older devices, see Acknowledgements. The trick is animate opacity instead of animating shadow size.
 
 ###footer
-* On the left 2 icons appear with Facebook and Twitter, on the right a copyright mark appears. 2 Social media links are enough for this site. Hospitals aren't that much into social media.
+* On the left 2 icons appear with Facebook and Twitter, on the right a copyright mark appears. Facebook and Twitter is enough for this site. Hospitals aren't that much into social media.
 
 ##Technologies
 1. HTML
 2. CSS
-3. Bootstrap
+3. Bootstrap version 4.0.0
 4. Javascript
 
 ##Features
@@ -102,8 +102,43 @@ Some were taken from [Pexels](https://www.pexels.com/), a stock image library, w
 
 ### Acknowledgements
 
+To get af flag image into a button and customizing it: https://stackoverflow.com/questions/49184471/how-to-change-bootstrap-version-4-button-color 
+Creating a feading carousel on section1:  https://silvawebdesigns.com/how-to-change-the-bootstrap-4-carousel-to-a-fade-transition-instead-of-slide/
+To get a normal carousel on section2:  https://getbootstrap.com/docs/4.0/components/carousel/ 
 
-The media query for the collapsed navbar regardless of viewport width was taken from this [site](https://www.codeply.com/go/iaM1zcNsQB/bootstrap-navbar-always-collapsed).
+To get a responsive google maps thanks to: https://blog.duda.co/responsive-google-maps-for-your-website 
+Form, thanks to bootstrap: https://getbootstrap.com/docs/4.1/components/forms/
+
+Inspiration to get a multi language page working:
+https://stackoverflow.com/questions/46008760/how-to-build-multiple-language-website-using-pure-html-js-jquery
+I read about "display:none". That reminded me to my own litle project "5 days of coding challenge", where I used it to hide pictures. Now I used that idea to make a multi
+language site without the need to load the whole website again when changing language. (And to prevent coding from repeating because the other way is make 2 different pages.)
+
+Shadow on Carousel and images:  https://www.w3schools.com/css/css3_shadows_box.asp*/
+
+Youtube of Kevin Powel: https://www.youtube.com/watch?v=u6Rur7G8HNY&t=408s
+Animate shadow opacity instead of animating shadow size.
+
+Twitter and Facobook icons, thanks to www.fontawesome.com
+
+Pictures of city Harderwijk and biking in forest area: https://biketourharderwijk.nl/
+Pictures of dears and horses: www.pexels.com
+Picture for dialysys center: https://www.dialysecentrumravenstein.nl/
+Pictures of nurse and patient:
+Picture of 2 working dialyse machines:
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
