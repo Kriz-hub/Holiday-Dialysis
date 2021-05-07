@@ -41,14 +41,18 @@ The pictures of the carousel blowed me away, I decided from that moment my front
 On start I thought to make a website based on one big background picture of the rural area with a big title and subtitle, all to create that holiday dialyse feeling.
 With scrolling the information moves over te background picture. The technique was inspired from this idea: https://valentina-b.github.io/par-excellance-restaurant/. 
 Than other pictures of specific dialyse treatment should appear in a carousel after some scrolling.
+
 In that first stage the mentor advised to use smaller pictures and add more text, because the purpose of the website (atract guests who wants to book dialyse treatments) wasn't clear enough. Also he advised to use a Google Map image for a better understanding where the center is situated.
+
 The remain of this original idea is only the opacity effect of the line under "Holiday Dialysis".
 
 ## Structure
 #### Section1
 * The homepage features a responsive navigationbar on the right and a logo on the left top, this bar is fixed. On mobile screens left en right side will split en become centered   in top of each order.
+ 
   The navigationbar has also a language button. With javascript and display=none and display=inline, the right language appear in front without loading the whole page.
 * Below that is a fading carousel as the hero image. I didn't want to add control buttons to swap the images by hand, just images with a fading effect to each, for designing purposes as the reason.
+
   In that fading carousel a title "Holiday Dialysis" appears with a linear-gradient background directly underneath the text.
   In smaller devices the title becomes too big according to the pictures of the carousel, therefore the title emerges down the pictures in mobiles.
 * Below are 2 columns of text. They appear down each other on a mobile device.
@@ -64,7 +68,9 @@ The remain of this original idea is only the opacity effect of the line under "H
 
 #### Shadow, hover and transition effect after hover
 To give this webpage a finishing feel, I have put a shadow effect on the images, carousels and google map. Then I added a transition effect after hovering as well, but only for laptop en desktop devices because it appears not really to be that cool for a small device. I discovered that the hovering of the fading carousel didn't work. The reason must have been it's relative position, because of the title "Holiday Dialysis" absolute position in it. I saw it wasn't really necessary for the title's position, so I removed the "relative position line". The title kept on the same place because the body itself is also relative. 
+
 Also all titles have also some transition on it. For alle devices icons and navigation have a hovering effect. 
+
 To get it really finished I brought an increase of shadow in after hovering. I saw an interesting youtube to do it on a way to keep the rendering significant lower, good for older devices, see Acknowledgements. The trick is animate opacity instead of animating shadow size.
 
 #### Footer
@@ -118,39 +124,31 @@ This site is hosted using GitHub pages, deployed directly from the master branch
 To run locally, you can clone this repository directly into the editor of your choice by pasting `git clone https://github.com/` into your terminal. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
 
 ## Credits
-
-## Content
-All content in the 
-
-## Media
-Some were taken from [Pexels](https://www.pexels.com/), a stock image library, with the exception of the photo of myself in the background of the 'about me/À Propos' section in the desktop view. A greyscale filter was applied to each one prior to upload to preserve the greyscale theme. 
+* All content in the CSS-section and the Index.HTML is written by myself.
+* Twitter and Facobook icons, thanks to www.fontawesome.com
+* Pictures of "ity Harderwijk" and "biking in forest area": https://biketourharderwijk.nl/
+* Pictures of "dears" and "horses": www.pexels.com
+* Picture for dialysys center: https://www.dialysecentrumravenstein.nl/
+* Pictures of nurse and patient: https://thumbs.dreamstime.com
+* Picture of 2 working dialyse machines:
 
 ## Acknowledgements
 
-To get af flag image into a button and customizing it: https://stackoverflow.com/questions/49184471/how-to-change-bootstrap-version-4-button-color 
-Creating a feading carousel on section1:  https://silvawebdesigns.com/how-to-change-the-bootstrap-4-carousel-to-a-fade-transition-instead-of-slide/
-To get a normal carousel on section2:  https://getbootstrap.com/docs/4.0/components/carousel/ 
+* To get af flag image into a button and customizing it: https://stackoverflow.com/questions/49184471/how-to-change-bootstrap-version-4-button-color 
+* Creating a feading carousel on section1:  https://silvawebdesigns.com/how-to-change-the-bootstrap-4-carousel-to-a-fade-transition-instead-of-slide/
+* To get a normal carousel on section2:  https://getbootstrap.com/docs/4.0/components/carousel/ 
+* To get a responsive google maps thanks to: https://blog.duda.co/responsive-google-maps-for-your-website 
+* Form, thanks to bootstrap: https://getbootstrap.com/docs/4.1/components/forms/
+* Inspiration to get a multi language page working:
+  https://stackoverflow.com/questions/46008760/how-to-build-multiple-language-website-using-pure-html-js-jquery
+  It's all about hte mentioning "display:none". That reminded me to my own litle project "5 days of coding challenge", where I used it to hide pictures. Now I used that idea to   make a multi language site without the need to load the whole website again when changing language. (And to prevent coding from repeating because the other way is make 2         different pages.)
+* Shadow on Carousel and images:  https://www.w3schools.com/css/css3_shadows_box.asp
+* Youtube of Kevin Powel: https://www.youtube.com/watch?v=u6Rur7G8HNY&t=408s
+  Animate shadow opacity instead of animating shadow size to reduce rendering of processor.
+  
+  I want to thank my mentor M for guiding me through the process and keeping me inspirated.
 
-To get a responsive google maps thanks to: https://blog.duda.co/responsive-google-maps-for-your-website 
-Form, thanks to bootstrap: https://getbootstrap.com/docs/4.1/components/forms/
 
-Inspiration to get a multi language page working:
-https://stackoverflow.com/questions/46008760/how-to-build-multiple-language-website-using-pure-html-js-jquery
-I read about "display:none". That reminded me to my own litle project "5 days of coding challenge", where I used it to hide pictures. Now I used that idea to make a multi
-language site without the need to load the whole website again when changing language. (And to prevent coding from repeating because the other way is make 2 different pages.)
-
-Shadow on Carousel and images:  https://www.w3schools.com/css/css3_shadows_box.asp
-
-Youtube of Kevin Powel: https://www.youtube.com/watch?v=u6Rur7G8HNY&t=408s
-Animate shadow opacity instead of animating shadow size.
-
-Twitter and Facobook icons, thanks to www.fontawesome.com
-
-Pictures of city Harderwijk and biking in forest area: https://biketourharderwijk.nl/
-Pictures of dears and horses: www.pexels.com
-Picture for dialysys center: https://www.dialysecentrumravenstein.nl/
-Pictures of nurse and patient: https://thumbs.dreamstime.com
-Picture of 2 working dialyse machines:
 
 
 
