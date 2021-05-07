@@ -3,6 +3,8 @@
 
 This project is a one page website about a Dialysis Center in the middle of The Netherlands. They offer a dialysis treatment for people who suffer from kidney failure and are open for guests who are on holiday. This is a made up center in the small city of Harderwijk, but actually I work in a real dialysis center in that place. It is also a satelite center of the big one in Amersfoort, 30km from Harderwijk. Important: this project is meant for the post-corona era, off course the situation will become better the comming months and certainly in 2022.
 
+For a demo of my Holiday Dialysis website click [HERE](https://kriz-hub.github.io/Holiday-Dialysis/).
+
 ![Desktop Demo](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/Animatie.gif)
 
 ## UX
@@ -95,7 +97,7 @@ Later it evolved to a responsive idea :
 
 ## Features
 The user can click on Home, About and Contact for going to Section 1,  Section 2 or Section 3.
-By clicking on the flag image he can choose the language he prefers. Also he can navigate to the sections by just scrolling.
+By clicking on the flag image he can choose the language he prefers. Also he can navigate to the sections by just scrolling because all is in one page.
 At Section 3 the user can fill in a form to send his phone number, email adress or comments, than he can be contacted back.
 In the footer section he can click on the icon links.
 
@@ -112,15 +114,23 @@ The behaviour of the scroll-spy is somewhat pour, I was forced to add some empty
 * I didn't get that shadow hovering working well for google map, but it's initial shadow effect remains as well. Therefore I leave it that way, It don't seems to be that noticable.
 
 ## Deployment
-This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html`.
+This project was developed using GitHub.
 
-To run locally, you can clone this repository directly into the editor of your choice by pasting `git clone https://github.com/` into your terminal. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
+I followed the next steps to deploy my page on the GitHub pages:
+
+* Log into GitHub.
+* Select krizhub-Holiday-Dialysis-Website in the repository list.
+* Go to Settings
+* Scroll down to the GitHub Pages section.
+* Select the Master Branch
+* On selecting Master Branch the page is automatically refreshed, the website is deployed.
+* The link can be retrieved to the deployed website.
 
 ## Credits
 * All content in the CSS-section and the index.html is written by myself.
 * Twitter and Facobook icons, thanks to www.fontawesome.com
-* Pictures of "ity Harderwijk" and "biking in forest area": https://biketourharderwijk.nl/
-* Pictures of "dears" and "horses": www.pexels.com
+* Pictures of "City Harderwijk" and "Biking in forest area": https://biketourharderwijk.nl/
+* Pictures of "Dears" and "Horses": www.pexels.com
 * Picture for dialysys center: https://www.dialysecentrumravenstein.nl/
 * Pictures of nurse and patient: https://thumbs.dreamstime.com
 * Picture of 2 working dialyse machines:  https://thumbs.dreamstime.com
