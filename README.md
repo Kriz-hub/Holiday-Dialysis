@@ -60,9 +60,9 @@ In that first stage the mentor advised me to use smaller pictures and add more t
 * On a mobile device everything appears below each other.
 
 #### Shadow, hover and transition effect after hover
-To give this webpage a finishing feel, I have put a shadow effect on the images, carousels and google map. Then I added a transition effect after hovering as well, but only for laptop en desktop devices because it appears not really to be that cool for a small device. I discovered that the hovering of the fading carousel didn't work. The reason must have been it's relative position, because of the title "Holiday Dialysis" absolute position in it. I saw it wasn't really necessary for the title's position, so I removed the "relative position line". The title kept on the same place because the body itself is also relative, so that change worked succesfully also with a good hovering now
+To give this webpage a finishing feel, I have put a shadow effect on the images, carousels and google map. Then I added a transition effect after hovering as well, but only for laptop en desktop devices because it appears not really to be that cool for a small device. I discovered that the hovering of the fading carousel didn't work. The reason must have been it's relative position, because of the title "Holiday Dialysis" absolute position in it. I saw it wasn't really necessary for the title's position, so I removed the "relative position line". The title kept on the same place because the body itself is also relative, so that change worked succesfully also with a good hovering now.
 
-Also all titles have also some transition on it. For alle devices icons and navigation have a hovering effect. 
+All titles have also some hover transition on it. For the smaller devices only icons and navigation have a hovering effect. 
 
 To get it really finished I brought an increase of shadow in after hovering. I saw an interesting youtube to do it on a way to keep the rendering significant lower, good for older devices, see Acknowledgements. The trick is animate opacity instead of animating shadow size.
 
