@@ -64,12 +64,12 @@ In that first stage the mentor advised me to use smaller pictures and add more t
 #### Footer
 On the left 2 icons appear with Facebook and Twitter, on the right a copyright mark appears. Facebook and Twitter is enough for this site. Hospitals aren't that much into social media.
 
-#### Shadow, Hover and: Transition effect after hover
-To give this webpage a finishing feel, I have put a shadow effect on the images, carousels and google map. Then I added a transition effect after hovering as well, but only for laptop en desktop devices because it appears not really to be that cool for a small device. I discovered that the hovering of the fading carousel didn't work. The reason must have been it's relative position, because of the title "Holiday Dialysis" absolute position in it. I saw it wasn't really necessary for the title's position, so I removed the "relative position line". The title kept on the same place because the body itself is also relative, so that change worked succesfully also with a good hovering now.
+#### Shadow, Hover animation and shadow animation effect during hover
+To give this webpage a finishing feel, I have put a shadow effect on the images, carousels and google map. Then I added a transition effect after hovering as well, but only for laptop en desktop devices because it appears not really to be that cool for a small device. I discovered that the animation effect on the fading carousel didn't work. The reason must have been it's relative position, because of the title "Holiday Dialysis" absolute position in it. I saw it wasn't really necessary for the title's position, so I removed the "relative position line". The title kept on the same place because the body itself is also relative, so that change worked succesfully also with a good hovering now.
+
+To get this project really finished I added shadow animation on the hovering animation. (Increase of shadow during transition animation of carousel or picture) I saw an interesting youtube to do it in a way to keep the rendering significant lower, which is good for older devices, see Acknowledgements. The trick is to animate opacity instead of animating shadow size.
 
 All titles have also some hover transition on it. For the smaller devices only icons and navigation have a hovering effect. 
-
-To get this project really finished I added shadow hovering. I saw an interesting youtube to do it in a way to keep the rendering significant lower which is good for older devices, see Acknowledgements. The trick is to animate opacity instead of animating shadow size.
 
 ## Skeleton
 The wireframe was made in [Balsamiq](https://balsamiq.com/). My only thoughts first was to get it right on my laptop. I hadn't much of an idea how to get it on smaller devices. This were the early wireframes: 
