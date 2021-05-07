@@ -86,7 +86,7 @@ Later it evolved to a greater and responsive idea :
           [Section3: Contact](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/tablet%20section%203%2C%20dif%20layout%20as%20desktop.jpg)
 * Smartphone:
   All is showing below each other. Top bar is split in 2 parts:
-  [Link a(https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/smartphone%2C%20a%20%26%20b.jpg), [Link b](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/smartphone%2C%20c%20%26%20d.jpg), [Link c](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/smartphone%2C%20e%20%26%20f.jpg)
+  [Image A](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/smartphone%2C%20a%20%26%20b.jpg), [Image B](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/smartphone%2C%20c%20%26%20d.jpg), [Image C](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/smartphone%2C%20e%20%26%20f.jpg)
 
 ##Technologies
 1. HTML
@@ -105,7 +105,7 @@ The behaviour of the scroll-spy is somewhat pour, I was forced to add some empty
 
 ##Testing
 * The site is tested on a real Samsung S7, Samsung A32 and Samsung A52, on there own browser.
-* also on 2 tablets: Asus Transformer Pad (an old one) Samsung, both on a chrome browser
+* also on 2 tablets: Asus Transformer Pad (an old one) and Lenovo TB-X10AF, both on a chrome browser
 * screens: 1366x768, 1920x1080 on chrome and Edge
 
 ##bugs
