@@ -1,8 +1,7 @@
 # Holiday Dialysis
 Code Institute - Milestone Project 1
 
-This project is a one page website about a Dialysis Center in the middle of The Netherlands. They offer a dialysis treatment for people who suffer from kidney failure and are open for guests who are on holiday. This is a made up center in the small city of Harderwijk, but actually I work in a real dialysis center in that place.It is also a satelite center of the big one in Amersfoort, 30km from Harderwijk. Important: this project is meant for the post-corona era, off course the situation will become better the comming months and certainly in 2022.
-
+This project is a one page website about a Dialysis Center in the middle of The Netherlands. They offer a dialysis treatment for people who suffer from kidney failure and are open for guests who are on holiday. This is a made up center in the small city of Harderwijk, but actually I work in a real dialysis center in that place. It is also a satelite center of the big one in Amersfoort, 30km from Harderwijk. Important: this project is meant for the post-corona era, off course the situation will become better the comming months and certainly in 2022.
 
 ![Desktop Demo](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/Animatie.gif)
 
@@ -20,7 +19,7 @@ Customer goals:
 The kidney patient needs 3 times a week dialysis in his own center, but also wants to have an opportunity to get on holiday.
 He needs to be informed which center he can choose and what they can offer him. So the website must be informing but not too corporate. He is in the mood for holiday and that mood should reflect the website. 
 
-##Research
+## Research
 
 I googled for dutch sites of dialysis centers to get the right feel and if I can learn from it. The websites appears to be not always that great:
 * https://www.meandermc.nl/patientenportaal/patienten/afdelingen-specialismen/Dialyse-Centrum/Dialyse/Vakantiedialyse/
@@ -46,7 +45,7 @@ In that first stage the mentor advised to use smaller pictures and add more text
 The remain of this original idea is only the opacity effect of the line under "Holiday Dialysis".
 
 ## Structure
-### Section1
+#### Section1
 * The homepage features a responsive navigationbar on the right and a logo on the left top, this bar is fixed. On mobile screens left en right side will split en become centered   in top of each order.
   The navigationbar has also a language button. With javascript and display=none and display=inline, the right language appear in front without loading the whole page.
 * Below that is a fading carousel as the hero image. I didn't want to add control buttons to swap the images by hand, just images with a fading effect to each, for designing purposes as the reason.
@@ -54,20 +53,20 @@ The remain of this original idea is only the opacity effect of the line under "H
   In smaller devices the title becomes too big according to the pictures of the carousel, therefore the title emerges down the pictures in mobiles.
 * Below are 2 columns of text. They appear down each other on a mobile device.
 
-### Section2
+#### Section2
 * In section 2 a second, normal, carousel appears with some dialyse pictures. It is attached to the text column underneath. On the right there is a picture of the fantasy dialyse center, also attached to the unordered list underneath. 
 * On mobile devices it wil appear below each other.
 
-### Section3
+#### Section3
 * In desktop-devices section 3 appears as 3 column area. On the left side there's Google Map Iframe, the middle a form, and to the right a picture with adress.
 * On tablet devices it breaks into a googlemap area with underneath a form and picture with adress on the left and right side. It is made possible by using a nested bootstrap Col element.
 * On a mobile device everything appears below each other.
 
-### Shadow, hover and transition effect after hover
+#### Shadow, hover and transition effect after hover
 To give this webpage a finishing feel, I have put a shadow effect on the images, carousels and google map. Then I added a transition effect after hovering as well, but only for laptop en desktop devices because it appears not really to be that cool for a small device. I discovered that the hovering of the fading carousel didn't work. The reason must have been it's relative position, because of the title "Holiday Dialysis" absolute position in it. I saw it wasn't really necessary for the title's position, so I removed the "relative position line". The title kept on the same place because the body itself is also relative. Also all titles have also some transition on it. For alle devices icons and navigation have a hovering effect. 
 To get it really finished I brought an increase of shadow in after hovering. I saw an interesting youtube to do it on a way to keep the rendering significant lower, good for older devices, see Acknowledgements. The trick is animate opacity instead of animating shadow size.
 
-### footer
+#### Footer
 * On the left 2 icons appear with Facebook and Twitter, on the right a copyright mark appears. Facebook and Twitter is enough for this site. Hospitals aren't that much into social media.
 
 ## Skeleton
@@ -108,7 +107,7 @@ The behaviour of the scroll-spy is somewhat pour, I was forced to add some empty
 * also on 2 tablets: Asus Transformer Pad (an old one) and Lenovo TB-X10AF, both on a chrome browser
 * screens: 1366x768, 1920x1080 on chrome and Edge
 
-## bugs
+## Bugs
 * I found out that the landscape view of a tablet also have shadow hovering. I wanted that only to be for laptop an desktop. It's not that important, I leave it that way.
 * I didn't get that shadow hovering working well for google map, but it's initial shadow effect remains as well. Therefore I leave it that way, It don't seems to be that noticable.
 
