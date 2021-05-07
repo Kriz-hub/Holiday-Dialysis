@@ -64,10 +64,10 @@ To give this webpage a finishing feel, I have put a shadow effect on the images,
 
 All titles have also some hover transition on it. For the smaller devices only icons and navigation have a hovering effect. 
 
-To get it really finished I brought an increase of shadow in after hovering. I saw an interesting youtube to do it on a way to keep the rendering significant lower, good for older devices, see Acknowledgements. The trick is animate opacity instead of animating shadow size.
+To get this project really finished I added shadow hovering. I saw an interesting youtube to do it on a way to keep the rendering significant lower which is good for older devices, see Acknowledgements. The trick is to animate opacity instead of animating shadow size.
 
 #### Footer
-* On the left 2 icons appear with Facebook and Twitter, on the right a copyright mark appears. Facebook and Twitter is enough for this site. Hospitals aren't that much into social media.
+On the left 2 icons appear with Facebook and Twitter, on the right a copyright mark appears. Facebook and Twitter is enough for this site. Hospitals aren't that much into social media.
 
 ## Skeleton
 The wireframe was made in Balsamiq. At first I hadn't an idea how to make a responsive design, my only thoughts in the beginning was to get it right on my lap top. Therefore I couldn't make wireframes for tablet or smartphone. This were the early wireframes: 
