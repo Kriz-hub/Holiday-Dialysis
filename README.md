@@ -85,10 +85,8 @@ Later it evolved to a greater and responsive idea :
           when it is on "portrait view" section3 is ordered on a slightly different way with google maps on top:
           [Section3: Contact](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/tablet%20section%203%2C%20dif%20layout%20as%20desktop.jpg)
 * Smartphone:
-  All is showing below each other, Top bar is split in 2 parts:
-  * [Section1: Home](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/smartphone%2C%20a%20%26%20b.jpg)
-  * [Section2: About](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/smartphone%2C%20c%20%26%20d.jpg)
-  * [Section3: Contact](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/smartphone%2C%20e%20%26%20f.jpg)
+  All is showing below each other. Top bar is split in 2 parts:
+  [Link a(https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/smartphone%2C%20a%20%26%20b.jpg), [Link b](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/smartphone%2C%20c%20%26%20d.jpg), [Link c](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/smartphone%2C%20e%20%26%20f.jpg)
 
 ##Technologies
 1. HTML
