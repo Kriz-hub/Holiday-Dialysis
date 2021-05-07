@@ -64,7 +64,7 @@ In that first stage the mentor advised me to use smaller pictures and add more t
 #### Footer
 On the left 2 icons appear with Facebook and Twitter, on the right a copyright mark appears. Facebook and Twitter is enough for this site. Hospitals aren't that much into social media.
 
-#### Shadow, hover and transition effect after hover
+#### Shadow, Hover and: Transition effect after hover
 To give this webpage a finishing feel, I have put a shadow effect on the images, carousels and google map. Then I added a transition effect after hovering as well, but only for laptop en desktop devices because it appears not really to be that cool for a small device. I discovered that the hovering of the fading carousel didn't work. The reason must have been it's relative position, because of the title "Holiday Dialysis" absolute position in it. I saw it wasn't really necessary for the title's position, so I removed the "relative position line". The title kept on the same place because the body itself is also relative, so that change worked succesfully also with a good hovering now.
 
 All titles have also some hover transition on it. For the smaller devices only icons and navigation have a hovering effect. 
