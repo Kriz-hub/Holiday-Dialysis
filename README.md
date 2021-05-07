@@ -70,7 +70,7 @@ All titles have also some hover transition on it. For the smaller devices only i
 To get this project really finished I added shadow hovering. I saw an interesting youtube to do it in a way to keep the rendering significant lower which is good for older devices, see Acknowledgements. The trick is to animate opacity instead of animating shadow size.
 
 ## Skeleton
-The wireframe was made in ![Balsamiq]https://balsamiq.com/. My only thoughts first was to get it right on my laptop. I hadn't much of an idea how to get it on smaller devices. This were the early wireframes: 
+The wireframe was made in [Balsamiq](https://balsamiq.com/). My only thoughts first was to get it right on my laptop. I hadn't much of an idea how to get it on smaller devices. This were the early wireframes: 
 * [Section1: Home](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/OldWireframes/Wireframe%201.png)
 * [Section2: About](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/OldWireframes/Wireframe%202.png )
 * [Section3: Contact](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/OldWireframes/Wireframe%203.png)
