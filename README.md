@@ -43,9 +43,7 @@ On start I thought to make a website based on one big background picture of the 
 With scrolling the information moves over te background picture. The technique was inspired from this idea: https://valentina-b.github.io/par-excellance-restaurant/. 
 Than other pictures of specific dialyse treatment should appear in a carousel after some scrolling.
 In that first stage the mentor advised to use smaller pictures and add more text, because the purpose of the website (atract guests who wants to book dialyse treatments) wasn't clear enough. Also he advised to use a Google Map image for a better understanding where the center is situated.
-
-Then after research I knew that I wanted a rectangular carousel with a fading effect in it, with a text column on the left with a little bit tourist information of the area "The Veluwe" and with a text that guests are welcome to come. The right column is the intro part for the center.
-The About section gives more information about he center. De contact page gives information to get into contact.
+The remain of this original idea is only the opacity effect of the line under "Holiday Dialysis".
 
 ## Structure
 ###Section1
@@ -84,7 +82,7 @@ Later it evolved to a greater and responsive idea :
   Section2: https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/section%202%2C%20about.jpg
   Section3: https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/section%203%2C%20contact.jpg
 * Tablet: The tablet views the same in panorama view.
-          when it is on "selfie view" section3 is ordered on a slightly different way with google maps on top:
+          when it is on "portrait view" section3 is ordered on a slightly different way with google maps on top:
           https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/tablet%20section%203%2C%20dif%20layout%20as%20desktop.jpg
 * Smartphone:
   All is showing below each other, Top bar is split in 2 parts:
@@ -112,6 +110,9 @@ The behaviour of the scroll-spy is somewhat pour, I was forced to add some empty
 * also on 2 tablets: Asus Transformer Pad (an old one) Samsung, both on a chrome browser
 * screens: 1366x768, 1920x1080 on chrome and Edge
 
+##bugs
+I found out that the landscape view of a tablet also have shadow hovering. I wanted that only to be for laptop an desktop. It's not that important, I leave it that way.
+I didn't get that shadow hovering working for google map, but it's initial shadow effect remains as well. Therefore I leave it that way, it's not that notable.
 
 ## Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html`.
@@ -141,7 +142,7 @@ https://stackoverflow.com/questions/46008760/how-to-build-multiple-language-webs
 I read about "display:none". That reminded me to my own litle project "5 days of coding challenge", where I used it to hide pictures. Now I used that idea to make a multi
 language site without the need to load the whole website again when changing language. (And to prevent coding from repeating because the other way is make 2 different pages.)
 
-Shadow on Carousel and images:  https://www.w3schools.com/css/css3_shadows_box.asp*/
+Shadow on Carousel and images:  https://www.w3schools.com/css/css3_shadows_box.asp
 
 Youtube of Kevin Powel: https://www.youtube.com/watch?v=u6Rur7G8HNY&t=408s
 Animate shadow opacity instead of animating shadow size.
