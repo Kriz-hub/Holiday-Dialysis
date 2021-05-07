@@ -7,11 +7,11 @@ This project is a one page website about a Dialysis Center in the middle of The 
 
 ## UX
 From a financial point of view it is very interesting for a hospital to add guests to their patient population. A descent website helps to get a good representation.
-I know there is a real demand for a good website for the real dialysis center I work in, first one for holiday guests, later for the dialysys center as a whole.
+I know there is a real demand for a good website for the real dialysis center I work in, first one for holiday guests, later for the dialysis center as a whole.
 To prevent that the Milestone 1 project will become too big, I am focussed on the part of Holiday Dialysis.
 
 Business goals:
-To get guests interested for there center, there are more to choose in a radius of 50 km. It's a tourist area, that also means they can atract the foreign guest.
+To get guests interested for this center, there are more to choose in a radius of 50 km. It's a tourist area, that also means they can atract the foreign guest.
 The website must not be for a too young audience, the population which is interesting for a dialysis center is mainly 40 years and older.
 The next goal for a center to have a descent website is simply to create goodwill, be representive.
 
