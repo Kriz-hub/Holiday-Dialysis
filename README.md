@@ -120,13 +120,13 @@ This site is hosted using GitHub pages, deployed directly from the master branch
 To run locally, you can clone this repository directly into the editor of your choice by pasting `git clone https://github.com/` into your terminal. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
 
 ## Credits
-* All content in the CSS-section and the Index.HTML is written by myself.
+* All content in the CSS-section and the index.html is written by myself.
 * Twitter and Facobook icons, thanks to www.fontawesome.com
 * Pictures of "ity Harderwijk" and "biking in forest area": https://biketourharderwijk.nl/
 * Pictures of "dears" and "horses": www.pexels.com
 * Picture for dialysys center: https://www.dialysecentrumravenstein.nl/
 * Pictures of nurse and patient: https://thumbs.dreamstime.com
-* Picture of 2 working dialyse machines:
+* Picture of 2 working dialyse machines:  https://thumbs.dreamstime.com
 
 ## Acknowledgements
 
@@ -141,6 +141,9 @@ To run locally, you can clone this repository directly into the editor of your c
 * Shadow on carousel and images:  https://www.w3schools.com/css/css3_shadows_box.asp
 * Youtube of Kevin Powel: https://www.youtube.com/watch?v=u6Rur7G8HNY&t=408s
   Animate shadow opacity instead of animating shadow size to reduce rendering of processor.
+  
+* Section 2 "Your stay with us", inspirated by https://www.dialysecentrumravenstein.nl/dialysis-centre-ravenstein/. Paragraph "contact" on that page.
+* section 2 the unordered list underneath "Our center offers.. "is inspirated by https://www.roompot.nl/care/behandelingen/vakantiedialyse/banjaard/. The unordered list on that page.
   
   I want to thank my mentor M for guiding me through the process and keeping me inspirated.
 
