@@ -45,9 +45,9 @@ In that first stage the mentor advised me to use smaller pictures and add more t
 
 ## Structure
 #### Section1
-* The homepage features a responsive navigationbar on the right and a logo on the left top, this bar is fixed. On mobile screens left en right side will split en become centered   in top of each order. The navigationbar has also a language button. With javascript and display=none and display=inline, the right language appear in front without loading the   whole page.
-* Below that is a fading carousel as the hero image. I didn't want to add control buttons to swap the images by hand, just images with a fading effect to each, for designing       purposes as the reason. In that fading carousel a title "Holiday Dialysis" appears with a linear-gradient background directly underneath the text.
-  In smaller devices the title becomes too big according to the pictures of the carousel, therefore the title emerges down the pictures in mobiles.
+* The homepage features a responsive navigationbar on the right and a logo on the left top, this bar is fixed. On mobile screens left en right side will split and become centered   in top of each order. The navigationbar has also a language button. With javascript and display=none and display=inline, the right language appear in front without loading the   whole page.
+* Below that is a fading carousel as the hero image. I didn't want to add control buttons to swap the images by hand, just images with a fading effect to each. In that fading carousel a title "Holiday Dialysis" appears with a linear-gradient background directly underneath the text.
+  In smaller devices the title becomes too big according to the pictures of the carousel, therefore the title "Holiday Dialysis" emerges down the carousel in smartphones
 * Below are 2 columns of text. They appear down each other on a mobile device.
 
 #### Section2
