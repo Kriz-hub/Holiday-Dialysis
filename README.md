@@ -137,13 +137,12 @@ To run locally, you can clone this repository directly into the editor of your c
 * Form class from bootstrap: https://getbootstrap.com/docs/4.1/components/forms/
 * Inspiration to get a multi language page working:
   https://stackoverflow.com/questions/46008760/how-to-build-multiple-language-website-using-pure-html-js-jquery
-  It's all about the mentioning "display:none". That reminded me to my own litle project "5 days of coding challenge", where I used it to hide pictures. Now I used the idea       "display:none" and "display:inline" to make a multi language site without the need to load the whole website again when changing language. (And to prevent coding from           repeating because the other way is make 2 different pages.)
+  It's all about the mentioning of "display:none" on that site. That reminded me to my own litle project "5 days of coding challenge", where I used it to hide pictures. Now I used the idea "display:none" and "display:inline" to make a multi language site without the need to load the whole website again when changing language. (And to prevent coding from repeating because the other way is make 2 different pages.)
 * Shadow on carousel and images:  https://www.w3schools.com/css/css3_shadows_box.asp
 * Youtube of Kevin Powel: https://www.youtube.com/watch?v=u6Rur7G8HNY&t=408s
   Animate shadow opacity instead of animating shadow size to reduce rendering of processor.
-  
 * Section 2 "Your stay with us", inspirated by https://www.dialysecentrumravenstein.nl/dialysis-centre-ravenstein/. Paragraph "contact" on that page.
-* section 2 the unordered list underneath "Our center offers.. "is inspirated by https://www.roompot.nl/care/behandelingen/vakantiedialyse/banjaard/. The unordered list on that page.
+* section 2 the unordered list underneath "Our center offers.. " is inspirated by https://www.roompot.nl/care/behandelingen/vakantiedialyse/banjaard/. The unordered list on that page.
   
   I want to thank my mentor M for guiding me through the process and keeping me inspirated.
 
