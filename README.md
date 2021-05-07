@@ -72,6 +72,11 @@ To get it really finished I brought an increase of shadow in after hovering. I s
 ###footer
 * On the left 2 icons appear with Facebook and Twitter, on the right a copyright mark appears. Facebook and Twitter is enough for this site. Hospitals aren't that much into social media.
 
+###Skeleton
+The wireframe was made in Balsamiq.
+laptop/desktop:
+
+
 ##Technologies
 1. HTML
 2. CSS
@@ -85,6 +90,7 @@ There is some Javascript added for using GetelementbyID to use display=none and 
 The behaviour of the scroll-spy is somewhat pour, I was forced to add some empty text to get it right on the pages. With a little bit more knowlegde of Javascript I could make a custom scroll-spy myself. I think I would use "100vh", because that's alway the screensize vertically. Then use a way to get the current screenposition relatively to "100vh", then give a command to make some lines of scrolling.
 
 ##Testing
+
 
 ## Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html`.
