@@ -69,7 +69,7 @@ To give this webpage a finishing feel, I have put a shadow effect on the images,
 
 To get this project really finished I added shadow animation on the hovering animation. (Increase of shadow during transition animation of carousel or picture) I saw an interesting youtube to do it in a way to keep the rendering significant lower, which is good for older devices, see Acknowledgements. The trick is to animate opacity instead of animating shadow size.
 
-All titles have also some hover transition on it. For the smaller devices only icons and navigation have a hovering effect. 
+All titles also have some hover transition on it. For the smaller devices only icons and navigation have a hovering effect. 
 
 ## Skeleton
 The wireframe was made in [Balsamiq](https://balsamiq.com/). My only thoughts first was to get it right on my laptop. I hadn't much of an idea how to get it on smaller devices. This were the early wireframes: 
