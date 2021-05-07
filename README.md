@@ -99,12 +99,18 @@ Later it evolved to a greater and responsive idea :
 4. Javascript
 
 ##Features
-There is some Javascript added for using GetelementbyID to use display=none and display=inline to hide language when is is not chosen.
+The user can click on Home, About and Contact to go to Section1, Section2, of Section3.
+By clicking on the flag image he can choose the language he prefers. Also he can navigate to the sections by just scrolling.
+At Section3 the user can fill in a form to send his phone numer, emailadress or comments, than he can be contacted back.
+In the footer section he can click on the icon links.
 
 ##Features left to implement
 The behaviour of the scroll-spy is somewhat pour, I was forced to add some empty text to get it right on the pages. With a little bit more knowlegde of Javascript I could make a custom scroll-spy myself. I think I would use "100vh", because that's alway the screensize vertically. Then use a way to get the current screenposition relatively to "100vh", then give a command to make some lines of scrolling.
 
 ##Testing
+* The site is tested on a real Samsung S7, Samsung A32 and Samsung A52, on there own browser.
+* also on 2 tablets: Asus Transformer Pad (an old one) Samsung, both on a chrome browser
+* screens: 1366x768, 1920x1080 on chrome and Edge
 
 
 ## Deployment
