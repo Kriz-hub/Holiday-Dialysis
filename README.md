@@ -73,9 +73,24 @@ To get it really finished I brought an increase of shadow in after hovering. I s
 * On the left 2 icons appear with Facebook and Twitter, on the right a copyright mark appears. Facebook and Twitter is enough for this site. Hospitals aren't that much into social media.
 
 ###Skeleton
-The wireframe was made in Balsamiq.
-laptop/desktop:
+The wireframe was made in Balsamiq. At first i Hadn't an idea of responsive design, I only thought how to get it right on my lap top. Therefore I couldn't make wireframes for tablet or smartphone. This were the early wireframes: 
+https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/OldWireframes/Wireframe%201.png
+https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/OldWireframes/Wireframe%202.png
+https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/OldWireframes/Wireframe%203.png
 
+Later it evolved to a greater and responsive idea :
+* laptop/desktop:
+  Section1: https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/section%201%2C%20home.jpg
+  Section2: https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/section%202%2C%20about.jpg
+  Section3: https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/section%203%2C%20contact.jpg
+* Tablet: The tablet views the same in panorama view.
+          when it is on "selfie view" section3 is ordered on a slightly different way with google maps on top:
+          https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/tablet%20section%203%2C%20dif%20layout%20as%20desktop.jpg
+* Smartphone:
+  All is showing below each other, Top bar is split in 2 parts:
+  https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/smartphone%2C%20a%20%26%20b.jpg
+  https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/smartphone%2C%20c%20%26%20d.jpg
+  https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/smartphone%2C%20e%20%26%20f.jpg
 
 ##Technologies
 1. HTML
