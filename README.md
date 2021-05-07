@@ -72,9 +72,9 @@ To get it really finished I brought an increase of shadow in after hovering. I s
 
 ###Skeleton
 The wireframe was made in Balsamiq. At first i Hadn't an idea of responsive design, I only thought how to get it right on my lap top. Therefore I couldn't make wireframes for tablet or smartphone. This were the early wireframes: 
-https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/OldWireframes/Wireframe%201.png
-https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/OldWireframes/Wireframe%202.png
-https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/OldWireframes/Wireframe%203.png
+[Section1: Home]https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/OldWireframes/Wireframe%201.png
+[Section2: About]https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/OldWireframes/Wireframe%202.png 
+[Section3: Contact]https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/OldWireframes/Wireframe%203.png
 
 Later it evolved to a greater and responsive idea :
 * laptop/desktop:
