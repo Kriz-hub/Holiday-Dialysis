@@ -106,12 +106,12 @@ The behaviour of the scroll-spy is somewhat pour, I was forced to add some empty
 
 ## Testing
 * The site is tested on a real Samsung S7, Samsung A32 and Samsung A52, on there own browser.
-* also on 2 tablets: Asus Transformer Pad (an old one) and Lenovo TB-X10AF, both on a chrome browser
-* screens: 1366x768, 1920x1080 on chrome and Edge
+* also on 2 tablets: Asus Transformer Pad (an old one) and Lenovo TB-X10AF, both on a Chrome browser
+* screens: 1366x768, 1920x1080 on Chrome and Edge
 
 ## Bugs
 * I found out that the landscape view of a tablet also have shadow hovering. I wanted that only to be for laptop an desktop. It's not that important, I leave it that way.
-* I didn't get that shadow hovering working well for google map, but it's initial shadow effect remains as well. Therefore I leave it that way, It don't seems to be that noticable.
+* I didn't get that shadow hovering working well for Google Maps, but it's initial shadow effect remains as well. Therefore I leave it that way, It don't seems to be that noticable.
 
 ## Deployment
 This project was developed using GitHub.
