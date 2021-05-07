@@ -48,12 +48,8 @@ The remain of this original idea is only the opacity effect of the line under "H
 
 ## Structure
 #### Section1
-* The homepage features a responsive navigationbar on the right and a logo on the left top, this bar is fixed. On mobile screens left en right side will split en become centered   in top of each order.
- 
-  The navigationbar has also a language button. With javascript and display=none and display=inline, the right language appear in front without loading the whole page.
-* Below that is a fading carousel as the hero image. I didn't want to add control buttons to swap the images by hand, just images with a fading effect to each, for designing purposes as the reason.
-
-  In that fading carousel a title "Holiday Dialysis" appears with a linear-gradient background directly underneath the text.
+* The homepage features a responsive navigationbar on the right and a logo on the left top, this bar is fixed. On mobile screens left en right side will split en become centered   in top of each order. The navigationbar has also a language button. With javascript and display=none and display=inline, the right language appear in front without loading the   whole page.
+* Below that is a fading carousel as the hero image. I didn't want to add control buttons to swap the images by hand, just images with a fading effect to each, for designing       purposes as the reason. In that fading carousel a title "Holiday Dialysis" appears with a linear-gradient background directly underneath the text.
   In smaller devices the title becomes too big according to the pictures of the carousel, therefore the title emerges down the pictures in mobiles.
 * Below are 2 columns of text. They appear down each other on a mobile device.
 
@@ -138,11 +134,11 @@ To run locally, you can clone this repository directly into the editor of your c
 * Creating a feading carousel on section1:  https://silvawebdesigns.com/how-to-change-the-bootstrap-4-carousel-to-a-fade-transition-instead-of-slide/
 * To get a normal carousel on section2:  https://getbootstrap.com/docs/4.0/components/carousel/ 
 * To get a responsive google maps thanks to: https://blog.duda.co/responsive-google-maps-for-your-website 
-* Form, thanks to bootstrap: https://getbootstrap.com/docs/4.1/components/forms/
+* Form class from bootstrap: https://getbootstrap.com/docs/4.1/components/forms/
 * Inspiration to get a multi language page working:
   https://stackoverflow.com/questions/46008760/how-to-build-multiple-language-website-using-pure-html-js-jquery
-  It's all about hte mentioning "display:none". That reminded me to my own litle project "5 days of coding challenge", where I used it to hide pictures. Now I used that idea to   make a multi language site without the need to load the whole website again when changing language. (And to prevent coding from repeating because the other way is make 2         different pages.)
-* Shadow on Carousel and images:  https://www.w3schools.com/css/css3_shadows_box.asp
+  It's all about the mentioning "display:none". That reminded me to my own litle project "5 days of coding challenge", where I used it to hide pictures. Now I used the idea       "display:none" and "display:inline" to make a multi language site without the need to load the whole website again when changing language. (And to prevent coding from           repeating because the other way is make 2 different pages.)
+* Shadow on carousel and images:  https://www.w3schools.com/css/css3_shadows_box.asp
 * Youtube of Kevin Powel: https://www.youtube.com/watch?v=u6Rur7G8HNY&t=408s
   Animate shadow opacity instead of animating shadow size to reduce rendering of processor.
   
