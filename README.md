@@ -140,6 +140,7 @@ I followed the next steps to deploy my page on the GitHub pages:
 
 ## Acknowledgements
 
+* Variables in CSS, thanks to Kevin Powell: https://www.youtube.com/watch?v=PHO6TBq_auI
 * To get af flag image into a button and customizing it: https://stackoverflow.com/questions/49184471/how-to-change-bootstrap-version-4-button-color 
 * Creating a feading carousel on section1:  https://silvawebdesigns.com/how-to-change-the-bootstrap-4-carousel-to-a-fade-transition-instead-of-slide/
 * To get a normal carousel on section2:  https://getbootstrap.com/docs/4.0/components/carousel/ 
@@ -149,7 +150,7 @@ I followed the next steps to deploy my page on the GitHub pages:
   https://stackoverflow.com/questions/46008760/how-to-build-multiple-language-website-using-pure-html-js-jquery
   It's all about the mentioning of "display:none" on that site. That reminded me to my own litle project "5 days of coding challenge", where I used it to hide pictures. Now I used the idea "display:none" and "display:inline" to make a multi language site without the need to load the whole website again when changing language. (And to prevent coding from repeating because the other way is to make 2 different pages.)
 * Shadow on carousel and images:  https://www.w3schools.com/css/css3_shadows_box.asp
-* Kevin Powel's Youtube: https://www.youtube.com/watch?v=u6Rur7G8HNY&t=408s
+* Kevin Powell's Youtube: https://www.youtube.com/watch?v=u6Rur7G8HNY&t=408s
   Animate shadow opacity instead of animating shadow size to reduce rendering of processor.
 * Section 2 "Your stay with us", inspirated by https://www.dialysecentrumravenstein.nl/dialysis-centre-ravenstein/. See paragraph "contact" on that page.
   This text below "Your stay with us" was a too much literally copied text from the website ...ravenstein.nl, see above. Therefore I changed it to a more familiar text and not literally. See also commit "litle changes text section 2" on may 7th.
