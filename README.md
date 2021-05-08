@@ -119,10 +119,10 @@ This project was developed using GitHub.
 I followed the next steps to deploy my page on the GitHub pages:
 
 * Log into GitHub.
-* Select krizhub-Holiday-Dialysis-Website in the repository list.
-* Go to Settings
+* Select krizhub-Holiday-Dialysis in the repository list.
+* Go to Settings.
 * Scroll down to the GitHub Pages section.
-* Select the Master Branch
+* Select the Master Branch.
 * On selecting Master Branch the page is automatically refreshed, the website is deployed.
 * The link can be retrieved to the deployed website.
 
@@ -148,8 +148,8 @@ I followed the next steps to deploy my page on the GitHub pages:
 * Shadow on carousel and images:  https://www.w3schools.com/css/css3_shadows_box.asp
 * Youtube of Kevin Powel: https://www.youtube.com/watch?v=u6Rur7G8HNY&t=408s
   Animate shadow opacity instead of animating shadow size to reduce rendering of processor.
-* Section 2 "Your stay with us", inspirated by https://www.dialysecentrumravenstein.nl/dialysis-centre-ravenstein/. Paragraph "contact" on that page.
-* section 2 the unordered list underneath "Our center offers.. " is inspirated by https://www.roompot.nl/care/behandelingen/vakantiedialyse/banjaard/. The unordered list on that page.
+* Section 2 "Your stay with us", inspirated by https://www.dialysecentrumravenstein.nl/dialysis-centre-ravenstein/. See paragraph "contact" on that page.
+* section 2 the unordered list underneath "Our center offers.. " is inspirated by https://www.roompot.nl/care/behandelingen/vakantiedialyse/banjaard/. See the unordered list on that page.
   
   I want to thank my mentor M for guiding me through the process and keeping me inspirated.
 
