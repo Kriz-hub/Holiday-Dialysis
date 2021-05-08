@@ -1,7 +1,7 @@
 # Holiday Dialysis
 ### First Milestone Project: User Centric Frontend Development - Code Institute
 
-This project is a one page website about a Dialysis Center in the middle of The Netherlands. They offer a dialysis treatment for people who suffer from kidney failure and are open for guests who are on holiday. This is a made up center in the small city of Harderwijk, but actually I work in a real dialysis center in that place. It is also a satelite center of the big one in Amersfoort, 30km from Harderwijk. Important: this project is meant for the post-corona era, off course the situation will become better the comming months and certainly in 2022.
+This project is a one page website about a Dialysis Center in the middle of The Netherlands. They offer a dialysis treatment for people who suffer from kidney failure and are open for guests who are on holiday. This is a made up center in the small city of Harderwijk, but actually I work in a real dialysis center in Harderwijk. It is also a satelite center of the big one in Amersfoort, 30km from Harderwijk. Important: this project is meant for the post-corona era, off course the situation will become better the comming months and certainly in 2022.
 
 For a demo of my Holiday Dialysis Website click [HERE](https://kriz-hub.github.io/Holiday-Dialysis/).
 
@@ -25,7 +25,7 @@ He needs to be informed which center he can choose and what they can offer him. 
 On start I thought to make a website based on one big background picture of the rural area with a big title and subtitle, all to create that holiday dialyse feeling.
 With scrolling the information moves over te background picture. Than other pictures of specific dialyse treatment should appear in a carousel after some scrolling. The technique was inspired from this idea: https://valentina-b.github.io/par-excellance-restaurant/. 
 
-In that first stage the mentor advised me to use smaller pictures and add more text, because the purpose of the website (atract guests who wants to book dialyse treatments) wasn't clear enough. Also he advised to use a Google Map image for a better understanding where the center is situated. After that my idea at the beginning changed a lot, see also the "Skeleton" section for that change.
+In that first stage the mentor advised me to use smaller pictures and add more text, because the purpose of the website (atract guests who wants to book dialyse treatments) wasn't clear enough. Also he advised to use a Google Maps image for a better understanding where the center is situated. After that my idea at the beginning changed a lot, see also the "Skeleton" section for that change.
 
 ## Research
 
@@ -57,7 +57,7 @@ The pictures of the carousel blowed me away, I decided from that moment my front
 * On mobile devices it wil appear below each other.
 
 #### Section 3
-* In desktop-devices section 3 appears as 3 column area. On the left side there's Google Map Iframe, the middle a form column, and to the right a picture column with adress.
+* In desktop-devices section 3 appears as 3 column area. On the left side there's Google Maps Iframe, the middle a form column, and to the right a picture column with adress.
 * On tablet devices it breaks into a googlemap area with underneath a form and picture with adress on the left and right side. It is made possible by using a nested bootstrap Col element.
 * On a mobile device everything appears below each other.
 
@@ -140,7 +140,7 @@ I followed the next steps to deploy my page on the GitHub pages:
 * To get af flag image into a button and customizing it: https://stackoverflow.com/questions/49184471/how-to-change-bootstrap-version-4-button-color 
 * Creating a feading carousel on section1:  https://silvawebdesigns.com/how-to-change-the-bootstrap-4-carousel-to-a-fade-transition-instead-of-slide/
 * To get a normal carousel on section2:  https://getbootstrap.com/docs/4.0/components/carousel/ 
-* To get a responsive google maps thanks to: https://blog.duda.co/responsive-google-maps-for-your-website 
+* To get a responsive Google Maps thanks to: https://blog.duda.co/responsive-google-maps-for-your-website 
 * Form class with bootstrap: https://getbootstrap.com/docs/4.1/components/forms/
 * Inspiration to get a multi language page working:
   https://stackoverflow.com/questions/46008760/how-to-build-multiple-language-website-using-pure-html-js-jquery
