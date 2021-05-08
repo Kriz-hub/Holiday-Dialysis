@@ -110,8 +110,8 @@ The behaviour of the scroll-spy is somewhat pour, I was forced to add some empty
 * screens: 1366x768, 1920x1080 on Chrome and Edge.
 
 ## Bugs
-* I have had almost countless bugs almost all regarding margin problems. I think everything is fixed.
-* On larger screens I saw parts of section1, 2, 3 on each pages. I solved it by using "text-height 100vh" to let the page be responsive to different resolutions of desktop screens. The second solution was using a font-size in vh. On portrait mode on tablets and also mobiles I didn't use "VH", their page width is too small for such a distinct seperation. 
+* I have had countless bugs almost all regarding margin problems. I think everything is fixed.
+* On larger screens I saw parts of Section2 on a Section1 page, Section3 on a Section2 pages, etc. I solved it by using "text-height 100vh" to let the page be responsive to different resolutions of desktop screens. The second part of the solution was using a font-size in vh. Portrait mode on tablets is too long for that, so there can be no distinct seperation between the sections. On mobiles every column is beneath each other, no distinct seperation for sections there as well. Personally I have no problem with that for tablets and mobiles, maybe is isn't to be considered as a bug for these devices.
 * I found out that the landscape view of a tablet also have shadow hovering. I wanted that only to be for laptop an desktop. It's not that important, I leave it that way.
 * I didn't get that shadow hovering working well for Google Maps, but it's initial shadow effect remains as well. Therefore I leave it that way, It don't seems to be that noticable.
 
