@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,500|Roboto:300,400,500wght@100&display=swap');
 
+:root { /* Variables, thanks to Kevin Powell: https://www.youtube.com/watch?v=PHO6TBq_auI */
+    --colornavfooter : rgb(90, 90, 90);
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -13,7 +17,7 @@ html {
 
 .fixed-top-bar-bg {
     color: #E9E7E3;
-    background: rgb(90, 90, 90);
+    background: var(--colornavfooter);
 }
 
 .logo {
@@ -38,7 +42,7 @@ nav li {
 }
 
 nav li a:hover {
-    background-color: rgb(90, 90, 90);
+    background-color: var(--colornavfooter);
     text-decoration: overline underline;
     color: #E9E7E3
 }
@@ -56,15 +60,15 @@ nav a {
 .btn-primary.custom-btn {/* customize button: https://stackoverflow.com/questions/49184471/how-to-change-bootstrap-version-4-button-color */
     padding-top: 0;
     padding-bottom: 0;
-	background-color:rgb(90, 90, 90);
-	border-color: rgb(90, 90, 90);
+	background-color: var(--colornavfooter);
+	border-color: var(--colornavfooter);
 } 
 
 .btn-primary.custom-btn:hover {
     padding-top: 0;
     padding-bottom: 0;
- 	background-color:rgb(90, 90, 90);
-	border-color: rgb(90, 90, 90);
+ 	background-color:var(--colornavfooter);
+	border-color: var(--colornavfooter);
 }
 
 .flag-container{
@@ -188,7 +192,7 @@ div.col, div.col-md-9 { /* to get a col without padding for shadow groath on pic
 footer {
     /*margin-top: 5vh;*/
     color: #E9E7E3;
-    background: rgb(90, 90, 90);
+    background: var(--colornavfooter);
 }
 
 .social-media-links {
