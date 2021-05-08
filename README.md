@@ -21,6 +21,12 @@ Customer goals:
 The kidney patient needs 3 times a week dialysis in his own center, but also wants to have an opportunity to get on holiday.
 He needs to be informed which center he can choose and what they can offer him. So the website must be informing but not too corporate. He is in the mood for holiday and that mood should reflect the website. 
 
+## The start
+On start I thought to make a website based on one big background picture of the rural area with a big title and subtitle, all to create that holiday dialyse feeling.
+With scrolling the information moves over te background picture. Than other pictures of specific dialyse treatment should appear in a carousel after some scrolling. The technique was inspired from this idea: https://valentina-b.github.io/par-excellance-restaurant/. 
+
+In that first stage the mentor advised me to use smaller pictures and add more text, because the purpose of the website (atract guests who wants to book dialyse treatments) wasn't clear enough. Also he advised to use a Google Map image for a better understanding where the center is situated. So my idea at the beginning changed a lot, see also the "Skeleton Section" for that change.
+
 ## Research
 
 I googled for dutch sites of dialysis centers to get the right feel and if I can learn from it. The websites appears to be not always that great:
@@ -38,12 +44,6 @@ The last one is very good.
 
 But the real inspiration came when I saw this bike site: https://biketourharderwijk.nl/ (not even a dialysis site)
 The pictures of the carousel blowed me away, I decided from that moment my front page of the project must be a carousel in a rectangle format.
-
-## The start
-On start I thought to make a website based on one big background picture of the rural area with a big title and subtitle, all to create that holiday dialyse feeling.
-With scrolling the information moves over te background picture. Than other pictures of specific dialyse treatment should appear in a carousel after some scrolling. The technique was inspired from this idea: https://valentina-b.github.io/par-excellance-restaurant/. 
-
-In that first stage the mentor advised me to use smaller pictures and add more text, because the purpose of the website (atract guests who wants to book dialyse treatments) wasn't clear enough. Also he advised to use a Google Map image for a better understanding where the center is situated. So my idea at the beginning changed a lot, see also the "Skeleton Section" for that change.
 
 ## Structure
 #### Section1
@@ -67,7 +67,7 @@ On the left 2 icons appear with Facebook and Twitter, on the right a copyright m
 #### Shadow, Hover Animation and Shadow Animation Effect during hover
 To give this webpage a finishing feel, I have put a shadow effect on the images, carousels and google map. Then I added a transition effect after hovering as well, but only for laptop en desktop devices because it appears not really to be that cool for a small device. I discovered that the animation effect on the fading carousel didn't work. The reason must have been it's relative position, because of the title "Holiday Dialysis" absolute position in it. I saw it wasn't really necessary for the title's position, so I removed the "relative position line". The title kept on the same place because the body itself is also relative, so that change worked succesfully also with a good hovering now.
 
-To get this project really finished I added shadow animation on the hovering animation. (Increase of shadow during transition animation of carousel or picture) I saw an interesting youtube to do it in a way to keep the rendering significant lower, which is good for older devices, see Acknowledgements. The trick is to animate opacity instead of animating shadow size.
+To get this project really finished I added shadow animation on the hovering animation. (Increase of shadow during transition animation on image) I saw an interesting youtube to do it in a way to keep the rendering significant lower, which is good for older devices, see Acknowledgements. The trick is to animate opacity instead of animating shadow size.
 
 All titles also have some hover transition on it. For the smaller devices only icons and navigation have a hovering effect. 
 
@@ -128,7 +128,7 @@ I followed the next steps to deploy my page on the GitHub pages:
 
 ## Credits
 * All content in the CSS-section and the index.html is written by myself.
-* Twitter and Facobook icons, thanks to www.fontawesome.com
+* Twitter and Facebook icons, thanks to www.fontawesome.com
 * Pictures of "City Harderwijk" and "Biking in forest area": https://biketourharderwijk.nl/
 * Pictures of "Dears" and "Horses": www.pexels.com
 * Picture for dialysys center: https://www.dialysecentrumravenstein.nl/
@@ -141,7 +141,7 @@ I followed the next steps to deploy my page on the GitHub pages:
 * Creating a feading carousel on section1:  https://silvawebdesigns.com/how-to-change-the-bootstrap-4-carousel-to-a-fade-transition-instead-of-slide/
 * To get a normal carousel on section2:  https://getbootstrap.com/docs/4.0/components/carousel/ 
 * To get a responsive google maps thanks to: https://blog.duda.co/responsive-google-maps-for-your-website 
-* Form class from bootstrap: https://getbootstrap.com/docs/4.1/components/forms/
+* Form class with bootstrap: https://getbootstrap.com/docs/4.1/components/forms/
 * Inspiration to get a multi language page working:
   https://stackoverflow.com/questions/46008760/how-to-build-multiple-language-website-using-pure-html-js-jquery
   It's all about the mentioning of "display:none" on that site. That reminded me to my own litle project "5 days of coding challenge", where I used it to hide pictures. Now I used the idea "display:none" and "display:inline" to make a multi language site without the need to load the whole website again when changing language. (And to prevent coding from repeating because the other way is make 2 different pages.)
