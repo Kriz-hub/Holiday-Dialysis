@@ -149,7 +149,8 @@ I followed the next steps to deploy my page on the GitHub pages:
 * Youtube of Kevin Powel: https://www.youtube.com/watch?v=u6Rur7G8HNY&t=408s
   Animate shadow opacity instead of animating shadow size to reduce rendering of processor.
 * Section 2 "Your stay with us", inspirated by https://www.dialysecentrumravenstein.nl/dialysis-centre-ravenstein/. See paragraph "contact" on that page.
-* section 2 the unordered list underneath "Our center offers.. " is inspirated by https://www.roompot.nl/care/behandelingen/vakantiedialyse/banjaard/. See the unordered list on that page.
+  This text below "Your stay with us" is a too much literally copied text was from the website ...ravenstein.nl, see above. Therefore I changed it to a more familiar text and not literally. See also the commit "litle changes text section 2" on may 7th.
+* section 2 the unordered list underneath "Our center offers.. " is inspirated by https://www.roompot.nl/care/behandelingen/vakantiedialyse/banjaard/. See the unordered list on that page. The same also for this text: this unordered list was a direct copy of website ...roompot.nl, see above. Therefore I changed it to a more familiar unordered list and not literally. See also the commit "litle changes text section 2" on may 7th. 
   
   I want to thank my mentor M for guiding me through the process and keeping me inspirated.
 
