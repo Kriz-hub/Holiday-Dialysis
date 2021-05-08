@@ -108,7 +108,7 @@ The behaviour of the scroll-spy is somewhat pour, I was forced to add some empty
 * The site is tested on a real Samsung S7, Samsung A32 and Samsung A52, on there own browser.
 * also on 2 tablets: Asus Transformer Pad (an old one) and Lenovo TB-X10AF, both on a Chrome browser.
 * screens: 1366x768, 1920x1080 on Chrome and Edge.
-* The using of "Inspect" for following the change of behaviour of "Bootstrap col-.." at different page width's.
+* The use of "Inspect" to inspect the change of behaviour of "Bootstrap col-.." at different screen width's.
 
 ## Bugs
 * I have had countless bugs almost all regarding margin problems. I think everything is fixed.
