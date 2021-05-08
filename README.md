@@ -46,17 +46,17 @@ But the real inspiration came when I saw this bike site: https://biketourharderw
 The pictures of the carousel blowed me away, I decided from that moment my front page of the project must be a carousel in a rectangle format.
 
 ## Structure
-#### Section1
+#### Section 1
 * The homepage features a responsive navigationbar on the right and a logo on the left top, this bar is fixed. On mobile screens left en right side of navbar will split and become centered in top of each order. The navigationbar has also a language button. With javascript and display=none and display=inline, the right language appear in front without loading the   whole page.
 * Below that is a fading carousel as the hero image. I didn't want to add control buttons to swap the images by hand, just images with a fading effect to each. In that fading carousel a title "Holiday Dialysis" appears with a linear-gradient background directly underneath the text.
   In smaller devices the title becomes too big according to the pictures of the carousel, therefore the title "Holiday Dialysis" emerges down the carousel in smartphones
 * Below are 2 columns of text. They appear down each other on a mobile device.
 
-#### Section2
+#### Section 2
 * In section 2 a second, normal, carousel appears with some dialyse pictures. It is attached to the text column underneath. On the right there is a picture of the fantasy dialyse center, also attached to the unordered list underneath. 
 * On mobile devices it wil appear below each other.
 
-#### Section3
+#### Section 3
 * In desktop-devices section 3 appears as 3 column area. On the left side there's Google Map Iframe, the middle a form column, and to the right a picture column with adress.
 * On tablet devices it breaks into a googlemap area with underneath a form and picture with adress on the left and right side. It is made possible by using a nested bootstrap Col element.
 * On a mobile device everything appears below each other.
@@ -107,7 +107,7 @@ The behaviour of the scroll-spy is somewhat pour, I was forced to add some empty
 ## Testing
 * The site is tested on a real Samsung S7, Samsung A32 and Samsung A52, on there own browser.
 * also on 2 tablets: Asus Transformer Pad (an old one) and Lenovo TB-X10AF, both on a Chrome browser
-* screens: 1366x768, 1920x1080 on Chrome and Edge
+* screens: 1366x768, 1920x1080 on Chrome and Edge.
 
 ## Bugs
 * I found out that the landscape view of a tablet also have shadow hovering. I wanted that only to be for laptop an desktop. It's not that important, I leave it that way.
