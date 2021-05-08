@@ -13,7 +13,7 @@ html {
 
 .fixed-top-bar-bg {
     color: #E9E7E3;
-    background: rgb(44, 56, 51);
+    background: rgb(90, 90, 90);
 }
 
 .logo {
@@ -38,7 +38,7 @@ nav li {
 }
 
 nav li a:hover {
-    background-color: #FFFFFF44;
+    background-color: rgb(90, 90, 90);
     text-decoration: overline underline;
     color: #E9E7E3
 }
@@ -56,15 +56,15 @@ nav a {
 .btn-primary.custom-btn {/* customize button: https://stackoverflow.com/questions/49184471/how-to-change-bootstrap-version-4-button-color */
     padding-top: 0;
     padding-bottom: 0;
-	background-color:#3C4A44;
-	border-color: #3C4A44;
+	background-color:rgb(90, 90, 90);
+	border-color: rgb(90, 90, 90);
 } 
 
 .btn-primary.custom-btn:hover {
     padding-top: 0;
     padding-bottom: 0;
- 	background-color:#FFFFFF44;
-	border-color: #FFFFFF44;   
+ 	background-color:rgb(90, 90, 90);
+	border-color: rgb(90, 90, 90);
 }
 
 .flag-container{
@@ -188,7 +188,7 @@ div.col, div.col-md-9 { /* to get a col without padding for shadow groath on pic
 footer {
     /*margin-top: 5vh;*/
     color: #E9E7E3;
-    background: rgb(44, 56, 51);
+    background: rgb(90, 90, 90);
 }
 
 .social-media-links {
@@ -351,7 +351,7 @@ ul.social-media-links li:hover {
         right: 0;
         bottom: 0;
         opacity:0;
-        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 25px 0 rgba(0, 0, 0, 0.7);
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 7px 22px 0 rgba(0, 0, 0, 0.6);
         transition: opacity 1s ease;
     }
 
