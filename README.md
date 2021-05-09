@@ -158,7 +158,7 @@ I followed the next steps to deploy my page on the GitHub pages:
 * section 2 the unordered list underneath "Our center offers.. " is inspirated by https://www.roompot.nl/care/behandelingen/vakantiedialyse/banjaard/. See the unordered list on that page. The same is on this part. When I reviewed this I find this unordered list was a too direct copy of website ...roompot.nl in my opinion, see link above. Therefore I changed it to a more familiar unordered list and not literally. See also commit "litle changes text section 2" on may 7th. 
   
   
- I want to thank my mentor for guiding me through the process and keeping me inspirated
+ I want to thank mentor Marcel for guiding me through the process and keeping me inspirated.
 
 
 
