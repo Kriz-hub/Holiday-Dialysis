@@ -67,7 +67,7 @@ On the left 2 icons appear with Facebook and Twitter, on the right a copyright m
 #### Shadow, Hover Animation and Shadow Animation Effect during hover
 To give this webpage a finishing feel, I have put a shadow effect on the images, carousels and on Google Maps. Then I added a transition effect after hovering as well, but only for laptop en desktop devices because it appears not really to be that cool for a small device, because the mouse is not used.
 
-To get this project really finished I added shadow animation with the hovering animation, so there is an increase of shadow now during transition animation on image. I saw an interesting youtube to do it in a way to keep the rendering significant lower, which is good for older devices, see Acknowledgements. The trick is to animate opacity instead of animating shadow size.
+To get this project really finished I added shadow animation with the hovering animation, so there is an increase of shadow now during transition animation on the images. I saw an interesting youtube to do it in a way to keep the rendering significant lower, which is good for older devices, see Acknowledgements. The trick is to animate opacity instead of animating shadow size.
 
 All titles also have some hover transition on it. For the smaller devices only icons and navigation have a hovering effect. 
 
