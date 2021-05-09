@@ -102,7 +102,7 @@ At Section 3 the user can fill in a form to send his phone number, email adress 
 In the footer section he can click on the icon links.
 
 ## Features left to implement
-The behaviour of the scroll-spy is somewhat pour, I was forced to add some empty text to get it right on the pages. With a little bit more knowlegde of Javascript I could make a custom scroll-spy myself. I think I would use "100vh", because that's alway the screensize vertically. Then use a way to get the current screenposition relatively to "100vh", then give a command to make some lines of scrolling.
+The behaviour of Scroll-spy is somewhat pour, I was forced to add some empty text to get it right on the pages. With a little bit more knowlegde of Javascript I could make a custom scroll-spy myself. I think I would use "100vh", because that's alway the screensize vertically. Then use a way to get the current screenposition relatively to "100vh", then give a command to make some lines of scrolling.
 
 ## Testing
 * The site is tested on a real Samsung S7, Samsung A32 and Samsung A52, on there own browser.
