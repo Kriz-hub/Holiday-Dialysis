@@ -102,10 +102,10 @@ At Section 3 the user can fill in a form to send his phone number, email adress 
 In the footer section he can click on the icon links.
 
 ## Features left to implement
-The behaviour of Scroll-spy is somewhat pour, I was forced to add some empty text to get it right on the pages. With a little bit more knowlegde of Javascript I could make a custom scroll-spy myself. I think I would use "100vh", because that's alway the screensize vertically. Then use a way to get the current screenposition relatively to "100vh", then give a command to make some lines of scrolling.
+This site could be made as part of a bigger site to present a dialyse center as a whole.
 
 ## Testing
-* The site is tested on a real Samsung S7, Samsung A32 and Samsung A52, on there own browser.
+* The site is tested on a real Samsung S7, Samsung A31 and Samsung A51, on there own browser.
 * also on 2 tablets: Asus Transformer Pad (an old one) and Lenovo TB-X10AF, both on a Chrome browser.
 * screens: 1366x768, 1920x1080 on Chrome and Edge.
 * The use of "Chrome Inspect" to inspect the change of behaviour of "Bootstrap col-.." at different screen width's.
@@ -113,6 +113,7 @@ The behaviour of Scroll-spy is somewhat pour, I was forced to add some empty tex
 ## Bugs
 * I have had countless bugs almost all regarding margin problems. I think everything is fixed.
 * On larger screens I saw parts of Section2 on a Section1 page, Section3 on a Section2 page, etc. I solved it by using "text-height 100vh" on parent containers to get the page responsive to different resolutions of desktop screens. The second part of the solution was using a font-size in vh. Portrait mode on tablets is too high for that, so there can't be a distinct seperation between the sections. On mobiles every column is beneath each other, no distinct seperation for sections there as well. Personally I have no problem with that for tablets and mobiles, maybe it isn't to be considered as a bug for these devices.
+* The behaviour of Scroll-spy is somewhat pour, I was forced to add some empty text to get it right on the pages. With a little bit more knowlegde of Javascript I could make a custom scroll-spy myself. I think I would use "100vh", because that's alway the screensize vertically. Then use a way to get the current screenposition relatively to "100vh", then give a command to make some lines of scrolling.
 * I found out that the landscape view of a tablet also have an animation effect on images. I wanted that only to be for laptop an desktop. It's not that important, I leave it that way.
 * I didn't get that shadow hovering working well for Google Maps, but it's initial animation effect remains as well, but without shadow growth. I decided to leave it that way, it don't seems to be that noticable.
 * The animation effect on the fading carousel didn't work at all. The reason must have been it's relative position, because of the title "Holiday Dialysis" absolute position in it. I saw it wasn't really necessary for the title's position, so I removed the "relative position" line. The title kept on the same place because the body itself is also relative, so that change worked succesfully also with a good hovering now.
