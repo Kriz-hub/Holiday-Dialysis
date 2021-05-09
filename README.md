@@ -65,7 +65,7 @@ The pictures of the carousel blowed me away, I decided from that moment my front
 On the left 2 icons appear with Facebook and Twitter, on the right a copyright mark appears. Facebook and Twitter is enough for this site. Hospitals aren't that much into social media.
 
 #### Shadow, Hover Animation and Shadow Animation Effect during hover
-To give this webpage a finishing feel, I have put a shadow effect on the images, carousels and on Google Maps. Then I added a transition effect after hovering as well, but only for laptop en desktop devices because it appears not really to be that cool for a small device. I discovered that the animation effect on the fading carousel didn't work. The reason must have been it's relative position, because of the title "Holiday Dialysis" absolute position in it. I saw it wasn't really necessary for the title's position, so I removed the "relative position line". The title kept on the same place because the body itself is also relative, so that change worked succesfully also with a good hovering now.
+To give this webpage a finishing feel, I have put a shadow effect on the images, carousels and on Google Maps. Then I added a transition effect after hovering as well, but only for laptop en desktop devices because it appears not really to be that cool for a small device. 
 
 To get this project really finished I added shadow animation with the hovering animation, so there is an increase of shadow now during transition animation on image. I saw an interesting youtube to do it in a way to keep the rendering significant lower, which is good for older devices, see Acknowledgements. The trick is to animate opacity instead of animating shadow size.
 
@@ -115,6 +115,7 @@ The behaviour of the scroll-spy is somewhat pour, I was forced to add some empty
 * On larger screens I saw parts of Section2 on a Section1 page, Section3 on a Section2 page, etc. I solved it by using "text-height 100vh" to let the page be responsive to different resolutions of desktop screens. The second part of the solution was using a font-size in vh. Portrait mode on tablets is too high for that, so there can't be distinct seperation between the sections. On mobiles every column is beneath each other, no distinct seperation for sections there as well. Personally I have no problem with that for tablets and mobiles, maybe it isn't to be considered as a bug for these devices.
 * I found out that the landscape view of a tablet also have shadow hovering. I wanted that only to be for laptop an desktop. It's not that important, I leave it that way.
 * I didn't get that shadow hovering working well for Google Maps, but it's initial shadow effect remains as well. Therefore I leave it that way, It don't seems to be that noticable.
+* The animation effect on the fading carousel didn't work. The reason must have been it's relative position, because of the title "Holiday Dialysis" absolute position in it. I saw it wasn't really necessary for the title's position, so I removed the "relative position" line. The title kept on the same place because the body itself is also relative, so that change worked succesfully also with a good hovering now.
 
 ## Deployment
 This project was developed using GitHub.
