@@ -5,7 +5,7 @@ This project is a one page website about a Dialysis Center in the middle of The 
 
 For a demo of my Holiday Dialysis Website click [HERE](https://kriz-hub.github.io/Holiday-Dialysis/).
 
-![Desktop Demo](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/Animatie.gif)
+![Desktop Demo](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/Animation.gif)
 
 ## UX
 From a financial point of view it is very interesting for a hospital to add guests to their patient population. A descent website helps to get a good representation.
@@ -107,7 +107,7 @@ This site could be made as part of a bigger site to present a dialyse center as 
 ## Testing
 * The site is tested on a real Samsung S7, Samsung A31 and Samsung A51, on there own browser.
 * also on 2 tablets: Asus Transformer Pad (an old one) and Lenovo TB-X10AF, both on a Chrome browser.
-* screens: 1366x768, 1920x1080 on Chrome and Edge.
+* screens: 1366x768, 1920x1080 on Chrome, Mozilla, Opera and Edge. (aspect ratio 16/9)
 * The use of "Chrome Inspect" to inspect the change of behaviour of "Bootstrap col-.." at different screen width's.
 
 ## Bugs
@@ -117,6 +117,7 @@ This site could be made as part of a bigger site to present a dialyse center as 
 * I found out that the landscape view of a tablet also have an animation effect on images. I wanted that only to be for laptop an desktop. It's not that important, I leave it that way.
 * I didn't get that shadow hovering working well for Google Maps, but it's initial animation effect remains as well, but without shadow growth. I decided to leave it that way, it don't seems to be that noticable.
 * The animation effect on the fading carousel didn't work at all. The reason must have been it's relative position, because of the title "Holiday Dialysis" absolute position in it. I saw it wasn't really necessary for the title's position, so I removed the "relative position" line. The title kept on the same place because the body itself is also relative, so that change worked succesfully also with a good hovering now.
+* The website is best to be seen on desktop screens with a ratio of 16/9. On screens with an aspect ratio of 21/9 there's little too much space at the bottom of Section 1 and Section 2, but if I correct that, a problem emerge on screens with the more common 16/9 ratio. So I need information from CSS to now this ratio, but a developer site warns that there is insufficient browser support: https://developer.mozilla.org/en-US/docs/Web/CSS/@media/device-aspect-ratio. I tried it myself but it didn't work. There seem to be a solution in Javasrcipt with it's screen.height and screen.width. With more knowledge of Javascript this problem can be solved. 
 
 ## Deployment
 This project was developed using GitHub.
