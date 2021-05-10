@@ -5,7 +5,7 @@ This project is a one page website about a Dialysis Center in the middle of The 
 
 For a demo of my Holiday Dialysis Website click [HERE](https://kriz-hub.github.io/Holiday-Dialysis/).
 
-![Desktop Demo](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/Animation.gif)
+![Desktop Demo](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/)
 
 ## UX
 From a financial point of view it is very interesting for a hospital to add guests to their patient population. A descent website helps to get a good representation.
