@@ -130,11 +130,10 @@
       </div> 
     </div>
   </div> 
-
+ 
   <span id="section2"> <!-- to get scroll-spy right on section 2 carousel-->
-    <div style="color:#E9E7E3" aria-hidden="true">invisble text</div>
-    <div style="color:#E9E7E3" aria-hidden="true">invisble text</div>
-    <div style="color:#E9E7E3" aria-hidden="true">invisble text</div></span>
+    <p class="color-emptyline" aria-hidden="true">invisble text<br>invisble text<br>invisble text<br></p>
+  </span>
     
   <div class="container-fluid Page-height-laptop-desktop"> <!-- Fill page to total viewport height laptop/desktop-->
     <div class="row"> <!--2th page: creating the about page with carousel, picture center and dual language text -->
@@ -231,10 +230,8 @@
 
   <!-- to get scroll-spy right on section 3 google maps-->
   <span id="section3">
-    <div style="color:#E9E7E3" aria-hidden="true">invisble text</div>
-    <div style="color:#E9E7E3" aria-hidden="true">invisble text</div>
-    <div style="color:#E9E7E3" aria-hidden="true">invisble text</div>
-    <div class="extra-line" style="color:#E9E7E3" aria-hidden="true">invisble text</div> <!-- under 1800 px no extra line -->
+    <p class="color-emptyline" aria-hidden="true">invisble text<br>invisble text<br>invisble text<br></p>
+    <p class="extra-line" aria-hidden="true">invisble text<br></p> <!-- under 1800 px no extra line -->
   </span>
 
   <div class="container-fluid Page-height-laptop-desktop-corr-footer"> <!-- Fill page to total viewport height laptop/desktop-->
@@ -301,22 +298,22 @@
               <span id="page3-adr-du">
                 <br>
                 <h3 class="title-hover h3-bigscreen">U kunt ons ook bellen of schrijven: </h3>
-                <h6>Dialyse Centrum West Veluwe</h6>
-                <h6>ZuiderzeeBoulevard 22</h6>
-                <h6>3841 WB Harderwijk</h6>
-                <h6>Nederland</h6>
-                <h6>555 125476 </h6>
+                <p><b>Dialyse Centrum West Veluwe<br>
+                      ZuiderzeeBoulevard 22<br>
+                      3841 WB Harderwijk<br>
+                      Nederland<br>
+                      555 125476</b></p>
               </span>
               <script>document.getElementById("page3-adr-du").style.display = "none";</script> 
               <!--make dutch text invissible, next put English text in line -->
               <span id="page3-adr-en">
                 <br>
                 <h3 class="title-hover h3-bigscreen">You can also call or write us: </h3>
-                <h6>Dialyse Centrum West Veluwe</h6>
-                <h6>ZuiderzeeBoulevard 22</h6>
-                <h6>3841 WB Harderwijk</h6>
-                <h6>The Netherlands</h6>
-                <h6>(0031)555 125476 </h6>
+                <p><b>Dialyse Centrum West Veluwe<br>
+                      ZuiderzeeBoulevard 22<br>
+                      3841 WB Harderwijk<br>
+                      The Netherlands<br>
+                      (0031)555 125476</b></p>
               </span>
             </div>
           </div>
@@ -353,7 +350,7 @@
     </div>
   </footer>
   
-   <!-- functions: --hide english text, load dutch text 
+   <!-- functions: hide english text, load dutch text 
    inspired from: https://stackoverflow.com/questions/46008760/how-to-build-multiple-language-website-using-pure-html-js-jquery
    I did'nt realy use this website, I read about "display none". I used that idea already in the 5 day challenge, were I used
    some Javascript to hide foto's. Now I use it to hide dual language text by next functions -->
