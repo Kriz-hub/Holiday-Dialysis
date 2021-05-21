@@ -11,10 +11,13 @@
     <title>Holiday Dialysis</title>
 
     <link href="assets/css/style.css" rel="stylesheet">
+    <!--media icons for footer-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" 
     integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"/>
+    <!--bootstrap added-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--some javascript added-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
@@ -248,6 +251,7 @@
       <div class="col-lg-8"> 
         <div class="container-fluid">
           <div class="row" >
+            <!--nested col's to keep form-col and adress-col side by side in tablet mode-->
             <div class="col-md-6 sect3-margin-form-adres">
               <div id="page3-form-du"> <!-- Thanks to bootstrap: https://getbootstrap.com/docs/4.1/components/forms// -->
                 <form class="form-bg mx-auto">
@@ -351,7 +355,7 @@
    <!-- functions: hide english text, load dutch text 
    inspired from: https://stackoverflow.com/questions/46008760/how-to-build-multiple-language-website-using-pure-html-js-jquery
    I did'nt realy use this website, I read about "display none". I used that idea already in the 5 day challenge, were I used
-   some Javascript to hide foto's. Now I use it to hide dual language text by next functions -->
+   some Javascript to hide foto's. Now I use it to hide dual language text with functions "loaddutch()" and "loadenglish()" -->
     <script>
     function loaddutch() { 
       document.getElementById("englishflag").style.display = "none";
