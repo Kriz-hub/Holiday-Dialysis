@@ -50,6 +50,9 @@ With scrolling the information moves over te background picture. Than other pict
 
 In that first stage the mentor advised me to use smaller pictures and add more text, because the purpose of the website (atract guests who wants to book dialyse treatments) wasn't clear enough. Also he advised to use a Google Maps image for a better understanding where the center is situated. After that my idea at the beginning changed a lot, see also the "Skeleton" section for that change.
 
+## The continouing story
+From that moment my first objective was to get it work well on my laptop. I needed to do al lot of research to get an idea how fellow dialyse centers postion themselves in this market. 
+
 ## 4. Research
 
 I googled for dutch sites of dialysis centers to get the right feel and if I can learn from it. The websites appears to be not always that great:
@@ -136,7 +139,7 @@ This site could be made as part of a bigger site to present a dialyse center as 
 * The behaviour of Scroll-spy is somewhat pour, I was forced to add some empty text to get it right on the pages. With a little bit more knowlegde of Javascript I could make a custom scroll-spy myself. I think I would use "100vh", because that's alway the screensize vertically. Then use a way to get the current screenposition relatively to "100vh", then give a command to make some lines of scrolling.
 * I found out that the landscape view of a tablet also have an animation effect on images. I wanted that only to be for laptop an desktop. It's not that important, I leave it that way.
 * I didn't get that shadow hovering working well for Google Maps, but it's initial animation effect remains as well, but without shadow growth. I decided to leave it that way, it don't seems to be that noticable.
-* The animation effect on the fading carousel didn't work at all. The reason must have been it's relative position, because of the title "Holiday Dialysis" absolute position in it. The solution is to delete the "relative position" line from the carousel class, because the body is also relative. So the result is the title keeps it's position on the screen with a good hovering as well.
+* The animation effect on the fading carousel didn't work at all. The reason must have been it's relative position, because of the title "Holiday Dialysis" absolute position in it. The solution is to delete the "relative position" line from the carousel class, because the body is also relative. Now the result is the title keeps it's position on the screen with a good hovering as well.
 
 ## 12. Deployment
 This project was developed using GitHub.
