@@ -7,11 +7,11 @@
 3. The start
 4. Research
 5. Structure
-   5.1. Section 1
-   5.2. Section 2
-   5.3. Section 3
-   5.4. Footer
-   5.5. Shadow, hover animation and shadow animation effect during hover
+   - 5.1. Section 1
+   - 5.2. Section 2
+   - 5.3. Section 3
+   - 5.4. Footer
+   - 5.5. Shadow, hover animation and shadow animation effect during hover
 6. Skeleton
 7. Technologies
 8. Features
@@ -95,20 +95,15 @@ To get this project really finished I added shadow animation to the hovering ani
 All titles also have some hover transition on it. For the smaller devices only icons and navigation have a hovering effect. 
 
 ## 6. Skeleton
-The wireframe was made in [Balsamiq](https://balsamiq.com/). My only thought first was to get it right on my laptop. I hadn't much of an idea how to get it on smaller devices. This were the early wireframes: 
-* [Section1: Home](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/OldWireframes/Wireframe%201.png)
-* [Section2: About](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/OldWireframes/Wireframe%202.png )
-* [Section3: Contact](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/OldWireframes/Wireframe%203.png)
-
-Later it evolved to a responsive idea :
-* laptop/desktop:
+The wireframe was made in [Balsamiq](https://balsamiq.com/): 
+- For laptop/desktop:
   * [Section1: Home](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/section%201%2C%20home.jpg)
   * [Section2: About](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/section%202%2C%20about.jpg)
   * [Section3: Contact](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/section%203%2C%20contact.jpg)
-* Tablet: The tablet views the same in panorama view.
+- Tablet: The tablet views the same in panorama view.
           when it is on "portrait view" section3 is ordered on a slightly different way with google maps on top:
           [Section3: Contact](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/tablet%20section%203%2C%20dif%20layout%20as%20desktop.jpg)
-* Smartphone:
+- Smartphone:
   All collumns appear underneath each other and the top bar appearance is a split in 2 parts on top:
   [Image A](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/smartphone%2C%20a%20%26%20b.jpg), [Image B](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/smartphone%2C%20c%20%26%20d.jpg), [Image C](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/smartphone%2C%20e%20%26%20f.jpg). 
   
@@ -164,7 +159,9 @@ I followed the next steps to deploy my page on the GitHub pages:
 * Picture for dialysys center: https://www.dialysecentrumravenstein.nl/
 * Pictures of nurse and patient: https://thumbs.dreamstime.com
 * Picture of 2 working dialyse machines:  https://thumbs.dreamstime.com
-The images are hosted on the platform
+* 
+The images are hosted on the platform [https://i.ibb.co](https://imgbb.com/). The reason is that it was teached at "the 5 day challenge". Therefore I thought it was a customary
+practice to do that till my mentor made a remark about that. For now I leave them to imgbb, maybe in future projects I will decide to keep the pictures at Github.
 
 ## 14. Acknowledgements
 
