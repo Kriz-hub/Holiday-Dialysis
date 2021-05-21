@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,500|Roboto:300,400,500wght@100&display=swap');
 
 :root { /* Variables, thanks to Kevin Powell: https://www.youtube.com/watch?v=PHO6TBq_auI */
-    --color-brokenblack: rgb(3, 53, 22);
-    --color-brokenwhite: #E9E7E3;
+    --color-brokenblack: rgb(3, 53, 22); /*not really black*/
+    --color-brokenwhite: #E9E7E3; /*not really white*/
 }
 
 html {
@@ -195,7 +195,6 @@ div.col, div.col-md-9 { /* to get a col without padding for shadow groath on pic
 }
 
 footer {
-    /*margin-top: 5vh;*/
     color: var(--color-brokenwhite);
     background: var(--color-brokenblack);
 }
@@ -367,7 +366,7 @@ ul.social-media-links li:hover {
        margin-left: 15px;
     }
 
-    .header-box { /*under 767px title text Holiday Dialysis will be displayed under fading carousel, not in carousel*/
+    .header-box { /*below 767px title text Holiday Dialysis will be displayed under fading carousel, not in carousel*/
         all: unset;
     }
 
