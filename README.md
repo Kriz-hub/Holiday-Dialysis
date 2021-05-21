@@ -1,13 +1,36 @@
 # Holiday Dialysis
 ### First Milestone Project: User Centric Frontend Development - Code Institute
 
+## Table of Contents
+1. Preface
+2. UX
+3. The start
+4. Research
+5. Structure
+   5.1. Section 1
+   5.2. Section 2
+   5.3. Section 3
+   5.4. Footer
+   5.5. Shadow, hover animation and shadow animation effect during hover
+6. Skeleton
+7. Technologies
+8. Features
+9. Features left to implement
+10. Testing
+11. Bugs
+12. Deployment
+13. Credits
+14. Acknowledgements
+
+
+## 1. Preface
 This project is a one page website about a Dialysis Center in the middle of The Netherlands. They offer a dialysis treatment for people who suffer from kidney failure and are open for guests who are on holiday. This is a made up center in the small city of Harderwijk, but actually I work in a real dialysis center in Harderwijk. It is also a satelite center of the big one in Amersfoort, 30km from Harderwijk. Important: this project is meant for the post-corona era, off course the situation will become better the comming months and certainly in 2022.
 
 For a demo of my Holiday Dialysis Website click [HERE](https://kriz-hub.github.io/Holiday-Dialysis/).
 
-![Desktop Demo](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/Animate.gif)
+![Desktop Demo](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/animate.gif)
 
-## UX
+## 2. UX
 From a financial point of view it is very interesting for a hospital to add guests to their patient population. A descent website helps to get a good representation.
 I know there is a real demand for a good website for the real dialysis center I work in, first one for holiday guests, later for the dialysis center as a whole.
 To prevent that the Milestone 1 project will become too big, I am focussed on the part of Holiday Dialysis.
@@ -21,13 +44,13 @@ Customer goals:
 The kidney patient needs 3 times a week dialysis in his own center, but also wants to have an opportunity to get on holiday.
 He needs to be informed which center he can choose and what they can offer him. So the website must be informing but not too corporate. He is in the mood for holiday and that mood should reflect the website. 
 
-## The start
+## 3. The start
 On start I thought to make a website based on one big background picture of the rural area with a big title and subtitle, all to create that holiday dialyse feeling.
 With scrolling the information moves over te background picture. Than other pictures of specific dialyse treatment should appear in a carousel after some scrolling. The technique was inspired from this idea: https://valentina-b.github.io/par-excellance-restaurant/. 
 
 In that first stage the mentor advised me to use smaller pictures and add more text, because the purpose of the website (atract guests who wants to book dialyse treatments) wasn't clear enough. Also he advised to use a Google Maps image for a better understanding where the center is situated. After that my idea at the beginning changed a lot, see also the "Skeleton" section for that change.
 
-## Research
+## 4. Research
 
 I googled for dutch sites of dialysis centers to get the right feel and if I can learn from it. The websites appears to be not always that great:
 * https://www.meandermc.nl/patientenportaal/patienten/afdelingen-specialismen/Dialyse-Centrum/Dialyse/Vakantiedialyse/
@@ -45,33 +68,33 @@ The last one is very good.
 But the real inspiration came when I saw this bike site: https://biketourharderwijk.nl/ (not even a dialysis site)
 The pictures of the carousel blowed me away, I decided from that moment my front page of the project must be a carousel in a rectangle format.
 
-## Structure
-#### Section 1
+## 5. Structure
+#### 5.1. Section 1
 * The homepage features a responsive navigationbar on the right and a logo on the left top, this bar is fixed. On mobile screens left en right side of navbar will split and become centered in top of each order. The navigationbar has also a language button. With javascript and display=none and display=inline, the right language appear in front without loading the   whole page.
 * Below that is a fading carousel as the hero image. I didn't want to add control buttons to swap the images by hand, just images with a fading effect to each. In that fading carousel a title "Holiday Dialysis" appears with a linear-gradient background directly underneath the text.
   In smaller devices the title becomes too big according to the pictures of the carousel, therefore the title "Holiday Dialysis" emerges down the carousel in smartphones
 * Below are 2 columns of text. They appear down each other on a mobile device.
 
-#### Section 2
+#### 5.2. Section 2
 * In section 2 a second, normal, carousel appears with some dialyse pictures. It is attached to the text column underneath. On the right there is a picture of the fantasy dialyse center, also attached to the unordered list underneath. 
 * On mobile devices it wil appear below each other.
 
-#### Section 3
+#### 5.3. Section 3
 * In desktop-devices section 3 appears as 3 column area. On the left side there's Google Maps Iframe, the middle a form column, and to the right a picture column with adress.
 * On tablet devices it breaks into a googlemap area with underneath a form and picture with adress on the left and right side. It is made possible by using a nested bootstrap Col element.
 * On a mobile device everything appears below each other.
 
-#### Footer
+#### 5.4. Footer
 On the left 2 icons appear with Facebook and Twitter, on the right a copyright mark appears. Facebook and Twitter is enough for this site. Hospitals aren't that much into social media.
 
-#### Shadow, Hover Animation and Shadow Animation Effect during hover
+#### 5.5. Shadow, Hover Animation and Shadow Animation Effect during hover
 To give this webpage a finishing feel, I have put a shadow effect on the images, carousels and on Google Maps. Then I added a transition effect after hovering as well, but only for laptop en desktop devices because it appears not really to be that cool for a small device, because the mouse is not used.
 
 To get this project really finished I added shadow animation to the hovering animation, so there is an increase of shadow now during transition animation on the images. I saw an interesting youtube to do it in a way to keep the rendering significant lower, which is good for older devices, see youtube link at "Acknowledgements". The trick is to animate opacity instead of animating shadow size.
 
 All titles also have some hover transition on it. For the smaller devices only icons and navigation have a hovering effect. 
 
-## Skeleton
+## 6. Skeleton
 The wireframe was made in [Balsamiq](https://balsamiq.com/). My only thought first was to get it right on my laptop. I hadn't much of an idea how to get it on smaller devices. This were the early wireframes: 
 * [Section1: Home](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/OldWireframes/Wireframe%201.png)
 * [Section2: About](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/OldWireframes/Wireframe%202.png )
@@ -89,28 +112,30 @@ Later it evolved to a responsive idea :
   All collumns appear underneath each other and the top bar appearance is a split in 2 parts on top:
   [Image A](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/smartphone%2C%20a%20%26%20b.jpg), [Image B](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/smartphone%2C%20c%20%26%20d.jpg), [Image C](https://github.com/Kriz-hub/Holiday-Dialysis/blob/master/NewWireframes/smartphone%2C%20e%20%26%20f.jpg). 
   
-## Technologies
+## 7. Technologies
 1. HTML
 2. CSS
 3. Bootstrap version 4.0.0
 4. Javascript
 
-## Features
+## 8. Features
 The user can click on Home, About and Contact for going to Section 1,  Section 2 or Section 3.
 By clicking on the flag image he can choose the language he prefers. Also he can navigate to the sections by just scrolling because all is in one page.
 At Section 3 the user can fill in a form to send his phone number, email adress or comments, than he can be contacted back.
 In the footer section he can click on the icon links.
 
-## Features left to implement
+## 9. Features left to implement
 This site could be made as part of a bigger site to present a dialyse center as a whole.
 
-## Testing
+## 10. Testing
 * The site is tested on a real Samsung S7, Samsung A31 and Samsung A51, on there own browser.
 * also on 2 tablets: Asus Transformer Pad (an old one) and Lenovo TB-X10AF, both on a Chrome browser.
 * screens: 1366x768, 1920x1080 on Chrome, Mozilla, Opera and Edge. 
 * The use of "Chrome Inspect" to inspect the change of behaviour of "Bootstrap col-.." at different screen width's.
+* This site is tested on [validator.w3.org](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkriz-hub.github.io%2FHoliday-Dialysis%2F). It gives the message: "This document appears to be written in Dutch but the html start tag has lang="en-us"." This testing site is misleaded by some dutch lines it sees because of the dual language, therefore, no changes are being made.
+* Also the CSS section is tested on [css-validator.org](http://www.css-validator.org/validator?uri=https%3A%2F%2Fkriz-hub.github.io%2FHoliday-Dialysis%2F&profile=css21&usermedium=all&warning=1&lang=en). No errors are reported.
 
-## Bugs
+## 11. Bugs
 * I have had countless bugs almost all regarding margin problems. I think everything is fixed.
 * On larger screens I saw parts of Section2 on a Section1 page, Section3 on a Section2 page, etc. I solved it by using "text-height 100vh" on parent containers to get the page responsive to different resolutions of desktop screens. The second part of the solution was using a font-size in vh. Portrait mode on tablets is too high for that, so there can't be a distinct seperation between the sections. On mobiles every column is beneath each other, no distinct seperation for sections there as well. Personally I have no problem with that for tablets and mobiles, maybe it isn't to be considered as a bug for these devices.
 * The behaviour of Scroll-spy is somewhat pour, I was forced to add some empty text to get it right on the pages. With a little bit more knowlegde of Javascript I could make a custom scroll-spy myself. I think I would use "100vh", because that's alway the screensize vertically. Then use a way to get the current screenposition relatively to "100vh", then give a command to make some lines of scrolling.
@@ -118,7 +143,7 @@ This site could be made as part of a bigger site to present a dialyse center as 
 * I didn't get that shadow hovering working well for Google Maps, but it's initial animation effect remains as well, but without shadow growth. I decided to leave it that way, it don't seems to be that noticable.
 * The animation effect on the fading carousel didn't work at all. The reason must have been it's relative position, because of the title "Holiday Dialysis" absolute position in it. I saw it wasn't really necessary for the title's position, so I removed the "relative position" line. The title kept on the same place because the body itself is also relative, so that change worked succesfully also with a good hovering now.
 
-## Deployment
+## 12. Deployment
 This project was developed using GitHub.
 
 I followed the next steps to deploy my page on the GitHub pages:
@@ -131,7 +156,7 @@ I followed the next steps to deploy my page on the GitHub pages:
 * On selecting Master Branch the page is automatically refreshed, the website is deployed.
 * The link can be retrieved to the deployed website.
 
-## Credits
+## 13. Credits
 * All content in the CSS-section and the index.html is written by myself.
 * Twitter and Facebook icons, thanks to www.fontawesome.com
 * Pictures of "City Harderwijk" and "Biking in forest area": https://biketourharderwijk.nl/
@@ -139,8 +164,9 @@ I followed the next steps to deploy my page on the GitHub pages:
 * Picture for dialysys center: https://www.dialysecentrumravenstein.nl/
 * Pictures of nurse and patient: https://thumbs.dreamstime.com
 * Picture of 2 working dialyse machines:  https://thumbs.dreamstime.com
+The images are hosted on the platform
 
-## Acknowledgements
+## 14. Acknowledgements
 
 * Variables in CSS, thanks to Kevin Powell: https://www.youtube.com/watch?v=PHO6TBq_auI
 * To get af flag image into a button and customizing it: https://stackoverflow.com/questions/49184471/how-to-change-bootstrap-version-4-button-color 
