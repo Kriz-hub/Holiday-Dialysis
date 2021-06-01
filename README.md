@@ -39,7 +39,7 @@ To prevent that the Milestone 1 project will become too big, I am focussed on th
 Business goals:
 To get guests interested for this center, there are more to choose in a radius of 50 km. It's a tourist area, that also means they can atract the foreign guest.
 The website must not be for a too young audience, the population which is interesting for a dialysis center is mainly 40 years and older.
-The next goal for a center to have a descent website is simply to create goodwill, be representive.
+The next goal for a center to have a descent website is simply to create goodwill, be representative.
 
 Customer goals:
 The kidney patient needs 3 times a week dialysis in his own center, but also wants to have an opportunity to get on holiday.
