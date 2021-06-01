@@ -89,7 +89,7 @@ The pictures of the carousel blowed me away, I decided from that moment my front
 
 #### 6.3. Section 3
 * On desktop-devices section 3 appear as a 3 column area. On the left side there's Google Maps Iframe, the middle a form column, and to the right a picture column with adress.
-* On tablet devices it breaks into a googlemap area with underneath a form and picture with adress on the left and right side. It is made possible by using a nested bootstrap Col element.
+* On tablet devices it breaks into a Google Map area with underneath a form and picture with adress on the left and right side. It is made possible by using a nested Bootstrap Col element.
 * On a mobile device everything appears below each other.
 
 #### 6.4. Footer
