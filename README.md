@@ -60,7 +60,7 @@ Then I focussed on higher resolutions of destop screens. It was a bit disappoint
 
 ## 5. Research
 
-I googled for dutch sites of dialysis centers to get the right feel and if I can learn from it. The websites appears to be not always that great:
+I googled dutch sites of dialysis centers for inspiration. The websites appears to be not always that great:
 * https://www.meandermc.nl/patientenportaal/patienten/afdelingen-specialismen/Dialyse-Centrum/Dialyse/Vakantiedialyse/
 * https://www.dianet.nl/holiday-dialysis
 * https://www.dcg.nl/behandeling-en-ondersteuning/vakantiedialyse?utm_campaign=Adwords+Vakantie
