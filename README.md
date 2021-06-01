@@ -169,7 +169,7 @@ I followed the next steps to deploy my page on the GitHub pages:
 * Picture of 2 working dialyse machines:  https://thumbs.dreamstime.com
 
 The images are hosted on the platform https://imgbb.com. The reason is that it was teached at "the 5 day challenge". Therefore I thought it was a customary
-practice to do that way till my mentor made a remark about that. For now I leave them to imgbb, maybe in future projects I will decide to keep the pictures at Github.
+practice to do so till my mentor made a remark about that. For now I leave them to imgbb, maybe in future projects I will decide to keep the pictures at Github.
 
 ## 15. Acknowledgements
 
