@@ -70,7 +70,7 @@ I googled dutch sites of dialysis centers for inspiration. The websites appears 
 The first one is the center where I actually work. I certainly won't get a holiday feeling when I watch this as a potential guest for dialysis! (sorry)
 The second one is too corparate, there isn't much happening.
 The third is better but the red menu kills the view of the picture. It should have more pictures and movement.
-The fourth isn't bad, but the sea view looks dead with an image wich almost lost his color, They could do better with a carousel view in my opnion.
+The fourth isn't bad, but the sea view looks dead with an image which almost lost his color, They could do better with a carousel view in my opnion.
 The last one is very good.
 
 But the real inspiration came when I saw this bike site: https://biketourharderwijk.nl/ (not even a dialysis site)
