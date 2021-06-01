@@ -93,7 +93,7 @@ The pictures of the carousel blowed me away, I decided from that moment my front
 * On a mobile device everything appears below each other.
 
 #### 6.4. Footer
-On the left 2 icons appear with Facebook and Twitter, on the right a copyright mark appears. Facebook and Twitter is enough for this site. Hospitals aren't that much into social media.
+On the left 2 icons of Facebook and Twitter appear, on the right a copyright mark appears. Facebook and Twitter is enough for this site. Hospitals aren't that much into social media.
 
 #### 6.5. Shadow, Hover Animation and Shadow Animation Effect during hover
 To give this webpage a finishing feel, I have put a shadow effect on the images, carousels and on Google Maps. Then I added a transition effect after hovering as well, but only for laptop en desktop devices because it appears not really to be that cool for a small device, because the mouse is not used.
