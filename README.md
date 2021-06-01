@@ -56,7 +56,7 @@ From that moment my first objective was to get it work well on a laptop. A lot o
 
 After this project looked sufficient on a laptop I knew that it was very important to get it right on a phone. My idea was to "break" the navbar into 2 parts: On the first line a logo and on the second line nav links. There I discovered the downside of Bootstrap: It's very hard to make own changes. For example it needed a class "ml-auto" to align the nav-items to the right on a desktop, but it requered the class of "mx-auto" to get it centered on a phone. That isn't something to combine. Therefore I decided to rewrite the navbar without the method of Bootstrap. The lesson I learned is to be critical to methods like Bootstrap, sometimes they can be rigid and therefore not flexible enough.
 
-Then I focussed on higher resolutions of destop screens. It was a bit disappointing that parts of section 2 are shown on the page of Section 1, etc, see also __12. Bugs__. The solution was to make the font-size relative to 100vh and make containers of sections with the screensize of 100vh.
+Then I focussed on higher resolutions of destop screens. It was a bit disappointing that parts of section 2 are shown on the page of Section 1, etc, see also __12. Bugs__. The solution for it was to make the font-size relative to 100vh and make containers of sections with a screensize of 100vh.
 
 ## 5. Research
 
