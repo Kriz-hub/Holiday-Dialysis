@@ -49,7 +49,7 @@ He needs to be informed which center he can choose and what they can offer him. 
 On start I thought to make a website based on one big background picture of the rural area with a big title and subtitle, all to create that holiday dialyse feeling.
 With scrolling the information moves over te background picture. Than other pictures of specific dialyse treatment should appear in a carousel after some scrolling. The technique was inspired from this idea: https://valentina-b.github.io/par-excellance-restaurant/. 
 
-In that first stage the mentor advised me to use smaller pictures and add more text, because the purpose of the website (atract guests who wants to book dialyse treatments) wasn't clear enough. Also he advised to use a Google Maps image for a better understanding where the center is situated. After that my idea at the beginning changed a lot, see also the "Skeleton" section for that change.
+In that first stage the mentor advised me to use smaller pictures and add more text, because the purpose of the website (attract guests who wants to book dialyse treatments) wasn't clear enough. Also he advised to use a Google Maps image for a better understanding where the center is situated. After that my idea at the beginning changed a lot, see also the "Skeleton" section for that change.
 
 ## 4. The project continued
 From that moment my first objective was to get it work well on a laptop. A lot of research was needed to get an idea of what information fellow dialyse centers used on their websites. It was cool to make this a dual language site with the help of some Javascript.
