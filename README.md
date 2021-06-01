@@ -168,7 +168,7 @@ I followed the next steps to deploy my page on the GitHub pages:
 * Pictures of nurse and patient: https://thumbs.dreamstime.com
 * Picture of 2 working dialyse machines:  https://thumbs.dreamstime.com
 
-The images are hosted on the platform https://imgbb.com. The reason is that it was teached at "the 5 day challenge" to host it on another place than Replit. Therefore I thought it was a customary
+The images are hosted on the platform https://imgbb.com. The reason is that it was teached at "the 5 day challenge" to host them on another place than Replit. Therefore I thought it was a customary
 practice to allways do so, till my mentor made a remark about that. For now I leave them to imgbb, maybe in future projects I will decide to keep the pictures at Github.
 
 ## 15. Acknowledgements
